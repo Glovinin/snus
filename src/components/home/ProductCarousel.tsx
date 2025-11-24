@@ -87,7 +87,7 @@ export function ProductCarousel() {
                     </p>
                 </div>
                 <div className="hidden md:flex gap-4">
-                    <Button variant="outline" className="rounded-full px-6 h-12 text-base border-foreground/10 hover:bg-foreground hover:text-background transition-all">
+                    <Button className="rounded-full px-6 h-12 text-base bg-foreground text-background hover:bg-foreground/90 transition-all shadow-lg">
                         View All <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
                 </div>
