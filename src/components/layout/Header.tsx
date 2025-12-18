@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { ShoppingBag, Search, Menu, X, User, ChevronDown } from "lucide-react";
+import { ShoppingBag, Search, Menu, X, User, ChevronDown, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
@@ -10,6 +10,7 @@ import { Cart } from "@/components/cart/Cart";
 import { SearchOverlay } from "@/components/search/SearchOverlay";
 import { useAuth } from "@/contexts/AuthContext";
 import { useRouter } from "next/navigation";
+import { useCartStore } from "@/store/cartStore";
 
 // Safe wrapper for useAuth to handle cases where AuthProvider might not be available
 function useAuthSafe() {
@@ -81,7 +82,7 @@ function NavLink({ href, children, isLightTheme }: { href: string; children: str
 function MobilePromoBanner() {
     const messages = [
         "Free Shipping over €99",
-        "Best Prices Worldwide",
+        "Rated 4.9/5 on Trustpilot", // Updated for Trust Signals
         "Fast Delivery ⚡️"
     ];
     const [index, setIndex] = useState(0);
@@ -101,8 +102,9 @@ function MobilePromoBanner() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
-                className="absolute text-center w-full"
+                className="absolute text-center w-full flex items-center justify-center gap-2"
             >
+                {index === 1 && <Star className="w-3 h-3 fill-[#00b67a] text-[#00b67a]" />}
                 {messages[index]}
             </motion.div>
         </AnimatePresence>
@@ -113,13 +115,24 @@ function MobilePromoBanner() {
 
 export function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isCartOpen, setIsCartOpen] = useState(false);
+    // Removed local isCartOpen state in favor of global store
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [isLightTheme, setIsLightTheme] = useState(false);
     const [hoveredNav, setHoveredNav] = useState<string | null>(null);
     const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
     const { user, userData, signOut } = useAuthSafe();
     const router = useRouter();
+
+    const getTotalItems = useCartStore(state => state.getTotalItems);
+    const isCartOpen = useCartStore(state => state.isCartOpen);
+    const openCart = useCartStore(state => state.openCart);
+    const closeCart = useCartStore(state => state.closeCart);
+
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -159,10 +172,21 @@ export function Header() {
                         <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
                         Free Shipping over €99
                     </div>
-                    <div className="text-center text-white/50">Best Prices Worldwide</div>
+                    {/* Center: Fast Delivery */}
+                    <div className="text-center text-white/50 flex items-center justify-center gap-2">
+                        Fast Delivery <span className="text-white/30">⚡️</span>
+                    </div>
+                    {/* Right: Trustpilot Integration */}
                     <div className="text-right flex items-center justify-end gap-2">
-                        Fast Delivery
-                        <span className="text-white/30">⚡️</span>
+                        <span className="opacity-70">Excellent</span>
+                        <div className="flex gap-0.5">
+                            {[1, 2, 3, 4, 5].map((i) => (
+                                <div key={i} className="bg-[#00b67a] p-[1px]">
+                                    <Star className="w-2.5 h-2.5 fill-white text-white" />
+                                </div>
+                            ))}
+                        </div>
+                        <span>4.9 on Trustpilot</span>
                     </div>
                 </div>
 
@@ -198,7 +222,7 @@ export function Header() {
                                         opacity: 0.9
                                     }}
                                     transition={{ duration: 0.3 }}
-                                    className="relative w-32 h-10 translate-y-[2px]"
+                                    className="relative w-32 h-10"
                                 >
                                     <Image
                                         src="/snusidealogo.svg"
@@ -214,11 +238,10 @@ export function Header() {
                         {/* Desktop Navigation */}
                         <nav className="flex items-center gap-1 relative z-10" onMouseLeave={() => setHoveredNav(null)}>
                             {[
-                                { name: "Categories", href: "#", isMega: true },
                                 { name: "Shop", href: "/shop" },
-                                { name: "Marketplace", href: "/marketplace" },
-                                { name: "Sellers", href: "/sellers" },
-                                { name: "Blog", href: "/blog" },
+                                { name: "Categories", href: "#", isMega: true },
+                                { name: "Brands", href: "#", isMega: true },
+                                { name: "Help", href: "#", isMega: true },
                             ].map((item) => (
                                 <div
                                     key={item.name}
@@ -302,6 +325,67 @@ export function Header() {
                                                     </div>
                                                 ))}
                                             </div>
+                                        </div>
+                                    </motion.div>
+                                )}
+
+                                {hoveredNav === "Brands" && (
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 10, scale: 0.98 }}
+                                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                                        exit={{ opacity: 0, y: 10, scale: 0.98 }}
+                                        transition={{ duration: 0.2 }}
+                                        className={`absolute top-full left-0 -translate-x-1/4 mt-6 w-[600px] p-8 rounded-[2rem] border shadow-[0_30px_100px_-12px_rgba(0,0,0,0.25)] z-50 ${isLightTheme
+                                            ? "bg-white border-black/5"
+                                            : "bg-[#0F0F0F] border-white/10"
+                                            }`}
+                                    >
+                                        <div className={`flex items-center gap-2 pb-2 mb-6 border-b ${isLightTheme ? 'border-black/5' : 'border-white/10'}`}>
+                                            <h4 className={`font-bold text-xs uppercase tracking-[0.2em] ${isLightTheme ? 'text-neutral-500' : 'text-neutral-400'}`}>Popular Brands</h4>
+                                        </div>
+                                        <div className="grid grid-cols-3 gap-y-4 gap-x-8">
+                                            {["VELO", "LYFT", "ZYN", "ON!", "WHITE FOX", "SKRUF", "GENERAL", "EPOP", "LOOP", "KILLA", "PABLO", "SIBERIA"].map((brand) => (
+                                                <Link href={`/brands/${brand.toLowerCase()}`} key={brand} className="flex items-center gap-2 group cursor-pointer">
+                                                    <div className="w-1.5 h-1.5 rounded-full bg-orange-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                                    <span className={`text-base font-medium transition-all group-hover:translate-x-1 ${isLightTheme ? 'text-neutral-700 group-hover:text-black' : 'text-neutral-300 group-hover:text-white'}`}>{brand}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </motion.div>
+                                )}
+
+                                {hoveredNav === "Help" && (
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 10, scale: 0.98 }}
+                                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                                        exit={{ opacity: 0, y: 10, scale: 0.98 }}
+                                        transition={{ duration: 0.2 }}
+                                        className={`absolute top-full right-0 mt-6 w-[300px] p-6 rounded-[2rem] border shadow-[0_30px_100px_-12px_rgba(0,0,0,0.25)] z-50 ${isLightTheme
+                                            ? "bg-white border-black/5"
+                                            : "bg-[#0F0F0F] border-white/10"
+                                            }`}
+                                    >
+                                        <div className={`flex items-center gap-2 pb-2 mb-4 border-b ${isLightTheme ? 'border-black/5' : 'border-white/10'}`}>
+                                            <h4 className={`font-bold text-xs uppercase tracking-[0.2em] ${isLightTheme ? 'text-neutral-500' : 'text-neutral-400'}`}>Customer Support</h4>
+                                        </div>
+                                        <div className="space-y-2">
+                                            {[
+                                                { name: "Contact Us", href: "/contact", color: "bg-blue-500" },
+                                                { name: "FAQs", href: "/faq", color: "bg-purple-500" },
+                                                { name: "Shipping Information", href: "/shipping", color: "bg-green-500" },
+                                                { name: "Track My Order", href: "/track-order", color: "bg-orange-500" }
+                                            ].map((item) => (
+                                                <Link
+                                                    key={item.name}
+                                                    href={item.href}
+                                                    className={`flex items-center gap-3 group cursor-pointer p-3 rounded-xl transition-all ${isLightTheme ? 'hover:bg-neutral-100' : 'hover:bg-white/5'}`}
+                                                >
+                                                    <div className={`w-1.5 h-1.5 rounded-full ${item.color} opacity-0 group-hover:opacity-100 transition-opacity`} />
+                                                    <span className={`text-sm font-medium transition-all group-hover:translate-x-1 ${isLightTheme ? 'text-neutral-700 group-hover:text-black' : 'text-neutral-300 group-hover:text-white'}`}>
+                                                        {item.name}
+                                                    </span>
+                                                </Link>
+                                            ))}
                                         </div>
                                     </motion.div>
                                 )}
@@ -431,15 +515,17 @@ export function Header() {
                                     <Button
                                         size="icon"
                                         className="rounded-full bg-foreground text-background hover:bg-foreground/90 w-12 h-12 transition-all shadow-lg hover:scale-105 active:scale-95"
-                                        onClick={() => setIsCartOpen(true)}
+                                        onClick={() => openCart()}
                                     >
                                         <ShoppingBag className="h-5 w-5 stroke-[2]" />
                                     </Button>
-                                    <motion.span
-                                        animate={{ scale: [1, 1.2, 1] }}
-                                        transition={{ duration: 0.3, repeat: Infinity, repeatDelay: 3 }}
-                                        className="absolute top-0 right-0 w-3 h-3 rounded-full bg-red-500 border-2 border-white dark:border-black"
-                                    />
+                                    {mounted && getTotalItems() > 0 && (
+                                        <motion.span
+                                            animate={{ scale: [1, 1.2, 1] }}
+                                            transition={{ duration: 0.3, repeat: Infinity, repeatDelay: 3 }}
+                                            className="absolute top-0 right-0 w-3 h-3 rounded-full bg-red-500 border-2 border-white dark:border-black"
+                                        />
+                                    )}
                                 </div>
                             </Magnetic>
                         </div>
@@ -460,7 +546,7 @@ export function Header() {
                                 filter: `brightness(0) saturate(100%) ${isLightTheme ? 'invert(0)' : 'invert(1)'}`,
                                 opacity: 0.8
                             }}
-                            className="relative w-28 h-8 translate-y-[1px]"
+                            className="relative w-28 h-8"
                         >
                             <Image
                                 src="/snusidealogo.svg"
@@ -487,7 +573,7 @@ export function Header() {
                             <Button
                                 size="icon"
                                 className="rounded-full bg-foreground text-background hover:bg-foreground/90 w-10 h-10 transition-all shadow-md active:scale-95"
-                                onClick={() => setIsCartOpen(true)}
+                                onClick={() => openCart()}
                             >
                                 <ShoppingBag className="h-4 w-4 stroke-[2]" />
                             </Button>
@@ -540,7 +626,7 @@ export function Header() {
             </motion.header>
 
             {/* Cart Component */}
-            <Cart isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+            <Cart isOpen={isCartOpen} onClose={closeCart} />
 
             {/* Search Overlay */}
             <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
