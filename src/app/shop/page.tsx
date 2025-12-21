@@ -1,29 +1,27 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { products, Product } from "@/data/products";
-import { Filter, X, ChevronDown, Check, SlidersHorizontal, ShoppingBag, ArrowUpDown, Search } from "lucide-react";
+import { Filter, X, ChevronDown, ChevronRight, SlidersHorizontal, ShoppingBag, Search, Loader2, Home } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useCartStore } from "@/store/cartStore";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { getAllProducts, Product } from "@/lib/firebase/products";
+import { getActiveBrands, Brand } from "@/lib/firebase/brands";
 
-// --- Derived Data for Filters ---
+// ============================================
+// CONSTANTS
+// ============================================
 
-const BRANDS = Array.from(new Set(products.map(p => p.name.split(" ")[0]))).sort();
-const STRENGTHS = Array.from(new Set(products.map(p => p.strength))).filter(Boolean);
-const FLAVORS = Array.from(new Set(products.map(p => p.flavor))).sort();
+const STRENGTHS = ["WEAK", "MEDIUM", "STRONG", "EXTRA", "EXTREME"];
 
-// Helper to parse price
-const getPrice = (p: Product) => parseFloat(p.price.replace(/[^0-9.]/g, ''));
-
-const MIN_PRICE = Math.floor(Math.min(...products.map(getPrice)));
-const MAX_PRICE = Math.ceil(Math.max(...products.map(getPrice)));
-
-// --- Filter Section Component ---
+// ============================================
+// FILTER COMPONENTS
+// ============================================
 
 function FilterSection({
     title,
@@ -71,76 +69,150 @@ function CheckboxFilter({
     onChange: (item: string) => void;
 }) {
     return (
-        <div className="space-y-3 pb-2 pl-1">
+        <div className="flex flex-wrap gap-2 pt-2">
             {items.map((item) => {
                 const isSelected = selectedItems.includes(item);
                 return (
-                    <label key={item} className="flex items-center gap-3 cursor-pointer group/label">
-                        <div
-                            className={`w-5 h-5 rounded-md border flex items-center justify-center transition-all duration-200 ${isSelected
-                                ? 'bg-black border-black text-white dark:bg-white dark:border-white dark:text-black'
-                                : 'border-black/20 dark:border-white/20 group-hover/label:border-black/40 dark:group-hover/label:border-white/40 bg-transparent'
-                                }`}
-                        >
-                            {isSelected && <Check className="w-3 h-3 stroke-[3]" />}
-                        </div>
-                        <input
-                            type="checkbox"
-                            className="hidden"
-                            checked={isSelected}
-                            onChange={() => onChange(item)}
-                        />
-                        <span className={`text-sm transition-colors ${isSelected ? 'font-medium opacity-100' : 'opacity-70 group-hover/label:opacity-100'}`}>
-                            {item}
-                        </span>
-                    </label>
+                    <button
+                        key={item}
+                        onClick={() => onChange(item)}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wide transition-all duration-200 border select-none ${isSelected
+                            ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white shadow-lg shadow-black/10 scale-105'
+                            : 'bg-transparent border-black/5 text-neutral-500 hover:border-black/20 hover:text-black dark:border-white/5 dark:text-neutral-400 dark:hover:border-white/20 dark:hover:text-white'
+                            }`}
+                    >
+                        {item}
+                    </button>
                 );
             })}
         </div>
     );
 }
 
-// --- Product Card Component (Matching Platform Design) ---
+// Strength filter with MG ranges
+const STRENGTH_DATA = [
+    { name: "WEAK", range: "0-8 MG", color: "bg-green-500" },
+    { name: "MEDIUM", range: "9-16 MG", color: "bg-blue-500" },
+    { name: "STRONG", range: "17-32 MG", color: "bg-orange-500" },
+    { name: "EXTRA", range: "32-60 MG", color: "bg-red-500" },
+    { name: "EXTREME", range: "+60 MG", color: "bg-purple-500" },
+];
+
+function StrengthFilter({
+    selectedItems,
+    onChange
+}: {
+    selectedItems: string[];
+    onChange: (item: string) => void;
+}) {
+    return (
+        <div className="flex flex-col gap-2 pt-2">
+            {STRENGTH_DATA.map((strength) => {
+                const isSelected = selectedItems.includes(strength.name);
+                return (
+                    <button
+                        key={strength.name}
+                        onClick={() => onChange(strength.name)}
+                        className={`flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wide transition-all duration-200 border select-none ${isSelected
+                            ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white shadow-lg shadow-black/10'
+                            : 'bg-transparent border-black/5 text-neutral-500 hover:border-black/20 hover:bg-black/5 dark:border-white/5 dark:text-neutral-400 dark:hover:border-white/20 dark:hover:bg-white/5'
+                            }`}
+                    >
+                        <div className="flex items-center gap-2">
+                            <div className={`w-2 h-2 rounded-full ${strength.color}`} />
+                            <span>{strength.name}</span>
+                        </div>
+                        <span className={`text-[10px] font-medium normal-case tracking-normal ${isSelected ? 'opacity-70' : 'opacity-50'}`}>
+                            {strength.range}
+                        </span>
+                    </button>
+                );
+            })}
+        </div>
+    );
+}
+
+// ============================================
+// PRODUCT CARD COMPONENT
+// ============================================
 
 function ShopProductCard({ product }: { product: Product }) {
     const [selectedSize, setSelectedSize] = useState("1");
-    const basePrice = parseFloat(product.price.replace(/[^0-9.]/g, ''));
+    const basePrice = product.price;
     const currentPrice = (basePrice * Number(selectedSize)).toFixed(2);
     const { addItem, openCart } = useCartStore();
+
+    // Background color based on strength
+    const strengthColors: Record<string, string> = {
+        WEAK: "bg-green-50 dark:bg-green-950/30",
+        MEDIUM: "bg-blue-50 dark:bg-blue-950/30",
+        STRONG: "bg-orange-50 dark:bg-orange-950/30",
+        EXTRA: "bg-red-50 dark:bg-red-950/30",
+        EXTREME: "bg-purple-50 dark:bg-purple-950/30",
+    };
+
+    const textColors: Record<string, string> = {
+        WEAK: "text-green-900 dark:text-green-100",
+        MEDIUM: "text-blue-900 dark:text-blue-100",
+        STRONG: "text-orange-900 dark:text-orange-100",
+        EXTRA: "text-red-900 dark:text-red-100",
+        EXTREME: "text-purple-900 dark:text-purple-100",
+    };
+
+    const bgColor = strengthColors[product.strength] || "bg-slate-50 dark:bg-slate-900/30";
+    const textColor = textColors[product.strength] || "text-slate-900 dark:text-slate-100";
+    const hasImage = product.images && product.images.length > 0;
 
     return (
         <Link href={`/product/${product.id}`} className="block h-full">
             <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
                 tabIndex={0}
-                className={`relative w-full h-[400px] sm:h-[450px] group rounded-[2rem] overflow-hidden select-none ${product.image} border border-foreground/5 flex flex-col justify-between p-6 sm:p-8 hover:shadow-2xl hover:shadow-black/5 transition-all duration-500`}
+                className={`relative w-full h-[400px] sm:h-[450px] group rounded-[2rem] overflow-hidden select-none ${!hasImage ? bgColor : ""} border border-foreground/5 flex flex-col justify-between p-6 sm:p-8 hover:shadow-2xl hover:shadow-black/5 transition-all duration-500`}
+                style={hasImage ? { backgroundImage: `url(${product.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.2 }}
             >
+                {/* Overlay for image background */}
+                {hasImage && (
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
+                )}
+
                 {/* Hover Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
                 {/* Content */}
                 <div className="relative z-10 flex flex-col h-full justify-between">
                     <div className="flex justify-between items-start">
-                        <span className={`text-[10px] font-bold uppercase tracking-widest py-1 px-2.5 rounded-full bg-white/40 backdrop-blur-md ${product.textColor}`}>
+                        <span className={`text-[10px] font-bold uppercase tracking-widest py-1 px-2.5 rounded-full bg-white/40 backdrop-blur-md ${hasImage ? "text-white" : textColor}`}>
                             {product.category}
                         </span>
+                        {product.isBestSeller && (
+                            <span className="text-[10px] font-bold uppercase tracking-widest py-1 px-2.5 rounded-full bg-rose-500/80 text-white backdrop-blur-md">
+                                Best Seller
+                            </span>
+                        )}
                     </div>
 
                     <div className="flex flex-col gap-4">
                         <div className="transition-transform duration-500 group-hover:-translate-y-2">
-                            <h3 className={`text-2xl sm:text-3xl font-bold mb-1 ${product.textColor} tracking-tight leading-none`}>
+                            <p className={`text-xs ${hasImage ? "text-white/70" : textColor + " opacity-60"} mb-1`}>
+                                {product.brand}
+                            </p>
+                            <h3 className={`text-2xl sm:text-3xl font-bold mb-1 ${hasImage ? "text-white" : textColor} tracking-tight leading-none`}>
                                 {product.name}
                             </h3>
-                            <p className={`text-lg sm:text-xl font-medium ${product.textColor} opacity-80 mt-2`}>
+                            <p className={`text-lg sm:text-xl font-medium ${hasImage ? "text-white" : textColor} opacity-80 mt-2`}>
                                 €{currentPrice} <span className="text-sm opacity-60 font-normal">/ {selectedSize} pack</span>
                             </p>
+                            {product.compareAtPrice && product.compareAtPrice > product.price && (
+                                <p className={`text-sm line-through ${hasImage ? "text-white/50" : textColor + " opacity-50"}`}>
+                                    €{product.compareAtPrice.toFixed(2)}
+                                </p>
+                            )}
                         </div>
 
-                        {/* Controls Container - Visible on Hover (Desktop) or Always (Mobile if desired, but here stick to hover logic with mobile caveat) */}
+                        {/* Controls Container - Visible on Hover */}
                         <div className="flex flex-col gap-3 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-
                             {/* Pack Size Selector */}
                             <div
                                 className="flex items-center justify-between bg-white/40 backdrop-blur-md rounded-xl p-1 shadow-sm border border-white/20"
@@ -176,9 +248,9 @@ function ShopProductCard({ product }: { product: Product }) {
                                         id: product.id,
                                         name: product.name,
                                         price: packPrice,
-                                        image: "/snusidealogo.svg",
-                                        bgClass: product.image,
-                                        variant: `${product.strength || 'Standard'} • ${selectedSize} Pack`,
+                                        image: product.images?.[0] || "/placeholder.jpg",
+                                        bgClass: bgColor,
+                                        variant: `${product.strength} • ${selectedSize} Pack`,
                                         quantity: 1
                                     });
                                     openCart();
@@ -194,56 +266,150 @@ function ShopProductCard({ product }: { product: Product }) {
     );
 }
 
-// --- Main Page Component ---
+// ============================================
+// MAIN SHOP PAGE
+// ============================================
 
-export default function ShopPage() {
+function ShopPageContent() {
+    // State
+    const [products, setProducts] = useState<Product[]>([]);
+    const [loading, setLoading] = useState(true);
     const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
     const [selectedStrengths, setSelectedStrengths] = useState<string[]>([]);
     const [selectedFlavors, setSelectedFlavors] = useState<string[]>([]);
-    const [priceRange, setPriceRange] = useState<[number, number]>([MIN_PRICE, MAX_PRICE]);
-
-    // Sort State
+    const [priceRange, setPriceRange] = useState<[number, number]>([0, 100]);
     const [sortBy, setSortBy] = useState<"featured" | "price-asc" | "price-desc" | "name-asc">("featured");
-
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState("");
+    const [brands, setBrands] = useState<Brand[]>([]);
 
-    // Initial load sync
+    const searchParams = useSearchParams();
+
+    // Fetch products from Firestore
     useEffect(() => {
-        // Optional: Read URL params here if we want deep linking
+        const fetchProducts = async () => {
+            try {
+                const data = await getAllProducts();
+                setProducts(data);
+
+                // Calculate price range from products
+                if (data.length > 0) {
+                    const prices = data.map(p => p.price);
+                    setPriceRange([Math.floor(Math.min(...prices)), Math.ceil(Math.max(...prices))]);
+                }
+            } catch (error) {
+                console.error("Failed to fetch products:", error);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchProducts();
     }, []);
 
-    // Filter Logic
+    // Fetch brands from Firebase
+    useEffect(() => {
+        const fetchBrands = async () => {
+            const data = await getActiveBrands();
+            setBrands(data);
+        };
+        fetchBrands();
+    }, []);
+
+    // Sync filters from URL params
+    useEffect(() => {
+        const strengthParam = searchParams.get('strength');
+        const brandParam = searchParams.get('brand');
+        const flavorParam = searchParams.get('flavor');
+        const sortParam = searchParams.get('sort');
+
+        if (strengthParam) {
+            setSelectedStrengths(strengthParam.split(',').map(s => s.toUpperCase()));
+        }
+        if (brandParam) {
+            setSelectedBrands(brandParam.split(','));
+        }
+        if (flavorParam) {
+            setSelectedFlavors(flavorParam.split(','));
+        }
+        if (sortParam) {
+            setSortBy(sortParam as any);
+        }
+    }, [searchParams]);
+
+    // Derive available flavors from products
+    const availableFlavors = useMemo(() => {
+        return Array.from(new Set(products.map(p => p.flavor).filter(Boolean))).sort();
+    }, [products]);
+
+    // Use brands from Firebase
+    const availableBrands = useMemo(() => {
+        return brands.map(b => b.name).sort();
+    }, [brands]);
+
+    // Filter and sort products
     const filteredProducts = useMemo(() => {
         let result = products.filter(product => {
-            const price = getPrice(product);
-            const brandMatch = selectedBrands.length === 0 || selectedBrands.includes(product.name.split(" ")[0]);
-            const strengthMatch = selectedStrengths.length === 0 || selectedStrengths.includes(product.strength);
-            const flavorMatch = selectedFlavors.length === 0 || selectedFlavors.includes(product.flavor);
-            const priceMatch = price >= priceRange[0] && price <= priceRange[1];
+            // Search query
+            if (searchQuery) {
+                const query = searchQuery.toLowerCase();
+                const matchesSearch =
+                    product.name.toLowerCase().includes(query) ||
+                    product.brand?.toLowerCase().includes(query) ||
+                    product.flavor?.toLowerCase().includes(query) ||
+                    product.category?.toLowerCase().includes(query);
+                if (!matchesSearch) return false;
+            }
 
-            return brandMatch && strengthMatch && flavorMatch && priceMatch;
+            // Brand filter
+            if (selectedBrands.length > 0) {
+                const brandMatch = selectedBrands.some(b =>
+                    b.toLowerCase() === product.brand?.toLowerCase()
+                );
+                if (!brandMatch) return false;
+            }
+
+            // Strength filter
+            if (selectedStrengths.length > 0) {
+                if (!selectedStrengths.includes(product.strength)) return false;
+            }
+
+            // Flavor filter
+            if (selectedFlavors.length > 0) {
+                if (!selectedFlavors.includes(product.flavor)) return false;
+            }
+
+            // Price filter
+            if (product.price < priceRange[0] || product.price > priceRange[1]) {
+                return false;
+            }
+
+            return true;
         });
 
-        // Sort Logic
+        // Sort
         switch (sortBy) {
             case "price-asc":
-                result.sort((a, b) => getPrice(a) - getPrice(b));
+                result.sort((a, b) => a.price - b.price);
                 break;
             case "price-desc":
-                result.sort((a, b) => getPrice(b) - getPrice(a));
+                result.sort((a, b) => b.price - a.price);
                 break;
             case "name-asc":
                 result.sort((a, b) => a.name.localeCompare(b.name));
                 break;
             default:
-                // Featured/Default order (as in array)
-                break;
+                // Featured first, then by creation date
+                result.sort((a, b) => {
+                    if (a.isFeatured && !b.isFeatured) return -1;
+                    if (!a.isFeatured && b.isFeatured) return 1;
+                    return 0;
+                });
         }
 
         return result;
-    }, [selectedBrands, selectedStrengths, selectedFlavors, priceRange, sortBy]);
+    }, [products, searchQuery, selectedBrands, selectedStrengths, selectedFlavors, priceRange, sortBy]);
 
-    // Helpers
+    // Toggle filter helper
     const toggleFilter = (item: string, current: string[], set: (val: string[]) => void) => {
         set(current.includes(item) ? current.filter(i => i !== item) : [...current, item]);
     };
@@ -252,231 +418,278 @@ export default function ShopPage() {
         setSelectedBrands([]);
         setSelectedStrengths([]);
         setSelectedFlavors([]);
-        setPriceRange([MIN_PRICE, MAX_PRICE]);
+        setSearchQuery("");
+        if (products.length > 0) {
+            const prices = products.map(p => p.price);
+            setPriceRange([Math.floor(Math.min(...prices)), Math.ceil(Math.max(...prices))]);
+        }
     };
 
-    const activeFilterCount = selectedBrands.length + selectedStrengths.length + selectedFlavors.length + (priceRange[0] !== MIN_PRICE || priceRange[1] !== MAX_PRICE ? 1 : 0);
+    const activeFiltersCount = selectedBrands.length + selectedStrengths.length + selectedFlavors.length;
+
+    // Filter Sidebar Content
+    const FilterContent = () => (
+        <div className="space-y-2">
+            {/* Search */}
+            <div className="pb-6 border-b border-black/5 dark:border-white/5">
+                <div className="relative">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+                    <Input
+                        placeholder="Search products..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="pl-10 h-11 bg-white dark:bg-white/5 border-black/5 dark:border-white/5 rounded-xl"
+                    />
+                </div>
+            </div>
+
+            <FilterSection title="Brands">
+                <CheckboxFilter
+                    items={availableBrands}
+                    selectedItems={selectedBrands}
+                    onChange={(item) => toggleFilter(item, selectedBrands, setSelectedBrands)}
+                />
+            </FilterSection>
+
+            <FilterSection title="Strength">
+                <StrengthFilter
+                    selectedItems={selectedStrengths}
+                    onChange={(item) => toggleFilter(item, selectedStrengths, setSelectedStrengths)}
+                />
+            </FilterSection>
+
+            {availableFlavors.length > 0 && (
+                <FilterSection title="Flavor">
+                    <CheckboxFilter
+                        items={availableFlavors}
+                        selectedItems={selectedFlavors}
+                        onChange={(item) => toggleFilter(item, selectedFlavors, setSelectedFlavors)}
+                    />
+                </FilterSection>
+            )}
+
+            <FilterSection title="Price Range">
+                <div className="flex gap-4 items-center pt-2">
+                    <div className="flex-1">
+                        <label className="text-xs text-muted-foreground mb-1 block">Min</label>
+                        <div className="relative">
+                            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground text-sm">€</span>
+                            <Input
+                                type="number"
+                                value={priceRange[0]}
+                                onChange={(e) => setPriceRange([Number(e.target.value), priceRange[1]])}
+                                className="pl-7 h-10 bg-white dark:bg-white/5 border-black/5 dark:border-white/5 rounded-lg"
+                            />
+                        </div>
+                    </div>
+                    <span className="text-muted-foreground mt-5">—</span>
+                    <div className="flex-1">
+                        <label className="text-xs text-muted-foreground mb-1 block">Max</label>
+                        <div className="relative">
+                            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground text-sm">€</span>
+                            <Input
+                                type="number"
+                                value={priceRange[1]}
+                                onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])}
+                                className="pl-7 h-10 bg-white dark:bg-white/5 border-black/5 dark:border-white/5 rounded-lg"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </FilterSection>
+
+            {activeFiltersCount > 0 && (
+                <Button
+                    variant="ghost"
+                    onClick={clearAllFilters}
+                    className="w-full mt-4 text-red-500 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-950/20"
+                >
+                    <X className="w-4 h-4 mr-2" />
+                    Clear All Filters
+                </Button>
+            )}
+        </div>
+    );
 
     return (
-        <div className="min-h-screen bg-background text-foreground">
+        <div className="min-h-screen bg-[#F5F5F7] dark:bg-black flex flex-col">
             <Header />
-            <main className="pt-32 pb-20 px-4 md:px-8 max-w-[1920px] mx-auto">
 
-                {/* Header & Controls */}
-                <div className="flex flex-col gap-8 mb-12">
-                    <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-                        <div>
-                            <h1 className="text-5xl md:text-7xl font-black tracking-tighter mb-4">Shop All.</h1>
-                            <p className="text-lg text-muted-foreground max-w-xl font-light">
-                                Discover our premium collection. curated for quality and satisfaction.
-                            </p>
-                        </div>
+            <main className="flex-1 pt-32 pb-20">
+                <div className="container px-4 mx-auto max-w-7xl">
+                    {/* Breadcrumbs */}
+                    <nav className="flex items-center gap-2 text-sm mb-6" aria-label="Breadcrumb">
+                        <Link
+                            href="/"
+                            className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            <Home className="w-4 h-4" />
+                            <span>Home</span>
+                        </Link>
+                        <ChevronRight className="w-4 h-4 text-muted-foreground/50" />
+                        <span className="font-medium text-foreground">Shop</span>
+                    </nav>
 
-                        <div className="flex items-center gap-4">
-                            {/* Mobile Filter Trigger */}
-                            <Button
-                                variant="outline"
-                                onClick={() => setMobileFiltersOpen(true)}
-                                className="md:hidden flex items-center gap-2 rounded-full h-12 px-6"
-                            >
-                                <SlidersHorizontal className="w-4 h-4" /> Filters {activeFilterCount > 0 && `(${activeFilterCount})`}
-                            </Button>
-
-                            {/* Sort Dropdown (Desktop & Mobile) */}
-                            <div className="relative group z-30">
-                                <button className="flex items-center gap-2 px-4 py-3 bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 rounded-full text-sm font-bold hover:bg-black/5 dark:hover:bg-white/10 transition-colors min-w-[160px] justify-between">
-                                    <span className="flex items-center gap-2">
-                                        <ArrowUpDown className="w-4 h-4" />
-                                        {sortBy === "featured" && "Featured"}
-                                        {sortBy === "price-asc" && "Price: Low to High"}
-                                        {sortBy === "price-desc" && "Price: High to Low"}
-                                        {sortBy === "name-asc" && "Name: A-Z"}
-                                    </span>
-                                    <ChevronDown className="w-4 h-4 opacity-50" />
-                                </button>
-
-                                {/* Dropdown Menu */}
-                                <div className="absolute top-full right-0 mt-2 w-full min-w-[200px] bg-white dark:bg-[#1a1a1a] rounded-2xl shadow-xl border border-black/5 dark:border-white/5 overflow-hidden hidden group-hover:block transition-all">
-                                    {[
-                                        { label: "Featured", value: "featured" },
-                                        { label: "Price: Low to High", value: "price-asc" },
-                                        { label: "Price: High to Low", value: "price-desc" },
-                                        { label: "Name: A-Z", value: "name-asc" },
-                                    ].map((opt) => (
-                                        <button
-                                            key={opt.value}
-                                            onClick={() => setSortBy(opt.value as any)}
-                                            className={`w-full text-left px-5 py-3 text-sm hover:bg-black/5 dark:hover:bg-white/5 transition-colors ${sortBy === opt.value ? "font-bold text-black dark:text-white" : "text-muted-foreground"}`}
-                                        >
-                                            {opt.label}
-                                        </button>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
+                    {/* Header */}
+                    <div className="mb-10">
+                        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-3">
+                            Shop All Products
+                        </h1>
+                        <p className="text-lg text-muted-foreground">
+                            {loading ? "Loading..." : `${filteredProducts.length} products available`}
+                        </p>
                     </div>
-                </div>
 
-                <div className="flex flex-col md:flex-row gap-12">
-                    {/* Desktop Sidebar */}
-                    <aside className="hidden md:block w-72 shrink-0 space-y-6 sticky top-32 h-[calc(100vh-10rem)] overflow-y-auto pr-2 custom-scrollbar">
-                        <div className="flex items-center justify-between opacity-50 mb-2">
-                            <div className="flex items-center gap-2">
-                                <Filter className="w-4 h-4" />
-                                <span className="text-xs font-bold uppercase tracking-widest">Filters</span>
-                            </div>
-                            {activeFilterCount > 0 && (
-                                <button onClick={clearAllFilters} className="text-xs hover:underline decoration-1 underline-offset-2">
-                                    Clear All
-                                </button>
-                            )}
-                        </div>
-
-                        <FilterSection title="Price Range">
-                            <div className="px-1 py-2 space-y-4">
-                                <div className="flex items-center gap-4">
-                                    <div className="relative flex-1">
-                                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground">€</span>
-                                        <Input
-                                            type="number"
-                                            min={MIN_PRICE}
-                                            max={MAX_PRICE}
-                                            value={priceRange[0]}
-                                            onChange={(e) => setPriceRange([Number(e.target.value), priceRange[1]])}
-                                            className="pl-7 h-10 rounded-lg bg-transparent"
-                                            placeholder="Min"
-                                        />
-                                    </div>
-                                    <span className="text-muted-foreground">-</span>
-                                    <div className="relative flex-1">
-                                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-sm text-muted-foreground">€</span>
-                                        <Input
-                                            type="number"
-                                            min={MIN_PRICE}
-                                            max={MAX_PRICE}
-                                            value={priceRange[1]}
-                                            onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])}
-                                            className="pl-7 h-10 rounded-lg bg-transparent"
-                                            placeholder="Max"
-                                        />
-                                    </div>
+                    <div className="flex gap-12">
+                        {/* Desktop Sidebar */}
+                        <aside className="hidden lg:block w-[280px] shrink-0">
+                            <div className="sticky top-32 bg-white/80 dark:bg-white/5 backdrop-blur-xl rounded-3xl p-6 border border-black/5 dark:border-white/5">
+                                <div className="flex items-center justify-between mb-6">
+                                    <h2 className="font-bold text-lg flex items-center gap-2">
+                                        <Filter className="w-5 h-5" />
+                                        Filters
+                                    </h2>
+                                    {activeFiltersCount > 0 && (
+                                        <span className="text-xs font-bold bg-black text-white dark:bg-white dark:text-black px-2 py-1 rounded-full">
+                                            {activeFiltersCount}
+                                        </span>
+                                    )}
                                 </div>
+                                <FilterContent />
                             </div>
-                        </FilterSection>
+                        </aside>
 
-                        <FilterSection title="Brands">
-                            <CheckboxFilter items={BRANDS} selectedItems={selectedBrands} onChange={(i) => toggleFilter(i, selectedBrands, setSelectedBrands)} />
-                        </FilterSection>
-
-                        <FilterSection title="Strength">
-                            <CheckboxFilter items={STRENGTHS} selectedItems={selectedStrengths} onChange={(i) => toggleFilter(i, selectedStrengths, setSelectedStrengths)} />
-                        </FilterSection>
-
-                        <FilterSection title="Flavor">
-                            <CheckboxFilter items={FLAVORS} selectedItems={selectedFlavors} onChange={(i) => toggleFilter(i, selectedFlavors, setSelectedFlavors)} />
-                        </FilterSection>
-                    </aside>
-
-                    {/* Product Grid */}
-                    <div className="flex-1">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
-                            {filteredProducts.map((product) => (
-                                <ShopProductCard key={product.id} product={product} />
-                            ))}
-                        </div>
-
-                        {filteredProducts.length === 0 && (
-                            <div className="py-32 text-center flex flex-col items-center justify-center">
-                                <div className="w-16 h-16 rounded-full bg-black/5 dark:bg-white/5 flex items-center justify-center mb-6">
-                                    <Search className="w-8 h-8 opacity-40" />
-                                </div>
-                                <h3 className="text-xl font-bold mb-2">No products found</h3>
-                                <p className="text-muted-foreground max-w-md mx-auto mb-8">
-                                    We couldn't find any products matching your filters. Try adjusting your search criteria.
-                                </p>
+                        {/* Main Content */}
+                        <div className="flex-1 min-w-0">
+                            {/* Mobile Header */}
+                            <div className="flex items-center justify-between gap-4 mb-8 lg:hidden">
                                 <Button
                                     variant="outline"
-                                    onClick={clearAllFilters}
-                                    className="rounded-full px-8 h-12 border-black/10 dark:border-white/10"
+                                    onClick={() => setMobileFiltersOpen(true)}
+                                    className="flex items-center gap-2 rounded-full px-4 bg-white dark:bg-white/5"
                                 >
-                                    Clear all filters
+                                    <SlidersHorizontal className="w-4 h-4" />
+                                    Filters
+                                    {activeFiltersCount > 0 && (
+                                        <span className="text-xs font-bold bg-black text-white dark:bg-white dark:text-black px-2 py-0.5 rounded-full ml-1">
+                                            {activeFiltersCount}
+                                        </span>
+                                    )}
                                 </Button>
+
+                                <div className="relative">
+                                    <select
+                                        value={sortBy}
+                                        onChange={(e) => setSortBy(e.target.value as any)}
+                                        className="h-11 pl-4 pr-10 rounded-2xl bg-white dark:bg-zinc-900 border border-black/10 dark:border-white/10 text-sm font-medium appearance-none cursor-pointer transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-black/5 dark:focus:ring-white/10 focus:border-black/20 dark:focus:border-white/20 hover:border-black/20 dark:hover:border-white/20 hover:shadow-md"
+                                    >
+                                        <option value="featured" className="bg-white dark:bg-zinc-900">Featured</option>
+                                        <option value="price-asc" className="bg-white dark:bg-zinc-900">Price: Low to High</option>
+                                        <option value="price-desc" className="bg-white dark:bg-zinc-900">Price: High to Low</option>
+                                        <option value="name-asc" className="bg-white dark:bg-zinc-900">Name: A-Z</option>
+                                    </select>
+                                    <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
+                                </div>
                             </div>
-                        )}
+
+                            {/* Desktop Sort */}
+                            <div className="hidden lg:flex items-center justify-end mb-8 gap-3">
+                                <span className="text-sm text-muted-foreground">Sort by:</span>
+                                <div className="relative">
+                                    <select
+                                        value={sortBy}
+                                        onChange={(e) => setSortBy(e.target.value as any)}
+                                        className="h-11 pl-4 pr-10 rounded-2xl bg-white dark:bg-zinc-900 border border-black/10 dark:border-white/10 text-sm font-medium appearance-none cursor-pointer transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-black/5 dark:focus:ring-white/10 focus:border-black/20 dark:focus:border-white/20 hover:border-black/20 dark:hover:border-white/20 hover:shadow-md min-w-[180px]"
+                                    >
+                                        <option value="featured" className="bg-white dark:bg-zinc-900 py-2">Featured</option>
+                                        <option value="price-asc" className="bg-white dark:bg-zinc-900 py-2">Price: Low to High</option>
+                                        <option value="price-desc" className="bg-white dark:bg-zinc-900 py-2">Price: High to Low</option>
+                                        <option value="name-asc" className="bg-white dark:bg-zinc-900 py-2">Name: A-Z</option>
+                                    </select>
+                                    <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
+                                </div>
+                            </div>
+
+                            {/* Loading State */}
+                            {loading ? (
+                                <div className="flex flex-col items-center justify-center py-20 gap-4">
+                                    <Loader2 className="w-8 h-8 text-muted-foreground animate-spin" />
+                                    <p className="text-sm text-muted-foreground">Loading products...</p>
+                                </div>
+                            ) : filteredProducts.length > 0 ? (
+                                <motion.div
+                                    className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6"
+                                    initial="hidden"
+                                    animate="visible"
+                                    variants={{
+                                        hidden: { opacity: 0 },
+                                        visible: {
+                                            opacity: 1,
+                                            transition: {
+                                                staggerChildren: 0.1
+                                            }
+                                        }
+                                    }}
+                                >
+                                    {filteredProducts.map((product, index) => (
+                                        <motion.div
+                                            key={product.id}
+                                            variants={{
+                                                hidden: { opacity: 0, y: 20 },
+                                                visible: { opacity: 1, y: 0, transition: { duration: 0.4 } }
+                                            }}
+                                        >
+                                            <ShopProductCard product={product} />
+                                        </motion.div>
+                                    ))}
+                                </motion.div>
+                            ) : (
+                                <div className="text-center py-20">
+                                    <p className="text-lg text-muted-foreground mb-4">
+                                        No products found matching your filters.
+                                    </p>
+                                    <Button onClick={clearAllFilters} variant="outline" className="rounded-full">
+                                        Clear Filters
+                                    </Button>
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
-
             </main>
-            <Footer />
 
             {/* Mobile Filters Drawer */}
             <AnimatePresence>
                 {mobileFiltersOpen && (
                     <>
-                        {/* Backdrop */}
                         <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
+                            className="fixed inset-0 bg-black/50 z-50 lg:hidden"
                             onClick={() => setMobileFiltersOpen(false)}
-                            className="fixed inset-0 bg-black/60 z-[60] backdrop-blur-sm md:hidden"
                         />
-                        {/* Drawer */}
                         <motion.div
-                            initial={{ x: "100%" }}
+                            initial={{ x: "-100%" }}
                             animate={{ x: 0 }}
-                            exit={{ x: "100%" }}
-                            transition={{ type: "spring", damping: 30, stiffness: 300 }}
-                            className="fixed top-0 right-0 h-full w-full sm:w-[400px] bg-background z-[70] shadow-2xl flex flex-col md:hidden"
+                            exit={{ x: "-100%" }}
+                            transition={{ type: "spring", damping: 25, stiffness: 300 }}
+                            className="fixed inset-y-0 left-0 w-[85%] max-w-md bg-background z-50 lg:hidden overflow-y-auto"
                         >
-                            <div className="flex items-center justify-between p-6 border-b border-border">
-                                <h2 className="text-2xl font-bold tracking-tight">Filters</h2>
+                            <div className="p-6">
+                                <div className="flex items-center justify-between mb-6">
+                                    <h2 className="font-bold text-xl">Filters</h2>
+                                    <Button
+                                        variant="ghost"
+                                        size="icon"
+                                        onClick={() => setMobileFiltersOpen(false)}
+                                    >
+                                        <X className="w-5 h-5" />
+                                    </Button>
+                                </div>
+                                <FilterContent />
                                 <Button
-                                    variant="ghost"
-                                    size="icon"
-                                    onClick={() => setMobileFiltersOpen(false)}
-                                    className="rounded-full"
-                                >
-                                    <X className="w-6 h-6" />
-                                </Button>
-                            </div>
-
-                            <div className="flex-1 overflow-y-auto p-6 space-y-6">
-                                <FilterSection title="Price Range">
-                                    <div className="space-y-4">
-                                        <div className="flex items-center gap-4">
-                                            <Input
-                                                type="number"
-                                                value={priceRange[0]}
-                                                onChange={(e) => setPriceRange([Number(e.target.value), priceRange[1]])}
-                                                className="h-12 rounded-xl"
-                                                placeholder="Min"
-                                            />
-                                            <span className="text-muted-foreground">-</span>
-                                            <Input
-                                                type="number"
-                                                value={priceRange[1]}
-                                                onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])}
-                                                className="h-12 rounded-xl"
-                                                placeholder="Max"
-                                            />
-                                        </div>
-                                    </div>
-                                </FilterSection>
-                                <FilterSection title="Brands">
-                                    <CheckboxFilter items={BRANDS} selectedItems={selectedBrands} onChange={(i) => toggleFilter(i, selectedBrands, setSelectedBrands)} />
-                                </FilterSection>
-                                <FilterSection title="Strength">
-                                    <CheckboxFilter items={STRENGTHS} selectedItems={selectedStrengths} onChange={(i) => toggleFilter(i, selectedStrengths, setSelectedStrengths)} />
-                                </FilterSection>
-                                <FilterSection title="Flavor">
-                                    <CheckboxFilter items={FLAVORS} selectedItems={selectedFlavors} onChange={(i) => toggleFilter(i, selectedFlavors, setSelectedFlavors)} />
-                                </FilterSection>
-                            </div>
-
-                            <div className="p-6 border-t border-border bg-background">
-                                <Button
-                                    className="w-full h-14 rounded-xl text-lg font-bold bg-foreground text-background hover:bg-foreground/90"
+                                    className="w-full mt-8 h-12 rounded-xl"
                                     onClick={() => setMobileFiltersOpen(false)}
                                 >
                                     Show {filteredProducts.length} Results
@@ -486,6 +699,21 @@ export default function ShopPage() {
                     </>
                 )}
             </AnimatePresence>
+
+            <Footer />
         </div>
+    );
+}
+
+// Wrap with Suspense for useSearchParams
+export default function ShopPage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen bg-[#F5F5F7] dark:bg-black flex items-center justify-center">
+                <Loader2 className="w-8 h-8 text-muted-foreground animate-spin" />
+            </div>
+        }>
+            <ShopPageContent />
+        </Suspense>
     );
 }

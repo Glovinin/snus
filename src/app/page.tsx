@@ -6,7 +6,7 @@ import { ProductCarousel } from "@/components/home/ProductCarousel";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Footer } from "@/components/layout/Footer";
 import { DealsSection } from "@/components/home/DealsSection";
-import { B2CSection } from "@/components/home/B2CSection";
+
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <ProductCarousel />
       <DealsSection />
       <Testimonials />
-      <B2CSection />
+
       <Footer />
     </main>
   );

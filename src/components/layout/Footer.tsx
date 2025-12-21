@@ -22,6 +22,7 @@ const footerLinks = {
         { name: "Sustainability", href: "#" },
         { name: "Careers", href: "#" },
         { name: "Press", href: "#" },
+        { name: "Admin Login", href: "/login" },
     ],
     legal: [
         { name: "Privacy Policy", href: "#" },
@@ -44,7 +45,7 @@ export function Footer() {
                         <p className="text-white/60 max-w-sm mb-6">
                             Premium nicotine pouches with 8-30mg strength, crafted for the discerning modern user.
                         </p>
-                        
+
                         {/* SSL Secure Badge */}
                         <div className="flex items-center gap-2 mb-6 p-3 bg-white/5 rounded-lg border border-white/10 w-fit">
                             <ShieldCheck className="w-5 h-5 text-green-400" />
@@ -65,7 +66,7 @@ export function Footer() {
                                 <span className="font-bold text-xs text-white">LI</span>
                             </div>
                         </div>
-                        
+
                         {/* Payment Methods */}
                         <div>
                             <div className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-3">We Accept</div>

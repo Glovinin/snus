@@ -1,33 +1,66 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { products } from "@/data/products";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Check, Minus, Plus, Share2, ShieldCheck, ShoppingBag, Star, TrendingUp, Truck, Zap } from "lucide-react";
+import { ArrowLeft, Check, Minus, Plus, ShieldCheck, ShoppingBag, Star, Truck, Loader2, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCartStore } from "@/store/cartStore";
+import { getProductById, Product } from "@/lib/firebase/products";
 
 export default function ProductPage() {
     const params = useParams();
     const router = useRouter();
     const id = params?.id as string;
-    const product = products.find((p) => p.id === id);
     const addItem = useCartStore((state) => state.addItem);
 
+    const [product, setProduct] = useState<Product | null>(null);
+    const [loading, setLoading] = useState(true);
     const [quantity, setQuantity] = useState(1);
     const [selectedSize, setSelectedSize] = useState("1");
+    const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
+    // Fetch product from Firestore
+    useEffect(() => {
+        const fetchProduct = async () => {
+            if (!id) return;
+            try {
+                const data = await getProductById(id);
+                setProduct(data);
+            } catch (error) {
+                console.error("Failed to fetch product:", error);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchProduct();
+    }, [id]);
+
+    // Loading state
+    if (loading) {
+        return (
+            <div className="flex flex-col min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground">
+                <Header />
+                <div className="flex-1 flex items-center justify-center">
+                    <Loader2 className="w-8 h-8 text-muted-foreground animate-spin" />
+                </div>
+                <Footer />
+            </div>
+        );
+    }
+
+    // Product not found
     if (!product) {
         return (
-            <div className="flex flex-col min-h-screen bg-background text-foreground">
+            <div className="flex flex-col min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground">
                 <Header />
                 <div className="flex-1 flex flex-col items-center justify-center">
                     <h1 className="text-4xl font-bold mb-4">Product Not Found</h1>
-                    <Button onClick={() => router.push("/")} variant="outline">
-                        <ArrowLeft className="mr-2 h-4 w-4" /> Go Home
+                    <p className="text-muted-foreground mb-6">The product you're looking for doesn't exist.</p>
+                    <Button onClick={() => router.push("/shop")} variant="outline" className="rounded-full">
+                        <ArrowLeft className="mr-2 h-4 w-4" /> Back to Shop
                     </Button>
                 </div>
                 <Footer />
@@ -35,9 +68,37 @@ export default function ProductPage() {
         );
     }
 
-    // Extract colors for dynamic styling
-    const accentColor = product.textColor.split(" ")[0].replace("text-", "bg-"); // e.g. bg-red-900
-    // We can also use a mapped color for buttons if needed, for now stick to black/white for premium feel
+    // Calculate prices
+    const basePrice = product.price;
+    const totalPrice = basePrice * Number(selectedSize) * quantity;
+    const hasDiscount = product.compareAtPrice && product.compareAtPrice > product.price;
+    const discountPercent = hasDiscount
+        ? Math.round((1 - product.price / product.compareAtPrice!) * 100)
+        : 0;
+
+    // Images
+    const images = product.images && product.images.length > 0 ? product.images : [];
+    const hasImages = images.length > 0;
+
+    // Background color based on strength
+    const strengthColors: Record<string, string> = {
+        WEAK: "bg-gradient-to-br from-green-100 to-green-200 dark:from-green-950/50 dark:to-green-900/30",
+        MEDIUM: "bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-950/50 dark:to-blue-900/30",
+        STRONG: "bg-gradient-to-br from-orange-100 to-orange-200 dark:from-orange-950/50 dark:to-orange-900/30",
+        EXTRA: "bg-gradient-to-br from-red-100 to-red-200 dark:from-red-950/50 dark:to-red-900/30",
+        EXTREME: "bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-950/50 dark:to-purple-900/30",
+    };
+
+    const textColors: Record<string, string> = {
+        WEAK: "text-green-900 dark:text-green-100",
+        MEDIUM: "text-blue-900 dark:text-blue-100",
+        STRONG: "text-orange-900 dark:text-orange-100",
+        EXTRA: "text-red-900 dark:text-red-100",
+        EXTREME: "text-purple-900 dark:text-purple-100",
+    };
+
+    const bgColor = strengthColors[product.strength] || "bg-gradient-to-br from-slate-100 to-slate-200";
+    const textColor = textColors[product.strength] || "text-slate-900";
 
     return (
         <div className="min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground selection:bg-black selection:text-white flex flex-col font-sans">
@@ -62,44 +123,104 @@ export default function ProductPage() {
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
 
-                        {/* LEFT COLUMN: Image Showcase (Sticky) */}
+                        {/* LEFT COLUMN: Image Gallery */}
                         <div className="lg:col-span-7 lg:sticky lg:top-32 relative z-10">
+                            {/* Main Image */}
                             <motion.div
                                 initial={{ opacity: 0, scale: 0.98, y: 10 }}
                                 animate={{ opacity: 1, scale: 1, y: 0 }}
                                 transition={{ duration: 0.4, ease: "easeOut" }}
-                                className={`relative aspect-[4/3] rounded-[2.5rem] ${product.image} shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] border border-white/50 dark:border-white/10 overflow-hidden group`}
+                                className={`relative aspect-[4/3] rounded-[2.5rem] ${!hasImages ? bgColor : ""} shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] border border-white/50 dark:border-white/10 overflow-hidden group`}
                             >
-                                {/* Noise Texture Overlay */}
-                                <div className="absolute inset-0 opacity-[0.4] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] mix-blend-overlay pointer-events-none" />
+                                {hasImages ? (
+                                    <AnimatePresence mode="wait">
+                                        <motion.img
+                                            key={selectedImageIndex}
+                                            src={images[selectedImageIndex]}
+                                            alt={product.name}
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            exit={{ opacity: 0 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </AnimatePresence>
+                                ) : (
+                                    <>
+                                        {/* Noise Texture Overlay */}
+                                        <div className="absolute inset-0 opacity-[0.4] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] mix-blend-overlay pointer-events-none" />
 
-                                {/* Inner Card (The "Product") */}
-                                <div className="absolute inset-0 flex items-center justify-center p-12">
-                                    <motion.div
-                                        whileHover={{ scale: 1.05, rotate: -2 }}
-                                        transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                                        className="relative w-full max-w-md aspect-square bg-white/20 dark:bg-black/20 backdrop-blur-2xl rounded-[2rem] border border-white/30 shadow-2xl flex flex-col items-center justify-center p-8 text-center text-wrap"
-                                    >
-                                        <div className={`text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none ${product.textColor} mix-blend-multiply dark:mix-blend-normal opacity-90`}>
-                                            {product.name}
+                                        {/* Product Name Display */}
+                                        <div className="absolute inset-0 flex items-center justify-center p-12">
+                                            <motion.div
+                                                whileHover={{ scale: 1.05, rotate: -2 }}
+                                                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                                                className="relative w-full max-w-md aspect-square bg-white/20 dark:bg-black/20 backdrop-blur-2xl rounded-[2rem] border border-white/30 shadow-2xl flex flex-col items-center justify-center p-8 text-center"
+                                            >
+                                                <div className={`text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none ${textColor} mix-blend-multiply dark:mix-blend-normal opacity-90`}>
+                                                    {product.name}
+                                                </div>
+                                            </motion.div>
                                         </div>
-                                    </motion.div>
-                                </div>
+                                    </>
+                                )}
 
-                                {/* Floating Badge (e.g. Strength) */}
+                                {/* Floating Badge (Strength) */}
                                 <div className="absolute top-8 left-8">
-                                    <span className="px-4 py-2 rounded-full bg-black/5 dark:bg-white/10 backdrop-blur-md border border-white/10 text-xs font-bold uppercase tracking-widest text-foreground/80">
+                                    <span className="px-4 py-2 rounded-full bg-white shadow-md text-xs font-bold uppercase tracking-widest text-foreground/80">
                                         {product.strength}
                                     </span>
                                 </div>
+
+                                {/* Discount Badge */}
+                                {hasDiscount && (
+                                    <div className="absolute top-8 right-8">
+                                        <span className="px-4 py-2 rounded-full bg-red-500 text-white text-xs font-bold uppercase tracking-widest">
+                                            {discountPercent}% OFF
+                                        </span>
+                                    </div>
+                                )}
+
+                                {/* Image Navigation Arrows */}
+                                {images.length > 1 && (
+                                    <>
+                                        <button
+                                            onClick={() => setSelectedImageIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))}
+                                            className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 dark:bg-black/50 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:scale-110"
+                                        >
+                                            <ChevronLeft className="w-5 h-5" />
+                                        </button>
+                                        <button
+                                            onClick={() => setSelectedImageIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1))}
+                                            className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/80 dark:bg-black/50 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity hover:scale-110"
+                                        >
+                                            <ChevronRight className="w-5 h-5" />
+                                        </button>
+                                    </>
+                                )}
                             </motion.div>
 
-                            {/* Thumbnails / Additional Views (Mock) */}
-                            <div className="grid grid-cols-3 gap-4 mt-6">
-                                {[1, 2, 3].map((i) => (
-                                    <div key={i} className="aspect-square rounded-2xl bg-white dark:bg-white/5 border border-black/5 cursor-pointer hover:border-black/20 transition-all" />
-                                ))}
-                            </div>
+                            {/* Thumbnails */}
+                            {images.length > 1 && (
+                                <div className="grid grid-cols-4 gap-3 mt-6">
+                                    {images.map((img, i) => (
+                                        <button
+                                            key={i}
+                                            onClick={() => setSelectedImageIndex(i)}
+                                            className={`aspect-square rounded-xl overflow-hidden border-2 transition-all hover:scale-105 ${selectedImageIndex === i
+                                                ? "border-black dark:border-white ring-2 ring-black/20 dark:ring-white/20"
+                                                : "border-transparent opacity-60 hover:opacity-100"
+                                                }`}
+                                        >
+                                            <img
+                                                src={img}
+                                                alt={`${product.name} ${i + 1}`}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
                         </div>
 
                         {/* RIGHT COLUMN: Details & Purchase */}
@@ -110,42 +231,44 @@ export default function ProductPage() {
                                 transition={{ delay: 0.1, duration: 0.4 }}
                             >
                                 {/* Header Info */}
-                                <div className="flex items-center gap-3 mb-6">
-                                    <span className="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold uppercase tracking-widest bg-emerald-500/10 px-3 py-1.5 rounded-full ring-1 ring-emerald-500/20">
-                                        <Check className="w-3 h-3" /> In Stock
-                                    </span>
-                                    <div className="flex items-center gap-1">
-                                        <div className="flex items-center gap-1 bg-[#00b67a] text-white px-2 py-1 rounded text-xs font-bold">
-                                            <Star className="w-3 h-3 fill-current" />
-                                            Trustpilot
-                                        </div>
-                                        <span className="text-sm font-bold text-foreground ml-2">4.9/5</span>
-                                        <span className="text-sm text-muted-foreground">Excellent (120+)</span>
-                                    </div>
+                                <div className="flex items-center gap-3 mb-6 flex-wrap">
+                                    {product.stock > 0 ? (
+                                        <span className="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 text-[11px] font-bold uppercase tracking-widest bg-emerald-500/10 px-3 py-1.5 rounded-full ring-1 ring-emerald-500/20">
+                                            <Check className="w-3 h-3" /> In Stock
+                                        </span>
+                                    ) : (
+                                        <span className="flex items-center gap-1.5 text-red-600 dark:text-red-400 text-[11px] font-bold uppercase tracking-widest bg-red-500/10 px-3 py-1.5 rounded-full ring-1 ring-red-500/20">
+                                            Out of Stock
+                                        </span>
+                                    )}
+                                    {product.isBestSeller && (
+                                        <span className="flex items-center gap-1.5 text-rose-600 dark:text-rose-400 text-[11px] font-bold uppercase tracking-widest bg-rose-500/10 px-3 py-1.5 rounded-full ring-1 ring-rose-500/20">
+                                            Best Seller
+                                        </span>
+                                    )}
                                 </div>
 
+                                {/* Brand */}
+                                <p className="text-lg text-muted-foreground mb-2">{product.brand}</p>
+
+                                {/* Name */}
                                 <h1 className="text-5xl md:text-6xl font-black tracking-tighter mb-4 text-foreground leading-[0.95]">
                                     {product.name}
                                 </h1>
-                                <div className="text-xl font-medium text-muted-foreground mb-8 tracking-tight">
-                                    {product.category} Edition
+
+                                {/* Category & Flavor */}
+                                <div className="flex items-center gap-3 text-base text-muted-foreground mb-8">
+                                    <span>{product.category}</span>
+                                    <span>•</span>
+                                    <span>{product.flavor}</span>
                                 </div>
 
-                                {/* Feature Grid */}
-                                <div className="grid grid-cols-2 gap-3 mb-10">
-                                    {product.features.map((feature, i) => (
-                                        <div key={i} className="flex items-center gap-3 p-3 rounded-2xl bg-white dark:bg-white/5 border border-black/5 dark:border-white/10">
-                                            <div className="w-8 h-8 rounded-full bg-foreground/5 flex items-center justify-center shrink-0">
-                                                <Zap className="w-4 h-4 text-foreground/70" />
-                                            </div>
-                                            <span className="text-sm font-medium leading-tight">{feature}</span>
-                                        </div>
-                                    ))}
-                                </div>
-
-                                <p className="text-lg text-muted-foreground leading-relaxed mb-10 border-l-2 border-foreground/10 pl-6">
-                                    {product.description}
-                                </p>
+                                {/* Description */}
+                                {product.description && (
+                                    <p className="text-lg text-muted-foreground leading-relaxed mb-10 border-l-2 border-foreground/10 pl-6">
+                                        {product.description}
+                                    </p>
+                                )}
 
                                 {/* Pack Size Selection */}
                                 <div className="mb-8">
@@ -153,7 +276,7 @@ export default function ProductPage() {
                                         <div className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Select Pack Size</div>
                                         {Number(selectedSize) > 1 && (
                                             <span className="text-xs font-bold text-emerald-600 bg-emerald-50 dark:bg-emerald-500/10 px-2 py-0.5 rounded">
-                                                Safe {(Number(selectedSize) * 0.5).toFixed(1)}€
+                                                Save {(Number(selectedSize) * 0.5).toFixed(1)}€
                                             </span>
                                         )}
                                     </div>
@@ -163,7 +286,7 @@ export default function ProductPage() {
                                                 key={size}
                                                 onClick={() => {
                                                     setSelectedSize(size);
-                                                    setQuantity(1); // Reset quant when changing pack? Or keep it. Let's reset to avoid confusion.
+                                                    setQuantity(1);
                                                 }}
                                                 className={`h-12 rounded-xl border-2 flex flex-col items-center justify-center transition-all ${selectedSize === size
                                                     ? "border-foreground bg-foreground text-background shadow-lg scale-105"
@@ -176,7 +299,7 @@ export default function ProductPage() {
                                     </div>
                                 </div>
 
-                                {/* PURCHASE CARD (Floating Effect) */}
+                                {/* PURCHASE CARD */}
                                 <div className="p-8 rounded-[2.5rem] bg-white dark:bg-[#1c1c1e] shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)] border border-black/5 dark:border-white/10 relative overflow-hidden group">
                                     {/* Subtle sheen */}
                                     <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
@@ -184,20 +307,27 @@ export default function ProductPage() {
                                     <div className="flex items-end justify-between mb-8 relative z-10">
                                         <div>
                                             <div className="text-sm text-muted-foreground font-medium uppercase tracking-wide mb-1">Total Price</div>
-                                            <div className="flex items-baseline gap-1">
+                                            <div className="flex items-baseline gap-2">
                                                 <span className="text-5xl font-black tracking-tight">
-                                                    €{(parseFloat(product.price.replace(/[^0-9.]/g, '')) * Number(selectedSize)).toFixed(2)}
+                                                    €{totalPrice.toFixed(2)}
                                                 </span>
-                                                <span className="text-lg text-muted-foreground font-medium">
-                                                    / {selectedSize} cans
-                                                </span>
+                                                {hasDiscount && (
+                                                    <span className="text-lg text-muted-foreground line-through">
+                                                        €{(product.compareAtPrice! * Number(selectedSize) * quantity).toFixed(2)}
+                                                    </span>
+                                                )}
                                             </div>
+                                            <span className="text-sm text-muted-foreground">
+                                                / {selectedSize} cans × {quantity}
+                                            </span>
                                         </div>
+
                                         {/* Quantity */}
                                         <div className="flex items-center bg-black/5 dark:bg-white/10 rounded-full p-1.5 h-12">
                                             <button
                                                 onClick={() => setQuantity(Math.max(1, quantity - 1))}
                                                 className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-white dark:hover:bg-black transition-all shadow-sm disabled:opacity-50"
+                                                disabled={quantity <= 1}
                                             >
                                                 <Minus className="w-4 h-4" />
                                             </button>
@@ -213,26 +343,22 @@ export default function ProductPage() {
 
                                     <Button
                                         onClick={() => {
-                                            const priceNumber = parseFloat(product.price.replace(/[^0-9.]/g, ''));
-                                            // Pack price logic: just base * pack size for now (discounts can be added locally to visual price above but let's keep it simple for cart)
-                                            // Actually, if I show discount visually, I should apply it.
-                                            // Let's assume strict math for now to avoid complexity in this step.
-                                            const packPrice = priceNumber * Number(selectedSize);
-
                                             addItem({
                                                 id: product.id,
                                                 name: product.name,
-                                                price: packPrice, // storing the unit price of the PACK
-                                                image: product.image,
-                                                bgClass: product.image,
+                                                price: basePrice * Number(selectedSize),
+                                                image: images[0] || "/placeholder.jpg",
+                                                bgClass: bgColor,
                                                 variant: `${product.strength} • ${selectedSize} Pack`,
                                                 quantity: quantity
                                             });
                                             useCartStore.getState().openCart();
                                         }}
-                                        className="w-full h-16 rounded-[1.5rem] text-lg font-bold shadow-xl bg-foreground text-background hover:bg-foreground/90 transition-all hover:scale-[1.02] active:scale-[0.98]"
+                                        disabled={product.stock === 0}
+                                        className="w-full h-16 rounded-[1.5rem] text-lg font-bold shadow-xl bg-foreground text-background hover:bg-foreground/90 transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
                                     >
-                                        Add to Cart <ShoppingBag className="ml-2 w-5 h-5" />
+                                        {product.stock === 0 ? "Out of Stock" : "Add to Cart"}
+                                        <ShoppingBag className="ml-2 w-5 h-5" />
                                     </Button>
 
                                     <div className="mt-6 flex flex-col gap-4 text-xs font-semibold text-muted-foreground/70 tracking-widest text-center">
@@ -248,7 +374,7 @@ export default function ProductPage() {
                                         {/* 18+ Warning */}
                                         <div className="flex items-center justify-center gap-2 text-rose-500/80 mt-2 pt-4 border-t border-black/5 dark:border-white/5">
                                             <span className="border border-rose-500/40 rounded-full w-6 h-6 flex items-center justify-center text-[10px] font-bold">18+</span>
-                                            <span>Start 18+ Nicotine Product</span>
+                                            <span>Adults Only • Nicotine Product</span>
                                         </div>
                                     </div>
                                 </div>
@@ -256,34 +382,6 @@ export default function ProductPage() {
                         </div>
                     </div>
                 </div>
-
-                {/* Reviews / content below */}
-                <section className="mt-32 border-t border-black/5 dark:border-white/5 pt-20">
-                    <div className="container px-4 mx-auto max-w-4xl">
-                        <h2 className="text-3xl font-bold mb-12 text-center">Customer Reviews</h2>
-                        <div className="space-y-6">
-                            {product.reviews.map((review, i) => (
-                                <div key={i} className="p-8 rounded-3xl bg-white dark:bg-white/5 border border-black/5 shadow-sm">
-                                    <div className="flex items-center justify-between mb-4">
-                                        <div className="flex items-center gap-3">
-                                            <div className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center font-bold">{review.user.charAt(0)}</div>
-                                            <div>
-                                                <div className="font-bold">{review.user}</div>
-                                                <div className="text-xs text-green-600 font-medium flex items-center gap-1"><Check className="w-3 h-3" /> Verified Buyer</div>
-                                            </div>
-                                        </div>
-                                        <div className="flex text-amber-500">
-                                            {Array.from({ length: 5 }).map((_, r) => (
-                                                <Star key={r} className={`w-4 h-4 ${r < review.rating ? "fill-current" : "text-gray-300 dark:text-gray-700"}`} />
-                                            ))}
-                                        </div>
-                                    </div>
-                                    <p className="text-lg leading-relaxed opacity-90">"{review.text}"</p>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </section>
             </main>
             <Footer />
         </div>

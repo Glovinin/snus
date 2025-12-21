@@ -17,7 +17,15 @@ export const signUp = async (
   email: string,
   password: string,
   displayName: string,
-  role: UserRole = "buyer"
+  role: UserRole = "buyer",
+  phone?: string,
+  address?: {
+    street: string;
+    city: string;
+    state: string;
+    zipCode: string;
+    country: string;
+  }
 ): Promise<FirebaseUser> => {
   try {
     // Create auth user
@@ -41,6 +49,8 @@ export const signUp = async (
         theme: "dark",
         currency: "USD",
       },
+      ...(phone && { phone }),
+      ...(address && { address }),
     };
 
     await setDoc(doc(db, "users", user.uid), userData);
@@ -104,7 +114,7 @@ export const signInWithGoogle = async (role: UserRole = "buyer"): Promise<Fireba
 
     // Check if user already exists in Firestore
     const userDoc = await getDoc(doc(db, "users", user.uid));
-    
+
     if (!userDoc.exists()) {
       // Create user document if it doesn't exist
       const userData: Omit<User, "id"> = {
@@ -128,5 +138,13 @@ export const signInWithGoogle = async (role: UserRole = "buyer"): Promise<Fireba
   }
 };
 
-export { onAuthStateChanged };
+export const updateUserData = async (userId: string, data: Partial<User>): Promise<void> => {
+  try {
+    const userRef = doc(db, "users", userId);
+    await setDoc(userRef, data, { merge: true });
+  } catch (error: any) {
+    throw new Error(error.message || "Failed to update user data");
+  }
+};
 
+export { onAuthStateChanged };

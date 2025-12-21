@@ -14,9 +14,6 @@ export interface User {
     language?: string;
     currency?: string;
   };
-}
-
-export interface UserProfile extends User {
   phone?: string;
   address?: {
     street: string;
