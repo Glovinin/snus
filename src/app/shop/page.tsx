@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useCartStore } from "@/store/cartStore";
 import { useTransitionStore } from "@/store/transitionStore";
-import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { getAllProducts, Product } from "@/lib/firebase/products";
 import { getActiveBrands, Brand } from "@/lib/firebase/brands";
@@ -565,9 +564,7 @@ function ShopPageContent() {
     );
 
     return (
-        <div className="min-h-screen bg-[#F5F5F7] dark:bg-black">
-            <Header />
-
+        <div className="min-h-screen bg-background text-foreground flex flex-col font-sans selection:bg-black selection:text-white">
             {/* Main Layout Container */}
             <div className="flex min-h-screen">
 

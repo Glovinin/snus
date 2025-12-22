@@ -1,4 +1,3 @@
-import { Header } from "@/components/layout/Header";
 import { Hero } from "@/components/home/Hero";
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { BrandCarousel } from "@/components/home/BrandCarousel";
@@ -11,7 +10,6 @@ import { DealsSection } from "@/components/home/DealsSection";
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground selection:bg-accent selection:text-accent-foreground">
-      <Header />
       <Hero />
       <CategoryGrid />
       <BrandCarousel />

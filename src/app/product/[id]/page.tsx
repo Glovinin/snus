@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Check, Minus, Plus, ShieldCheck, ShoppingBag, Star, Truck, Loader2, ChevronLeft, ChevronRight, Home } from "lucide-react";
@@ -49,7 +48,6 @@ export default function ProductPage() {
     if (loading && !product) {
         return (
             <div className="flex flex-col min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground">
-                <Header />
                 <div className="flex-1 flex items-center justify-center">
                     <Loader2 className="w-8 h-8 text-muted-foreground animate-spin" />
                 </div>
@@ -62,7 +60,6 @@ export default function ProductPage() {
     if (!product) {
         return (
             <div className="flex flex-col min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground">
-                <Header />
                 <div className="flex-1 flex flex-col items-center justify-center">
                     <h1 className="text-4xl font-bold mb-4">Product Not Found</h1>
                     <p className="text-muted-foreground mb-6">The product you're looking for doesn't exist.</p>
@@ -109,7 +106,6 @@ export default function ProductPage() {
 
     return (
         <div className="min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground selection:bg-black selection:text-white flex flex-col font-sans">
-            <Header />
 
             <main className="flex-1 pt-44 pb-20">
                 <div className="container px-4 mx-auto max-w-7xl">

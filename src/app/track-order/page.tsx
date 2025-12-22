@@ -1,6 +1,5 @@
 "use client";
 
-import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { motion } from "framer-motion";
 import { ChevronRight, Home, Search, Package, Truck, CheckCircle2, Clock, MapPin, AlertCircle } from "lucide-react";
@@ -87,10 +86,8 @@ export default function TrackOrderPage() {
     };
 
     return (
-        <div className="min-h-screen bg-[#F5F5F7] dark:bg-black flex flex-col">
-            <Header />
-
-            <main className="flex-1 pt-44 pb-20">
+        <div className="min-h-screen bg-background text-foreground flex flex-col font-sans">
+            <main className="flex-1 pt-32 pb-20">
                 <div className="container px-4 mx-auto max-w-7xl">
                     {/* Breadcrumbs */}
                     <nav className="flex items-center gap-2 text-sm mb-6" aria-label="Breadcrumb">
