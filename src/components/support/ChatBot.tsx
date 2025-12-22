@@ -223,16 +223,18 @@ export function ChatBot() {
                 animate={{ scale: 1 }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="fixed bottom-6 right-6 z-[90]"
+                className="fixed bottom-8 right-8 z-[90]"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
-                {!isOpen && (
+                {!isOpen && hasUnread && (
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.5 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        className="absolute bottom-1 right-1 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-[#1a1a1a] z-10"
-                    />
+                        initial={{ scale: 0 }}
+                        animate={{ scale: 1 }}
+                        className="absolute -top-1 -right-1 w-6 h-6 bg-red-500 rounded-full border-2 border-[#1a1a1a] z-20 flex items-center justify-center text-white font-bold text-[10px] shadow-lg"
+                    >
+                        1
+                    </motion.div>
                 )}
 
                 {/* Tooltip */}
@@ -242,17 +244,17 @@ export function ChatBot() {
                             initial={{ opacity: 0, x: -10 }}
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: -10 }}
-                            className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-white text-black px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap shadow-xl"
+                            className="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-white text-black px-4 py-2 rounded-xl text-sm font-bold whitespace-nowrap shadow-xl"
                         >
-                            Need help? Chat with us!
-                            <div className="absolute top-1/2 -right-1 -translate-y-1/2 border-4 border-transparent border-l-white"></div>
+                            You have a new message!
+                            <div className="absolute top-1/2 -right-1.5 -translate-y-1/2 border-[6px] border-transparent border-l-white"></div>
                         </motion.div>
                     )}
                 </AnimatePresence>
 
                 <Button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="w-14 h-14 rounded-full bg-[#0F0F0F] hover:bg-black shadow-[0_4px_20px_rgba(0,0,0,0.4)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.6)] border border-white/10 p-0 overflow-hidden relative group"
+                    className="w-16 h-16 rounded-full bg-[#0F0F0F] hover:bg-black shadow-[0_8px_30px_rgba(0,0,0,0.5)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.7)] border border-white/10 p-0 overflow-hidden relative group transition-all"
                 >
                     <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity" />
                     <AnimatePresence mode="wait">
@@ -263,7 +265,7 @@ export function ChatBot() {
                                 animate={{ rotate: 0, opacity: 1 }}
                                 exit={{ rotate: 90, opacity: 0 }}
                             >
-                                <X className="w-6 h-6 text-white" />
+                                <X className="w-7 h-7 text-white" />
                             </motion.div>
                         ) : (
                             <motion.div
@@ -272,7 +274,7 @@ export function ChatBot() {
                                 animate={{ rotate: 0, opacity: 1 }}
                                 exit={{ rotate: -90, opacity: 0 }}
                             >
-                                <MessageCircle className="w-6 h-6 text-white fill-white/20" />
+                                <MessageCircle className="w-7 h-7 text-white fill-white/20" />
                             </motion.div>
                         )}
                     </AnimatePresence>

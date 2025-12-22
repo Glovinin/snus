@@ -1,0 +1,1071 @@
+{
+    "products": [
+        {
+            "id": 15052429361478,
+            "title": "CAMO CHERRY COLA LIME 16MG",
+            "handle": "camo-cherry-cola-lime",
+            "body_html": "",
+            "published_at": "2025-06-19T16:23:20+02:00",
+            "created_at": "2025-06-19T16:23:20+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "cherry",
+                "COLA",
+                "LIME"
+            ],
+            "variants": [
+                {
+                    "id": 54675687801158,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056491044",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052429361478,
+                    "created_at": "2025-06-19T16:23:20+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427786608966,
+                    "created_at": "2025-06-25T13:47:56+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:47:58+02:00",
+                    "product_id": 15052429361478,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOCHERRYCOLALIME12MG.png?v=1750852078",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052429033798,
+            "title": "CAMO BUBBLE GUM STRONG 16MG",
+            "handle": "camo-bubble-gum-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:23:07+02:00",
+            "created_at": "2025-06-19T16:23:07+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54675687342406,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490627",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052429033798,
+                    "created_at": "2025-06-19T16:23:08+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78428013625670,
+                    "created_at": "2025-06-25T14:02:42+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T14:02:45+02:00",
+                    "product_id": 15052429033798,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOBUBBLEGUMSTRONG12MG.png?v=1750852965",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052429492550,
+            "title": "CAMO ENERGY BUBBLEGUM",
+            "handle": "camo-energy-bubblegum",
+            "body_html": null,
+            "published_at": "2025-06-19T16:23:25+02:00",
+            "created_at": "2025-06-19T16:23:25+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "NICOTINE FREE"
+            ],
+            "variants": [
+                {
+                    "id": 54675687997766,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490658",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052429492550,
+                    "created_at": "2025-06-19T16:23:25+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427801289030,
+                    "created_at": "2025-06-25T13:49:11+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:49:14+02:00",
+                    "product_id": 15052429492550,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOENERGYBUBBLEGUM.png?v=1750852154",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428443974,
+            "title": "CAMO ICE COLD MINT STRONG 16MG",
+            "handle": "camo-ice-cold-mint-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:51+02:00",
+            "created_at": "2025-06-19T16:22:51+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675686654278,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490535",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428443974,
+                    "created_at": "2025-06-19T16:22:51+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427954676038,
+                    "created_at": "2025-06-25T13:58:33+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:58:36+02:00",
+                    "product_id": 15052428443974,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOICECOLDMINTSTRONG12MG.png?v=1750852716",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052429656390,
+            "title": "CAMO ENERGY VANILLA COFFEE",
+            "handle": "camo-vanilla-coffee",
+            "body_html": "",
+            "published_at": "2025-06-19T16:23:35+02:00",
+            "created_at": "2025-06-19T16:23:35+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "NICOTINE FREE"
+            ],
+            "variants": [
+                {
+                    "id": 54675688227142,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490665",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052429656390,
+                    "created_at": "2025-06-19T16:23:35+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427830518086,
+                    "created_at": "2025-06-25T13:50:57+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:51:00+02:00",
+                    "product_id": 15052429656390,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOENERGYVANILLACOFFEE.png?v=1750852260",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428050758,
+            "title": "CAMO WILD MINT STRONG 16MG",
+            "handle": "camo-wild-mint-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:34+02:00",
+            "created_at": "2025-06-19T16:22:34+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675686162758,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490474",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428050758,
+                    "created_at": "2025-06-19T16:22:34+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427880784198,
+                    "created_at": "2025-06-25T13:54:02+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:54:05+02:00",
+                    "product_id": 15052428050758,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOWILDMINTSTRONG12MG.png?v=1750852445",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428607814,
+            "title": "CAMO GREEN APPLE X-STRONG 33.5MG",
+            "handle": "camo-green-apple-x-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:55+02:00",
+            "created_at": "2025-06-19T16:22:55+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "APPLE"
+            ],
+            "variants": [
+                {
+                    "id": 54675686850886,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490603",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428607814,
+                    "created_at": "2025-06-19T16:22:55+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427969093958,
+                    "created_at": "2025-06-25T13:59:35+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:59:38+02:00",
+                    "product_id": 15052428607814,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOGREENAPPLEX-STRONG25MG.png?v=1750852778",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428837190,
+            "title": "CAMO BUBBLE GUM X-STRONG 33.5MG",
+            "handle": "camo-bubble-gum-x-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:23:03+02:00",
+            "created_at": "2025-06-19T16:23:03+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54675687113030,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490634",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428837190,
+                    "created_at": "2025-06-19T16:23:03+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427994423622,
+                    "created_at": "2025-06-25T14:01:39+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T14:01:42+02:00",
+                    "product_id": 15052428837190,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOBUBBLEGUMX-STRONG25MG.png?v=1750852902",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052429263174,
+            "title": "CAMO SPICY CITRUS STRONG 16MG",
+            "handle": "camo-spicy-citrus-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:23:16+02:00",
+            "created_at": "2025-06-19T16:23:16+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675687670086,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490566",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052429263174,
+                    "created_at": "2025-06-19T16:23:16+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427763933510,
+                    "created_at": "2025-06-25T13:46:32+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:46:35+02:00",
+                    "product_id": 15052429263174,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOSPICYCITRUSSTRONG12MG.png?v=1750851995",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428345670,
+            "title": "CAMO ICE COLD MINT X-STRONG 33.5MG",
+            "handle": "camo-ice-cold-mint-x-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:47+02:00",
+            "created_at": "2025-06-19T16:22:47+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675686523206,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490542",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428345670,
+                    "created_at": "2025-06-19T16:22:47+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427941339462,
+                    "created_at": "2025-06-25T13:57:33+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:57:36+02:00",
+                    "product_id": 15052428345670,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOICECOLDMINTX-STRONG25MG.png?v=1750852656",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052429558086,
+            "title": "CAMO ENERGY ICED MOCHA",
+            "handle": "camo-energy-iced-mocha",
+            "body_html": null,
+            "published_at": "2025-06-19T16:23:30+02:00",
+            "created_at": "2025-06-19T16:23:30+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "NICOTINE FREE"
+            ],
+            "variants": [
+                {
+                    "id": 54675688096070,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490672",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052429558086,
+                    "created_at": "2025-06-19T16:23:30+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427820228934,
+                    "created_at": "2025-06-25T13:49:57+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:49:59+02:00",
+                    "product_id": 15052429558086,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOENERGYICEDMOCHA.png?v=1750852199",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052429164870,
+            "title": "CAMO SPICY CITRUS X-STRONG 33.5MG",
+            "handle": "camo-spicy-citrus-x-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:23:12+02:00",
+            "created_at": "2025-06-19T16:23:12+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675687539014,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490573",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052429164870,
+                    "created_at": "2025-06-19T16:23:12+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78428033057094,
+                    "created_at": "2025-06-25T14:03:42+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T14:03:45+02:00",
+                    "product_id": 15052429164870,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOSPICYCITRUSX-STRONG25MG.png?v=1750853025",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428214598,
+            "title": "CAMO PEPPERMINT STRONG 16MG",
+            "handle": "camo-peppermint-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:42+02:00",
+            "created_at": "2025-06-19T16:22:43+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675686359366,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490504",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428214598,
+                    "created_at": "2025-06-19T16:22:43+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427920236870,
+                    "created_at": "2025-06-25T13:56:29+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:56:32+02:00",
+                    "product_id": 15052428214598,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOPEPPERMINTSTRONG12MG.png?v=1750852592",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052436865350,
+            "title": "CAMO ENERGY CREAMY LATTE",
+            "handle": "camo-energy-creamy-latte",
+            "body_html": null,
+            "published_at": "2025-06-19T16:31:04+02:00",
+            "created_at": "2025-06-19T16:31:04+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "NICOTINE FREE"
+            ],
+            "variants": [
+                {
+                    "id": 54675707855174,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056491167",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052436865350,
+                    "created_at": "2025-06-19T16:31:04+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427866628422,
+                    "created_at": "2025-06-25T13:52:53+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:52:55+02:00",
+                    "product_id": 15052436865350,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOENERGYCREAMYLATTE_1.png?v=1750852375",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052427952454,
+            "title": "CAMO WILD MINT X-STRONG 33.5MG",
+            "handle": "camo-wild-mint-x-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:30+02:00",
+            "created_at": "2025-06-19T16:22:30+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675686031686,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490481",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052427952454,
+                    "created_at": "2025-06-19T16:22:30+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427733721414,
+                    "created_at": "2025-06-25T13:44:27+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:44:30+02:00",
+                    "product_id": 15052427952454,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMO.png?v=1750851870",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428149062,
+            "title": "CAMO PEPPERMINT X-STRONG 33.5MG",
+            "handle": "camo-peppermint-x-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:38+02:00",
+            "created_at": "2025-06-19T16:22:38+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 54675686293830,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490511",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428149062,
+                    "created_at": "2025-06-19T16:22:38+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427901428038,
+                    "created_at": "2025-06-25T13:55:28+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T13:55:31+02:00",
+                    "product_id": 15052428149062,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOPEPPERMINTX-STRONG25MG.png?v=1750852531",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15296283607366,
+            "title": "CAMO GRAPE LIMITED EDITION",
+            "handle": "camo-grape-limited-edition",
+            "body_html": null,
+            "published_at": "2025-12-09T12:25:23+01:00",
+            "created_at": "2025-12-08T15:21:17+01:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55597335380294,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490313",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15296283607366,
+                    "created_at": "2025-12-08T15:21:17+01:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81886278615366,
+                    "created_at": "2025-12-08T15:21:17+01:00",
+                    "position": 1,
+                    "updated_at": "2025-12-08T15:21:17+01:00",
+                    "product_id": 15296283607366,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/910ee099-93d7-4a83-a8b7-0954ab10b4a8.jpg?v=1765203677",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15296169705798,
+            "title": "CAMO MANGO MELON BERRIES LIMITED EDITION",
+            "handle": "camo-mango-melon-berries-limited-edition",
+            "body_html": null,
+            "published_at": "2025-12-09T12:25:34+01:00",
+            "created_at": "2025-12-08T15:09:14+01:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55597196214598,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490436",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15296169705798,
+                    "created_at": "2025-12-08T15:09:14+01:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81885933797702,
+                    "created_at": "2025-12-08T15:09:14+01:00",
+                    "position": 1,
+                    "updated_at": "2025-12-08T15:09:14+01:00",
+                    "product_id": 15296169705798,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/62993974-184a-4c2b-8b04-c3e762239c14.jpg?v=1765202954",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15052428706118,
+            "title": "CAMO GREEN APPLE STRONG 16MG",
+            "handle": "camo-green-apple-strong",
+            "body_html": "",
+            "published_at": "2025-06-19T16:22:59+02:00",
+            "created_at": "2025-06-19T16:22:59+02:00",
+            "updated_at": "2025-12-22T00:34:56+01:00",
+            "vendor": "GLOBAL SNUS",
+            "product_type": "",
+            "tags": [
+                "APPLE"
+            ],
+            "variants": [
+                {
+                    "id": 54675686949190,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4779056490597",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.19",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15052428706118,
+                    "created_at": "2025-06-19T16:22:59+02:00",
+                    "updated_at": "2025-12-22T00:34:56+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78427983020358,
+                    "created_at": "2025-06-25T14:00:41+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-25T14:00:43+02:00",
+                    "product_id": 15052428706118,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CAMOGREENAPPLESTRONG12MG.png?v=1750852843",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

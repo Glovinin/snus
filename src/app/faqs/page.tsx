@@ -135,8 +135,8 @@ export default function FAQsPage() {
         <div className="min-h-screen bg-[#F5F5F7] dark:bg-black flex flex-col">
             <Header />
 
-            <main className="flex-1 pt-32 pb-20">
-                <div className="container px-4 mx-auto max-w-4xl">
+            <main className="flex-1 pt-44 pb-20">
+                <div className="container px-4 mx-auto max-w-7xl">
                     {/* Breadcrumbs */}
                     <nav className="flex items-center gap-2 text-sm mb-6" aria-label="Breadcrumb">
                         <Link href="/" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
@@ -144,7 +144,10 @@ export default function FAQsPage() {
                             <span>Home</span>
                         </Link>
                         <ChevronRight className="w-4 h-4 text-muted-foreground/50" />
-                        <span className="font-medium text-foreground">FAQs</span>
+                        <span className="flex items-center gap-1.5 font-medium text-foreground">
+                            <HelpCircle className="w-4 h-4" />
+                            <span>FAQs</span>
+                        </span>
                     </nav>
 
                     {/* Header */}

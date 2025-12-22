@@ -307,8 +307,13 @@ export default function CheckoutPage() {
                             {items.map((item, i) => (
                                 <div key={`${item.id}-${item.variant}`} className="flex items-center justify-between gap-4">
                                     <div className="relative">
-                                        <div className={`w-16 h-16 rounded-xl border border-gray-200 bg-white flex items-center justify-center overflow-hidden`}>
-                                            <div className={`w-12 h-12 rounded-lg opacity-80 ${item.bgClass}`} />
+                                        <div className={`w-16 h-16 rounded-xl border border-gray-200 bg-white flex items-center justify-center overflow-hidden relative`}>
+                                            <Image
+                                                src={item.image}
+                                                alt={item.name}
+                                                fill
+                                                className="object-contain p-2"
+                                            />
                                             <span className="absolute -top-2 -right-2 bg-gray-500 text-white text-xs font-semibold w-5 h-5 flex items-center justify-center rounded-full z-10">
                                                 {item.quantity}
                                             </span>

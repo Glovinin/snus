@@ -1,0 +1,1709 @@
+{
+    "products": [
+        {
+            "id": 15203509567814,
+            "title": "REBEL WATERMELON ULTIMATE",
+            "handle": "rebel-watermelon-ultimate",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:50+02:00",
+            "created_at": "2025-10-07T20:19:50+02:00",
+            "updated_at": "2025-12-22T00:37:16+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 55222478373190,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956184",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 50,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203509567814,
+                    "created_at": "2025-10-07T20:19:50+02:00",
+                    "updated_at": "2025-12-22T00:37:16+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574666047814,
+                    "created_at": "2025-10-07T20:19:50+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:56+02:00",
+                    "product_id": 15203509567814,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-watermelon-ultimate-50_cc13912a-96b1-40a1-b58f-4cb0d9c1d6f6.png?v=1759861196",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203509797190,
+            "title": "REBEL FREEZE MINT ULTIMATE",
+            "handle": "rebel-freeze-mint-ultimate",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:53+02:00",
+            "created_at": "2025-10-07T20:19:53+02:00",
+            "updated_at": "2025-12-22T00:37:16+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222478668102,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956146",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 50,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203509797190,
+                    "created_at": "2025-10-07T20:19:53+02:00",
+                    "updated_at": "2025-12-22T00:37:16+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574666244422,
+                    "created_at": "2025-10-07T20:19:53+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:20:00+02:00",
+                    "product_id": 15203509797190,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-freeze-ultimate-50_eb5bef50-8316-4da9-b4ac-3cfb9405aa4f.png?v=1759861200",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203508715846,
+            "title": "REBEL PEACH EXTREME",
+            "handle": "rebel-peach-extreme",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:37+02:00",
+            "created_at": "2025-10-07T20:19:37+02:00",
+            "updated_at": "2025-12-22T00:37:16+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222476636486,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956221",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203508715846,
+                    "created_at": "2025-10-07T20:19:37+02:00",
+                    "updated_at": "2025-12-22T00:37:16+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574665326918,
+                    "created_at": "2025-10-07T20:19:37+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:43+02:00",
+                    "product_id": 15203508715846,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-peach-extreme-30_c03c6ea9-7760-48ef-b3a5-4751a962a0c3.png?v=1759861183",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203506749766,
+            "title": "REBEL WILD FRUIT STRONG",
+            "handle": "rebel-wild-fruit-strong",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:17+02:00",
+            "created_at": "2025-10-07T20:19:17+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222471786822,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956238",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203506749766,
+                    "created_at": "2025-10-07T20:19:17+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574652645702,
+                    "created_at": "2025-10-07T20:19:17+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:23+02:00",
+                    "product_id": 15203506749766,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-fruit-strong-16_ae6424c2-e33a-4792-b6c4-6734560b46e4.png?v=1759861163",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203507011910,
+            "title": "REBEL JUICY GRAPE STRONG",
+            "handle": "rebel-juicy-grape-strong",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:19+02:00",
+            "created_at": "2025-10-07T20:19:19+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55222472474950,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956337",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203507011910,
+                    "created_at": "2025-10-07T20:19:19+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574655889734,
+                    "created_at": "2025-10-07T20:19:19+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:25+02:00",
+                    "product_id": 15203507011910,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-grape-strong-16_37f98dab-7476-4e57-81d8-5acf8dd758d6.png?v=1759861165",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203509403974,
+            "title": "REBEL FREEZE MINT EXTREME",
+            "handle": "rebel-freeze-mint-extreme",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:48+02:00",
+            "created_at": "2025-10-07T20:19:48+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222478111046,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956252",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203509403974,
+                    "created_at": "2025-10-07T20:19:48+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574665916742,
+                    "created_at": "2025-10-07T20:19:48+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:54+02:00",
+                    "product_id": 15203509403974,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-freeze-extreme-30_97b0be44-e210-4512-ab79-2175aa858bd6.png?v=1759861194",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203508879686,
+            "title": "REBEL ZESTY LIME EXTREME",
+            "handle": "rebel-zesty-lime-extreme",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:40+02:00",
+            "created_at": "2025-10-07T20:19:40+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222476865862,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956207",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203508879686,
+                    "created_at": "2025-10-07T20:19:40+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574665457990,
+                    "created_at": "2025-10-07T20:19:40+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:46+02:00",
+                    "product_id": 15203508879686,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-lime-extreme-30_2a27e9b0-b592-4592-b7cd-0c560b7affd6.png?v=1759861186",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203508093254,
+            "title": "REBEL MANGO INTENSE",
+            "handle": "rebel-mango-intense",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:28+02:00",
+            "created_at": "2025-10-07T20:19:28+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "MANGO"
+            ],
+            "variants": [
+                {
+                    "id": 55222475882822,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956191",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203508093254,
+                    "created_at": "2025-10-07T20:19:28+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574664704326,
+                    "created_at": "2025-10-07T20:19:28+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:35+02:00",
+                    "product_id": 15203508093254,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-mango-intense-20_a8909443-a5b8-4306-bd95-976ea3a343c2.png?v=1759861175",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138725702,
+            "title": "REBEL ENERGY CHERRY COLA",
+            "handle": "rebel-energy-cherry-cola",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:46+02:00",
+            "created_at": "2025-10-14T18:06:46+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "cherry",
+                "COLA",
+                "REBEL",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55258058129734,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "0850071956702",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138725702,
+                    "created_at": "2025-10-14T18:06:46+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664568134,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:44+01:00",
+                    "product_id": 15212138725702,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/cherry_cola.png?v=1762943804",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138266950,
+            "title": "REBEL ENERGY TROPICAL",
+            "handle": "rebel-energy-tropical",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:33+02:00",
+            "created_at": "2025-10-14T18:06:33+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "REBEL",
+                "STRONG",
+                "TROPICAL FRUIT"
+            ],
+            "variants": [
+                {
+                    "id": 55258057441606,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956696",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138266950,
+                    "created_at": "2025-10-14T18:06:33+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664633670,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:45+01:00",
+                    "product_id": 15212138266950,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Tropical.png?v=1762943805",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138692934,
+            "title": "REBEL ENERGY CITRUS",
+            "handle": "rebel-energy-citrus",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:44+02:00",
+            "created_at": "2025-10-14T18:06:44+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "LEMON",
+                "REBEL",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55258058096966,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956948",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138692934,
+                    "created_at": "2025-10-14T18:06:44+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664535366,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:44+01:00",
+                    "product_id": 15212138692934,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/citrus.png?v=1762943804",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138496326,
+            "title": "REBEL ENERGY MANGO",
+            "handle": "rebel-energy-mango",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:39+02:00",
+            "created_at": "2025-10-14T18:06:39+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "MANGO",
+                "REBEL",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55258057769286,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956740",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138496326,
+                    "created_at": "2025-10-14T18:06:39+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664600902,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:45+01:00",
+                    "product_id": 15212138496326,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/mango.png?v=1762943805",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203507700038,
+            "title": "REBEL PEPPERMINT STRONG",
+            "handle": "rebel-peppermint-strong",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:24+02:00",
+            "created_at": "2025-10-07T20:19:24+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222474735942,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956177",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203507700038,
+                    "created_at": "2025-10-07T20:19:25+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574660215110,
+                    "created_at": "2025-10-07T20:19:25+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:31+02:00",
+                    "product_id": 15203507700038,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-peppermint-strong-16_4a24f827-0885-4378-a22d-bdc0a4085f87.png?v=1759861171",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138430790,
+            "title": "REBEL ENERGY BUBBLEGUM",
+            "handle": "rebel-energy-bubblegum",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:37+02:00",
+            "created_at": "2025-10-14T18:06:37+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "REBEL",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55258057670982,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956733",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138430790,
+                    "created_at": "2025-10-14T18:06:37+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664699206,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:45+01:00",
+                    "product_id": 15212138430790,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/bubblegum_f1807622-7422-4ed6-b684-269e2bbadfed.png?v=1762943805",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138594630,
+            "title": "REBEL ENERGY ENERGY",
+            "handle": "rebel-energy-energy",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:42+02:00",
+            "created_at": "2025-10-14T18:06:42+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "ENERGY DRINK",
+                "REBEL",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55258057900358,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956689",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138594630,
+                    "created_at": "2025-10-14T18:06:43+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664469830,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:45+01:00",
+                    "product_id": 15212138594630,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/energy_drink.png?v=1762943805",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138529094,
+            "title": "REBEL ENERGY DOUBLE MINT ICE",
+            "handle": "rebel-energy-double-mint-ice",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:41+02:00",
+            "created_at": "2025-10-14T18:06:41+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "REBEL",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55258057834822,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "0850071956719",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138529094,
+                    "created_at": "2025-10-14T18:06:41+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664764742,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:45+01:00",
+                    "product_id": 15212138529094,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ice_mint.png?v=1762943805",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138234182,
+            "title": "REBEL ENERGY WATERMELON ICE",
+            "handle": "rebel-energy-watermelon-ice",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:31+02:00",
+            "created_at": "2025-10-14T18:06:31+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "REBEL",
+                "STRONG",
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 55258057376070,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956757",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138234182,
+                    "created_at": "2025-10-14T18:06:31+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664502598,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:44+01:00",
+                    "product_id": 15212138234182,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/watermelon_ice.png?v=1762943804",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212138332486,
+            "title": "REBEL ENERGY STRAWBERRY ICE",
+            "handle": "rebel-energy-strawberry-ice",
+            "body_html": null,
+            "published_at": "2025-10-14T18:06:35+02:00",
+            "created_at": "2025-10-14T18:06:35+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "Tobacco International Inc.",
+            "product_type": "",
+            "tags": [
+                "REBEL",
+                "STRAWBERRY",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55258057507142,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956726",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212138332486,
+                    "created_at": "2025-10-14T18:06:35+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81216664666438,
+                    "created_at": "2025-11-12T11:36:39+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-12T11:36:45+01:00",
+                    "product_id": 15212138332486,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/strawberry_ice.png?v=1762943805",
+                    "width": 4472,
+                    "height": 4472
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203509666118,
+            "title": "REBEL CHERRY ULTIMATE",
+            "handle": "rebel-cherry-ultimate",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:51+02:00",
+            "created_at": "2025-10-07T20:19:51+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "cherry"
+            ],
+            "variants": [
+                {
+                    "id": 55222478504262,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956214",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 50,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203509666118,
+                    "created_at": "2025-10-07T20:19:52+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574666146118,
+                    "created_at": "2025-10-07T20:19:52+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:57+02:00",
+                    "product_id": 15203509666118,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-cherry-ultimate-50_c47a268a-cdd7-45c6-884c-44d20b395711.png?v=1759861197",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203509240134,
+            "title": "REBEL JUICY GRAPE EXTREME",
+            "handle": "rebel-juicy-grape-extreme",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:45+02:00",
+            "created_at": "2025-10-07T20:19:45+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55222477914438,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956245",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203509240134,
+                    "created_at": "2025-10-07T20:19:46+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574665818438,
+                    "created_at": "2025-10-07T20:19:46+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:52+02:00",
+                    "product_id": 15203509240134,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-grape-extreme-30_9b6804a8-b84a-45ee-a4d7-c56ee763205f.png?v=1759861192",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203509076294,
+            "title": "REBEL ICE MINT EXTREME",
+            "handle": "rebel-ice-mint-extreme",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:43+02:00",
+            "created_at": "2025-10-07T20:19:43+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222477717830,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956153",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203509076294,
+                    "created_at": "2025-10-07T20:19:43+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574665621830,
+                    "created_at": "2025-10-07T20:19:43+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:49+02:00",
+                    "product_id": 15203509076294,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-ice-extreme-30_519deaf2-2207-4cf0-ae53-13b8bd8e26ca.png?v=1759861189",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203508584774,
+            "title": "REBEL PEPPERMINT EXTREME",
+            "handle": "rebel-peppermint-extreme",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:35+02:00",
+            "created_at": "2025-10-07T20:19:35+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222476472646,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956160",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203508584774,
+                    "created_at": "2025-10-07T20:19:35+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574665195846,
+                    "created_at": "2025-10-07T20:19:35+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:41+02:00",
+                    "product_id": 15203508584774,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-peppermint-extreme-30_cf887d26-f8c4-42c9-add0-6b10949c2bc4.png?v=1759861181",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203508453702,
+            "title": "REBEL SPEARMINT EXTREME",
+            "handle": "rebel-spearmint-extreme",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:33+02:00",
+            "created_at": "2025-10-07T20:19:33+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222476341574,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956283",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203508453702,
+                    "created_at": "2025-10-07T20:19:34+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574665064774,
+                    "created_at": "2025-10-07T20:19:34+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:39+02:00",
+                    "product_id": 15203508453702,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-spearmint-extreme-30_6c8c104c-67fb-4321-86b0-8b3442024a62.png?v=1759861179",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203508355398,
+            "title": "REBEL CHERRY INTENSE",
+            "handle": "rebel-cherry-intense",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:32+02:00",
+            "created_at": "2025-10-07T20:19:32+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "cherry"
+            ],
+            "variants": [
+                {
+                    "id": 55222476210502,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956320",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203508355398,
+                    "created_at": "2025-10-07T20:19:32+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574664933702,
+                    "created_at": "2025-10-07T20:19:32+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:38+02:00",
+                    "product_id": 15203508355398,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-cherry-intense-20_84f75e34-53aa-4743-b83c-5368ab46e578.png?v=1759861178",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203508224326,
+            "title": "REBEL WATERMELON INTENSE",
+            "handle": "rebel-watermelon-intense",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:30+02:00",
+            "created_at": "2025-10-07T20:19:30+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 55222476046662,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956306",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203508224326,
+                    "created_at": "2025-10-07T20:19:30+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574664802630,
+                    "created_at": "2025-10-07T20:19:30+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:35+02:00",
+                    "product_id": 15203508224326,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-watermelon-intense-20_62b29c6d-b4cc-4c43-a7c6-3ea41a058a91.png?v=1759861175",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203507929414,
+            "title": "REBEL SPEARMINT STRONG",
+            "handle": "rebel-spearmint-strong",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:26+02:00",
+            "created_at": "2025-10-07T20:19:26+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222475555142,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956276",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203507929414,
+                    "created_at": "2025-10-07T20:19:26+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574662476102,
+                    "created_at": "2025-10-07T20:19:26+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:32+02:00",
+                    "product_id": 15203507929414,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-spearmint-strong-16_c557ae2f-a2bf-451a-aab8-ab120d492e60.png?v=1759861172",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203507437894,
+            "title": "REBEL ZESTY LIME STRONG",
+            "handle": "rebel-zesty-lime-strong",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:23+02:00",
+            "created_at": "2025-10-07T20:19:23+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222473752902,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956290",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203507437894,
+                    "created_at": "2025-10-07T20:19:23+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574657921350,
+                    "created_at": "2025-10-07T20:19:23+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:29+02:00",
+                    "product_id": 15203507437894,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-lime-strong-16_ffae2b75-4564-402e-8127-3330a7b9f7d4.png?v=1759861169",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203507241286,
+            "title": "REBEL ICE MINT STRONG",
+            "handle": "rebel-ice-mint-strong",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:21+02:00",
+            "created_at": "2025-10-07T20:19:21+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222472966470,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956269",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203507241286,
+                    "created_at": "2025-10-07T20:19:21+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574656938310,
+                    "created_at": "2025-10-07T20:19:21+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:27+02:00",
+                    "product_id": 15203507241286,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-ice-strong-16_496698d6-5f7a-4e9e-9cf1-68858f36667f.png?v=1759861167",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203506553158,
+            "title": "REBEL CRISP CITRUS STRONG",
+            "handle": "rebel-crisp-citrus-strong",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:15+02:00",
+            "created_at": "2025-10-07T20:19:15+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55222471426374,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956351",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203506553158,
+                    "created_at": "2025-10-07T20:19:16+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574652154182,
+                    "created_at": "2025-10-07T20:19:16+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:22+02:00",
+                    "product_id": 15203506553158,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-citrus-strong-16_ad8f40a3-7f1f-4419-bd8e-6d4886b6dc56.png?v=1759861162",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15203506422086,
+            "title": "REBEL MANGO MEDIUM",
+            "handle": "rebel-mango-medium",
+            "body_html": null,
+            "published_at": "2025-10-07T20:19:13+02:00",
+            "created_at": "2025-10-07T20:19:13+02:00",
+            "updated_at": "2025-12-22T00:37:17+01:00",
+            "vendor": "TOBACCO INTERNATIONAL INC",
+            "product_type": "",
+            "tags": [
+                "MANGO"
+            ],
+            "variants": [
+                {
+                    "id": 55222471262534,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "850071956313",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 12,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15203506422086,
+                    "created_at": "2025-10-07T20:19:14+02:00",
+                    "updated_at": "2025-12-22T00:37:17+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80574651662662,
+                    "created_at": "2025-10-07T20:19:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-07T20:19:18+02:00",
+                    "product_id": 15203506422086,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Rebel-mango-medium-12_bc12751b-55d2-427d-aaef-7ac994a937b0.png?v=1759861158",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

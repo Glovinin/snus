@@ -1,0 +1,1016 @@
+{
+    "products": [
+        {
+            "id": 9025595605318,
+            "title": "KILLA ENERGY / 13 16MG",
+            "handle": "killa-13",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:18+02:00",
+            "created_at": "2024-06-11T14:30:34+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "ENERYDRINK",
+                "KILLA",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49852774613318,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760087",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025595605318,
+                    "created_at": "2024-06-11T14:30:34+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150669126,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:22+02:00",
+                    "product_id": 9025595605318,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Energy_2_1000x1000px_WEB.png?v=1753444402",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025590657350,
+            "title": "KILLA PINEAPPLE 16MG",
+            "handle": "killa-pineapple",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:18+02:00",
+            "created_at": "2024-06-11T14:29:06+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "PINEAPPLE"
+            ],
+            "variants": [
+                {
+                    "id": 49852760785222,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760865",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025590657350,
+                    "created_at": "2024-06-11T14:29:06+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150603590,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9025590657350,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Pineapple_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025999012166,
+            "title": "KILLA BLUEBERRY MINI 16MG",
+            "handle": "killa-blueberry-mini",
+            "body_html": "",
+            "published_at": "2024-06-13T15:35:56+02:00",
+            "created_at": "2024-06-11T16:19:26+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "BERRY",
+                "BLUEBERRY",
+                "KILLA",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49853649617222,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761695",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025999012166,
+                    "created_at": "2024-06-11T16:19:27+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77473577795910,
+                    "created_at": "2025-05-26T12:01:19+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-26T12:01:21+02:00",
+                    "product_id": 9025999012166,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/KILLAMINI_3.png?v=1748253681",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9307948646726,
+            "title": "KILLA SPEARMINT 16MG",
+            "handle": "killa-spearmint",
+            "body_html": "",
+            "published_at": "2024-10-23T09:47:00+02:00",
+            "created_at": "2024-10-23T09:47:01+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 50644088914246,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760131",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9307948646726,
+                    "created_at": "2024-10-23T09:47:01+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150341446,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9307948646726,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Spearmint_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026017034566,
+            "title": "KILLA COLD MINT DRY 16MG",
+            "handle": "killa-cold-mint-dry",
+            "body_html": "<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Buy Killa Cola Online</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Indulge in the refreshing taste of Killa Cola, a nicotine pouch that delivers the familiar flavour of cola with a strong nicotine hit. Produced by NGP Empire in Denmark, Killa Cola combines the sweet, effervescent taste of cola with a balanced nicotine level that provides a substantial kick. Designed for smokers reducing their tobacco use, Killa Cola offers a smoother, more enjoyable tapering-off process.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Why Should You Use Killa Cola?</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Try Killa Cola for a delightful cola flavour paired with a solid nicotine experience. This nicotine pouch is ideal for those who enjoy a sweet and refreshing taste without tobacco. Killa Cola is crafted for users tapering off from smoking, offering a satisfying alternative that delivers the nicotine effect without the downsides of tobacco. It’s the perfect choice for anyone looking to enjoy nicotine in a new, flavourful way.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Why You Should Buy Killa Cola</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Killa Cola is perfect for individuals who love cola flavour and need a nicotine product that delivers both taste and a strong kick. Its discreet design makes it easy to carry wherever you go—whether at work, out with friends, or relaxing at home. The classic cola flavour offers a refreshing alternative to traditional tobacco products, helping manage nicotine cravings as you reduce or quit smoking.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">SnusMart.com Range of Flavors from Killa</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">At <a href=\"https://snusmart.com/\">SnusMart.com</a>, explore a variety of Killa flavours to suit different preferences. Killa nicotine pouches are known for their robust flavours and substantial nicotine hit, making them popular for those reducing tobacco use. Popular flavours include Killa Cold Mint, Killa Cola, and Killa Cold Mint Mini. Each flavour is crafted to provide a unique nicotine experience. Discover the full range of Killa flavours at SnusMart.com to find your perfect match!</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Here are four of the most popular Killa flavours:</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint\"><b>Killa Cold Mint:</b></a> Experience an intense menthol burst with a powerful nicotine kick.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cola\"><b>Killa Cola:</b></a> Enjoy the refreshing and classic taste of cola with a satisfying nicotine hit.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint-dry\"><b>Killa Cold Mint Dry:</b></a> For those who prefer a drier pouch, Killa Cold Mint Dry offers a strong and crisp minty flavour.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint-mini\"><b>Killa Cold Mint Mini:</b></a> Get the same powerful mint experience in a more compact, discreet form.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">About Killa</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Killa nicotine pouches, produced by NGP Empire in Denmark, are designed for smokers who are looking to reduce or eliminate their tobacco use. Known for their average nicotine levels combined with a heavy kick, Killa pouches provide a satisfying alternative to smoking while still delivering the effects of nicotine. Whether you’re tapering off or simply looking for a cleaner nicotine experience, Killa offers a range of flavours that cater to different tastes and preferences, ensuring you find the right product to support your transition.</span></p>",
+            "published_at": "2024-06-13T15:35:55+02:00",
+            "created_at": "2024-06-11T16:25:30+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49853717020998,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761398",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026017034566,
+                    "created_at": "2024-06-11T16:25:30+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77477079089478,
+                    "created_at": "2025-05-26T13:12:37+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-26T13:12:40+02:00",
+                    "product_id": 9026017034566,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/KILLA_3.png?v=1748257960",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025555923270,
+            "title": "KILLA COLD MINT 16MG",
+            "handle": "killa-cold-mint",
+            "body_html": "<p class=\"MsoNormal\"><b>Buy Killa Cold Mint Online</b></p>\n<p class=\"MsoNormal\">Experience the invigorating power of Killa Cold Mint, a nicotine pouch designed for those who crave a strong, refreshing mint flavour. Produced by NGP Empire in Denmark, Killa Cold Mint delivers an intense burst of icy menthol combined with a balanced nicotine level that packs a heavy kick. Ideal for smokers looking to reduce tobacco intake while still enjoying nicotine, Killa Cold Mint offers a satisfying and refreshing alternative that eases the tapering-off process.</p>\n<p class=\"MsoNormal\"><b>Why Should You Use Killa Cold Mint?</b></p>\n<p class=\"MsoNormal\">Try Killa Cold Mint if you’re seeking a robust and revitalizing mint experience. This nicotine pouch is perfect for those who want a powerful menthol hit without tobacco. Crafted for users tapering off from smoking, Killa Cold Mint delivers a strong flavour and solid nicotine effect, helping you transition smoothly. It’s the ideal choice for anyone looking to enjoy nicotine in a cleaner, more convenient way.</p>\n<p class=\"MsoNormal\"><b>Why You Should Buy Killa Cold Mint</b></p>\n<p class=\"MsoNormal\">Killa Cold Mint is perfect for individuals who love bold mint flavours and need a nicotine product that delivers a strong kick. Its discreet design makes it easy to take anywhere—whether at work, socializing, or relaxing at home. The intense menthol flavour offers a refreshing alternative to traditional tobacco, making it easier to manage nicotine cravings as you taper off.</p>\n<p class=\"MsoNormal\"><b>SnusMart.com Range of Flavors from Killa</b></p>\n<p class=\"MsoNormal\">At SnusMart.com, you’ll find a variety of Killa flavours to suit every preference. Killa nicotine pouches are known for their strong flavours and substantial nicotine hit, making them popular for those reducing tobacco use. Popular flavours include Killa Cold Mint, Killa Cola, and Killa Cold Mint Dry. Each flavour is carefully crafted to provide a unique nicotine experience. Explore the full range of Killa flavours at SnusMart.com to find your favourite!</p>\n<p class=\"MsoNormal\"><b>Here are four of the most popular Killa flavours:</b></p>\n<p class=\"MsoNormal\"><a href=\"https://snusmart.com/products/killa-cold-mint\"><b>Killa Cold Mint:</b></a> Experience an intense menthol burst with a powerful nicotine kick.</p>\n<p class=\"MsoNormal\"><a href=\"https://snusmart.com/products/killa-cola\"><b>Killa Cola:</b></a> Enjoy the refreshing and classic taste of cola with a satisfying nicotine hit.</p>\n<p class=\"MsoNormal\"><a href=\"https://snusmart.com/products/killa-cold-mint-dry\"><b>Killa Cold Mint Dry:</b></a> For those who prefer a drier pouch, Killa Cold Mint Dry offers a strong and crisp minty flavour.</p>\n<p class=\"MsoNormal\"><a href=\"https://snusmart.com/products/killa-cold-mint-mini\"><b>Killa Cold Mint Mini:</b></a> Get the same powerful mint experience in a more compact, discreet form.</p>\n<p class=\"MsoNormal\"><b>About Killa</b></p>\n<p class=\"MsoNormal\">Killa nicotine pouches, produced by NGP Empire in Denmark, are designed for smokers reducing or eliminating tobacco use. Known for their average nicotine levels with a heavy kick, Killa pouches offer a satisfying alternative to smoking while still delivering nicotine's effects. Whether tapering off or seeking a cleaner nicotine experience, Killa provides a range of flavours to support your transition.</p>",
+            "published_at": "2024-06-13T15:36:20+02:00",
+            "created_at": "2024-06-11T14:21:40+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49852688466246,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760117",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025555923270,
+                    "created_at": "2024-06-11T14:21:41+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150570822,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9025555923270,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_ColdMint_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025551302982,
+            "title": "KILLA COLA 16MG",
+            "handle": "killa-cola",
+            "body_html": "<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Buy Killa Cola Online</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Indulge in the refreshing taste of Killa Cola, a nicotine pouch that delivers the familiar flavour of cola with a strong nicotine hit. Produced by NGP Empire in Denmark, Killa Cola combines the sweet, effervescent taste of cola with a balanced nicotine level that provides a substantial kick. Designed for smokers reducing their tobacco use, Killa Cola offers a smoother, more enjoyable tapering-off process.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Why Should You Use Killa Cola?</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Try Killa Cola for a delightful cola flavour paired with a solid nicotine experience. This nicotine pouch is ideal for those who enjoy a sweet and refreshing taste without tobacco. Killa Cola is crafted for users tapering off from smoking, offering a satisfying alternative that delivers the nicotine effect without the downsides of tobacco. It’s the perfect choice for anyone looking to enjoy nicotine in a new, flavourful way.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Why You Should Buy Killa Cola</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Killa Cola is perfect for individuals who love cola flavour and need a nicotine product that delivers both taste and a strong kick. Its discreet design makes it easy to carry wherever you go—whether at work, out with friends, or relaxing at home. The classic cola flavour offers a refreshing alternative to traditional tobacco products, helping manage nicotine cravings as you reduce or quit smoking.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">SnusMart.com Range of Flavors from Killa</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">At <a href=\"https://snusmart.com/\">SnusMart.com</a>, explore a variety of Killa flavours to suit different preferences. Killa nicotine pouches are known for their robust flavours and substantial nicotine hit, making them popular for those reducing tobacco use. Popular flavours include Killa Cold Mint, Killa Cola, and Killa Cold Mint Mini. Each flavour is crafted to provide a unique nicotine experience. Discover the full range of Killa flavours at SnusMart.com to find your perfect match!</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Here are four of the most popular Killa flavours:</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint\"><b>Killa Cold Mint:</b></a> Experience an intense menthol burst with a powerful nicotine kick.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cola\"><b>Killa Cola:</b></a> Enjoy the refreshing and classic taste of cola with a satisfying nicotine hit.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint-dry\"><b>Killa Cold Mint Dry:</b></a> For those who prefer a drier pouch, Killa Cold Mint Dry offers a strong and crisp minty flavour.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint-mini\"><b>Killa Cold Mint Mini:</b></a> Get the same powerful mint experience in a more compact, discreet form.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">About Killa</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Killa nicotine pouches, produced by NGP Empire in Denmark, are designed for smokers who are looking to reduce or eliminate their tobacco use. Known for their average nicotine levels combined with a heavy kick, Killa pouches provide a satisfying alternative to smoking while still delivering the effects of nicotine. Whether you’re tapering off or simply looking for a cleaner nicotine experience, Killa offers a range of flavours that cater to different tastes and preferences, ensuring you find the right product to support your transition.</span></p>",
+            "published_at": "2024-06-13T15:36:20+02:00",
+            "created_at": "2024-06-11T14:20:12+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "COLA",
+                "KILLA",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49852676407622,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760100",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025551302982,
+                    "created_at": "2024-06-11T14:20:12+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150439750,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9025551302982,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Cola_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026003534150,
+            "title": "KILLA GRAPE ICE 16MG",
+            "handle": "killa-grape-ice",
+            "body_html": "",
+            "published_at": "2024-06-13T15:35:56+02:00",
+            "created_at": "2024-06-11T16:20:56+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "KILLA",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49853666591046,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761343",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026003534150,
+                    "created_at": "2024-06-11T16:20:56+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150636358,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9026003534150,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Grape_Ice_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026012250438,
+            "title": "KILLA MANGO ICE 16MG",
+            "handle": "killa-mango-ice",
+            "body_html": "",
+            "published_at": "2024-06-13T15:35:55+02:00",
+            "created_at": "2024-06-11T16:24:00+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "EXOTIC FRUITS",
+                "FRUIT",
+                "KILLA",
+                "MANGO",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49853700768070,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761336",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026012250438,
+                    "created_at": "2024-06-11T16:24:00+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150406982,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9026012250438,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Mango_Ice_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025565458758,
+            "title": "KILLA WATERMELON 16MG",
+            "handle": "killa-watermelon",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:19+02:00",
+            "created_at": "2024-06-11T14:24:37+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 49852712026438,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760148",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025565458758,
+                    "created_at": "2024-06-11T14:24:37+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150374214,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9025565458758,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Watermelon_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025570373958,
+            "title": "KILLA APPLE 16MG",
+            "handle": "killa-apple",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:19+02:00",
+            "created_at": "2024-06-11T14:26:09+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "APPLE",
+                "KILLA",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49852725264710,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760896",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025570373958,
+                    "created_at": "2024-06-11T14:26:09+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150505286,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9025570373958,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Apple_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025560969542,
+            "title": "KILLA BLUEBERRY 16MG",
+            "handle": "killa-blueberry",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:20+02:00",
+            "created_at": "2024-06-11T14:23:08+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "BERRY",
+                "BLUEBERRY",
+                "FRUIT",
+                "KILLA",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49852701114694,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760094",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025560969542,
+                    "created_at": "2024-06-11T14:23:08+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150538054,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9025560969542,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Blueberry_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026007990598,
+            "title": "KILLA STRAWBERRY LYCHEE 16MG",
+            "handle": "killa-strawberry-lychee",
+            "body_html": "",
+            "published_at": "2024-06-13T15:35:55+02:00",
+            "created_at": "2024-06-11T16:22:29+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "EXOTIC FRUITS",
+                "FRUITS",
+                "KILLA",
+                "MEDIUM",
+                "STRAWBERRY"
+            ],
+            "variants": [
+                {
+                    "id": 49853683368262,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761329",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026007990598,
+                    "created_at": "2024-06-11T16:22:30+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150308678,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9026007990598,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Strawberry_Lychee_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025585971526,
+            "title": "KILLA X-COLD MINT 16MG",
+            "handle": "killa-x-cold-mint",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:19+02:00",
+            "created_at": "2024-06-11T14:27:38+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49852749087046,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760155",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025585971526,
+                    "created_at": "2024-06-11T14:27:38+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150472518,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:23+02:00",
+                    "product_id": 9025585971526,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_ColdXMint_2_1000x1000px_WEB.png?v=1753444403",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026032238918,
+            "title": "KILLA FROSTED MINT 16MG",
+            "handle": "killa-frosted-mint",
+            "body_html": "<!---->",
+            "published_at": "2024-06-13T15:35:54+02:00",
+            "created_at": "2024-06-11T16:30:06+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49853760438598,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761732",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026032238918,
+                    "created_at": "2024-06-11T16:30:06+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79161150275910,
+                    "created_at": "2025-07-25T13:53:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-25T13:53:22+02:00",
+                    "product_id": 9026032238918,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Killa_White_Frosted_Mint_2_1000x1000px_WEB.png?v=1753444402",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026027094342,
+            "title": "KILLA MANGO ICE MINI 16MG",
+            "handle": "killa-mango-ice-mini",
+            "body_html": "",
+            "published_at": "2024-06-13T15:35:54+02:00",
+            "created_at": "2024-06-11T16:28:40+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "EXOTIC FRUITS",
+                "FRUIT",
+                "KILLA",
+                "MANGO",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49853750051142,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761701",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026027094342,
+                    "created_at": "2024-06-11T16:28:40+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77473528643910,
+                    "created_at": "2025-05-26T11:59:33+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-26T11:59:35+02:00",
+                    "product_id": 9026027094342,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/KILLAMINI_1.png?v=1748253575",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026021884230,
+            "title": "KILLA COLD MINT MINI 16MG",
+            "handle": "killa-cold-mint-mini",
+            "body_html": "<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Buy Killa Cola Online</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Indulge in the refreshing taste of Killa Cola, a nicotine pouch that delivers the familiar flavour of cola with a strong nicotine hit. Produced by NGP Empire in Denmark, Killa Cola combines the sweet, effervescent taste of cola with a balanced nicotine level that provides a substantial kick. Designed for smokers reducing their tobacco use, Killa Cola offers a smoother, more enjoyable tapering-off process.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Why Should You Use Killa Cola?</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Try Killa Cola for a delightful cola flavour paired with a solid nicotine experience. This nicotine pouch is ideal for those who enjoy a sweet and refreshing taste without tobacco. Killa Cola is crafted for users tapering off from smoking, offering a satisfying alternative that delivers the nicotine effect without the downsides of tobacco. It’s the perfect choice for anyone looking to enjoy nicotine in a new, flavourful way.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Why You Should Buy Killa Cola</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Killa Cola is perfect for individuals who love cola flavour and need a nicotine product that delivers both taste and a strong kick. Its discreet design makes it easy to carry wherever you go—whether at work, out with friends, or relaxing at home. The classic cola flavour offers a refreshing alternative to traditional tobacco products, helping manage nicotine cravings as you reduce or quit smoking.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">SnusMart.com Range of Flavors from Killa</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">At <a href=\"https://snusmart.com/\">SnusMart.com</a>, explore a variety of Killa flavours to suit different preferences. Killa nicotine pouches are known for their robust flavours and substantial nicotine hit, making them popular for those reducing tobacco use. Popular flavours include Killa Cold Mint, Killa Cola, and Killa Cold Mint Mini. Each flavour is crafted to provide a unique nicotine experience. Discover the full range of Killa flavours at SnusMart.com to find your perfect match!</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">Here are four of the most popular Killa flavours:</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint\"><b>Killa Cold Mint:</b></a> Experience an intense menthol burst with a powerful nicotine kick.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cola\"><b>Killa Cola:</b></a> Enjoy the refreshing and classic taste of cola with a satisfying nicotine hit.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint-dry\"><b>Killa Cold Mint Dry:</b></a> For those who prefer a drier pouch, Killa Cold Mint Dry offers a strong and crisp minty flavour.</span></p>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\"><a href=\"https://snusmart.com/products/killa-cold-mint-mini\"><b>Killa Cold Mint Mini:</b></a> Get the same powerful mint experience in a more compact, discreet form.</span></p>\n<h2 class=\"MsoNormal\"><b><span lang=\"EN-GB\">About Killa</span></b></h2>\n<p class=\"MsoNormal\"><span lang=\"EN-GB\">Killa nicotine pouches, produced by NGP Empire in Denmark, are designed for smokers who are looking to reduce or eliminate their tobacco use. Known for their average nicotine levels combined with a heavy kick, Killa pouches provide a satisfying alternative to smoking while still delivering the effects of nicotine. Whether you’re tapering off or simply looking for a cleaner nicotine experience, Killa offers a range of flavours that cater to different tastes and preferences, ensuring you find the right product to support your transition.</span></p>",
+            "published_at": "2024-06-13T15:35:55+02:00",
+            "created_at": "2024-06-11T16:27:06+02:00",
+            "updated_at": "2025-12-22T00:36:24+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "KILLA",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49853730357574,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761565",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026021884230,
+                    "created_at": "2024-06-11T16:27:06+02:00",
+                    "updated_at": "2025-12-22T00:36:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77473536442694,
+                    "created_at": "2025-05-26T12:00:13+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-26T12:00:15+02:00",
+                    "product_id": 9026021884230,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/KILLAMINI_2.png?v=1748253615",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

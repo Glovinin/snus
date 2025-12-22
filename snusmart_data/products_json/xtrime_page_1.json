@@ -1,0 +1,63 @@
+{
+    "products": [
+        {
+            "id": 9025611170118,
+            "title": "XTRIME X-FREEZE 30MG",
+            "handle": "xtrime-x-freeze",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:17+02:00",
+            "created_at": "2024-06-11T14:35:02+02:00",
+            "updated_at": "2025-12-22T00:39:36+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG",
+                "XTRIME"
+            ],
+            "variants": [
+                {
+                    "id": 49852806725958,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000760766",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.39",
+                    "grams": 25,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025611170118,
+                    "created_at": "2024-06-11T14:35:02+02:00",
+                    "updated_at": "2025-12-22T00:39:36+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336538448198,
+                    "created_at": "2025-05-23T12:14:25+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:14:28+02:00",
+                    "product_id": 9025611170118,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/XTRIME_2.png?v=1747995268",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,363 @@
+{
+    "products": [
+        {
+            "id": 15164622799174,
+            "title": "VELO TROPICAL MANGO HIGH NIC 20MG",
+            "handle": "velo-tropical-mango-high-nic",
+            "body_html": "",
+            "published_at": "2025-09-29T11:57:35+02:00",
+            "created_at": "2025-09-23T17:02:28+02:00",
+            "updated_at": "2025-12-22T00:39:02+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "EXOTIC FRUITS",
+                "FRUITS",
+                "kiya kacha",
+                "MANGO",
+                "STRONG",
+                "VELO"
+            ],
+            "variants": [
+                {
+                    "id": 55131098546502,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5715345023854",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 22,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164622799174,
+                    "created_at": "2025-09-23T17:02:28+02:00",
+                    "updated_at": "2025-12-22T00:39:02+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285057089862,
+                    "created_at": "2025-09-23T17:08:56+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:09:00+02:00",
+                    "product_id": 15164622799174,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/TropicalMango_fee6657b-4aa5-41b8-9b61-25b680eb2721.png?v=1758640140",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15003704721734,
+            "title": "VELO BRIGHT SPEARMINT MINI 8MG",
+            "handle": "velo-bright-spearmint-mini",
+            "body_html": "",
+            "published_at": "2025-05-06T13:12:56+02:00",
+            "created_at": "2025-05-06T13:07:53+02:00",
+            "updated_at": "2025-12-22T00:39:02+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "kiya kacha",
+                "MINT",
+                "VELO",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54456183324998,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5715345023779",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 22,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15003704721734,
+                    "created_at": "2025-05-06T13:07:53+02:00",
+                    "updated_at": "2025-12-22T00:39:02+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77295464612166,
+                    "created_at": "2025-05-22T14:50:11+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-22T14:50:13+02:00",
+                    "product_id": 15003704721734,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/MINI.png?v=1747918213",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14893736722758,
+            "title": "VELO ICY BERRIES 14MG",
+            "handle": "velo-icy-berries",
+            "body_html": "",
+            "published_at": "2025-01-31T17:09:32+01:00",
+            "created_at": "2025-01-31T11:48:13+01:00",
+            "updated_at": "2025-12-22T00:39:02+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "EXOTIC FRUITS",
+                "FRUITS",
+                "MEDIUM",
+                "MINT",
+                "VELO"
+            ],
+            "variants": [
+                {
+                    "id": 54058932207942,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5715345023700",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14893736722758,
+                    "created_at": "2025-01-31T11:48:13+01:00",
+                    "updated_at": "2025-12-22T00:39:02+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78593035305286,
+                    "created_at": "2025-07-02T12:56:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-02T12:56:23+02:00",
+                    "product_id": 14893736722758,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/VELOICYBERRIES.png?v=1751453783",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970264748358,
+            "title": "VELO WINTERY WATERMELON 14.3MG",
+            "handle": "velo-wintery-watermelon",
+            "body_html": null,
+            "published_at": "2025-04-02T21:50:51+02:00",
+            "created_at": "2025-04-02T21:50:51+02:00",
+            "updated_at": "2025-12-22T00:39:02+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT",
+                "VELO"
+            ],
+            "variants": [
+                {
+                    "id": 54323139313990,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6253341422312",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970264748358,
+                    "created_at": "2025-04-02T21:50:51+02:00",
+                    "updated_at": "2025-12-22T00:39:02+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77590464856390,
+                    "created_at": "2025-05-28T16:28:09+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-28T16:28:12+02:00",
+                    "product_id": 14970264748358,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/wintery.png?v=1748442492",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026588442950,
+            "title": "VELO MIGHTY PEPPERMINT ZERO",
+            "handle": "velo-cool-storm-zero",
+            "body_html": "<!---->",
+            "published_at": "2024-06-13T15:35:41+02:00",
+            "created_at": "2024-06-11T17:34:34+02:00",
+            "updated_at": "2025-12-22T00:39:02+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "NICOTINE FREE"
+            ],
+            "variants": [
+                {
+                    "id": 49854726209862,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5715345011097",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026588442950,
+                    "created_at": "2024-06-11T17:34:35+02:00",
+                    "updated_at": "2025-12-22T00:39:02+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78593125187910,
+                    "created_at": "2025-07-02T12:59:36+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-02T12:59:39+02:00",
+                    "product_id": 9026588442950,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/VELOMIGHTYPEPPERMINTZERO.png?v=1751453979",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15024744071494,
+            "title": "VELO STRAWBERRY ICE 14.3MG",
+            "handle": "velo-strawberry-ice",
+            "body_html": "",
+            "published_at": "2025-05-23T10:48:15+02:00",
+            "created_at": "2025-05-23T10:47:01+02:00",
+            "updated_at": "2025-12-22T00:39:02+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "FRUITS",
+                "MEDIUM",
+                "STRAWBERRY",
+                "VELO"
+            ],
+            "variants": [
+                {
+                    "id": 54538501980486,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 22,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15024744071494,
+                    "created_at": "2025-05-23T10:47:02+02:00",
+                    "updated_at": "2025-12-22T00:39:02+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78591816892742,
+                    "created_at": "2025-07-02T12:05:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-02T12:05:17+02:00",
+                    "product_id": 15024744071494,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/STRAWBERRY.png?v=1751450717",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

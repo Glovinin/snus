@@ -1,0 +1,362 @@
+{
+    "products": [
+        {
+            "id": 9025702789446,
+            "title": "ACE X COSMIC COOL MINT 16MG",
+            "handle": "ace-x-cosmic-cool-mint",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:12+02:00",
+            "created_at": "2024-06-11T14:52:57+02:00",
+            "updated_at": "2025-12-22T00:34:00+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "ACE",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49852978168134,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5707294351379",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025702789446,
+                    "created_at": "2024-06-11T14:52:57+02:00",
+                    "updated_at": "2025-12-22T00:34:00+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77824477888838,
+                    "created_at": "2025-06-04T12:21:50+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-04T12:21:52+02:00",
+                    "product_id": 9025702789446,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ACEXCOSMICCOOLMINT.png?v=1749032512",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025790378310,
+            "title": "ACE EUCALYPTUS 16MG",
+            "handle": "ace-eucalyptus",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:07+02:00",
+            "created_at": "2024-06-11T15:18:54+02:00",
+            "updated_at": "2025-12-22T00:34:00+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "ACE",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49853169303878,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5707294250832",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025790378310,
+                    "created_at": "2024-06-11T15:18:54+02:00",
+                    "updated_at": "2025-12-22T00:34:00+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77824391250246,
+                    "created_at": "2025-06-04T12:18:59+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-04T12:19:02+02:00",
+                    "product_id": 9025790378310,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ACEEUCALYPTUS.png?v=1749032342",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025691418950,
+            "title": "ACE COOL MINT 12MG",
+            "handle": "ace-cool-mint",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:13+02:00",
+            "created_at": "2024-06-11T14:50:02+02:00",
+            "updated_at": "2025-12-22T00:34:00+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "ACE",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49852959424838,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5707294391733",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025691418950,
+                    "created_at": "2024-06-11T14:50:02+02:00",
+                    "updated_at": "2025-12-22T00:34:00+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77824533987654,
+                    "created_at": "2025-06-04T12:23:47+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-04T12:23:50+02:00",
+                    "product_id": 9025691418950,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ACECOOLMINT.png?v=1749032630",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025785332038,
+            "title": "ACE X GUARANA CHILI BOOST 16MG",
+            "handle": "ace-x-guarana-chili-boost",
+            "body_html": "54.99",
+            "published_at": "2024-06-13T15:36:07+02:00",
+            "created_at": "2024-06-11T15:17:19+02:00",
+            "updated_at": "2025-12-22T00:34:00+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "ACE",
+                "CHILI",
+                "EXOTIC FRUITS",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 49853153182022,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5707294351812",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025785332038,
+                    "created_at": "2024-06-11T15:17:19+02:00",
+                    "updated_at": "2025-12-22T00:34:00+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77824443547974,
+                    "created_at": "2025-06-04T12:20:59+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-04T12:21:01+02:00",
+                    "product_id": 9025785332038,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ACEXGUARANACHILIBOOST.png?v=1749032461",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025697120582,
+            "title": "ACE X COOL MINT 16MG",
+            "handle": "ace-x-cool-mint",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:13+02:00",
+            "created_at": "2024-06-11T14:51:30+02:00",
+            "updated_at": "2025-12-22T00:34:00+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "ACE",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 49852968894790,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5707294351331",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025697120582,
+                    "created_at": "2024-06-11T14:51:30+02:00",
+                    "updated_at": "2025-12-22T00:34:00+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77824509247814,
+                    "created_at": "2025-06-04T12:22:53+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-04T12:22:56+02:00",
+                    "product_id": 9025697120582,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ACEXCOOLMINT.png?v=1749032576",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026528346438,
+            "title": "ACE X BLACK RASPBERRY CHILI 16MG",
+            "handle": "ace-x-black-raspberry-chili",
+            "body_html": "",
+            "published_at": "2024-06-13T15:35:43+02:00",
+            "created_at": "2024-06-11T17:28:02+02:00",
+            "updated_at": "2025-12-22T00:34:00+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "ACE",
+                "CHILI",
+                "FRUIT",
+                "MEDIUM",
+                "MINT",
+                "RASPBERRY"
+            ],
+            "variants": [
+                {
+                    "id": 49854617190726,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5707294359900",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026528346438,
+                    "created_at": "2024-06-11T17:28:02+02:00",
+                    "updated_at": "2025-12-22T00:34:00+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77824362316102,
+                    "created_at": "2025-06-04T12:17:57+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-04T12:18:00+02:00",
+                    "product_id": 9026528346438,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ACEXBLACKRASPBERRYCHILI.png?v=1749032280",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

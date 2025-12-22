@@ -1,0 +1,162 @@
+{
+    "brand": {
+        "name": "Kratos",
+        "slug": "kratos",
+        "description": "Premium nicotine pouches from Kratos",
+        "isActive": true
+    },
+    "products": [
+        {
+            "name": "Black Cherry Ice",
+            "description": "Black Cherry Ice nicotine pouches by Kratos. 30mg nicotine content for a strong experience. Refreshing black cherry flavor with an icy finish.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-BCI-30",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "STRONG",
+            "flavor": "Black Cherry",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Blackcherryice.jpg?v=1762335888"
+            ],
+            "isActive": true,
+            "isFeatured": false,
+            "isBestSeller": false,
+            "isWeeklySpecial": false
+        },
+        {
+            "name": "Citrus Burst",
+            "description": "Citrus Burst nicotine pouches by Kratos. 16mg nicotine content for a medium experience. Explosive citrus flavor that awakens your senses.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-CB-16",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "MEDIUM",
+            "flavor": "Citrus",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CitrusBrust.jpg?v=1762335888"
+            ],
+            "isActive": true,
+            "isFeatured": false,
+            "isBestSeller": false,
+            "isWeeklySpecial": false
+        },
+        {
+            "name": "Cool Mint",
+            "description": "Cool Mint nicotine pouches by Kratos. 50mg nicotine content for an extra strong experience. Classic cool mint flavor with intense freshness.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-CM-50",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "EXTRA",
+            "flavor": "Mint",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/KratosCoolMint.jpg?v=1762335888"
+            ],
+            "isActive": true,
+            "isFeatured": true,
+            "isBestSeller": false,
+            "isWeeklySpecial": false
+        },
+        {
+            "name": "Double Mint",
+            "description": "Double Mint nicotine pouches by Kratos. 50mg nicotine content for an extra strong experience. Double the mint, double the freshness.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-DM-50",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "EXTRA",
+            "flavor": "Mint",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/DoubleMint.jpg?v=1762335888"
+            ],
+            "isActive": true,
+            "isFeatured": false,
+            "isBestSeller": true,
+            "isWeeklySpecial": false
+        },
+        {
+            "name": "Grape Ice",
+            "description": "Grape Ice nicotine pouches by Kratos. 16mg nicotine content for a medium experience. Sweet grape flavor with a cooling ice sensation.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-GI-16",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "MEDIUM",
+            "flavor": "Grape",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/grape_ice.jpg?v=1762335967"
+            ],
+            "isActive": true,
+            "isFeatured": false,
+            "isBestSeller": false,
+            "isWeeklySpecial": false
+        },
+        {
+            "name": "Mango Inferno",
+            "description": "Mango Inferno nicotine pouches by Kratos. 16mg nicotine content for a medium experience. Tropical mango flavor with a fiery kick.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-MI-16",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "MEDIUM",
+            "flavor": "Mango",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/mangoinferno.jpg?v=1762335888"
+            ],
+            "isActive": true,
+            "isFeatured": false,
+            "isBestSeller": false,
+            "isWeeklySpecial": true
+        },
+        {
+            "name": "Peach Frost",
+            "description": "Peach Frost nicotine pouches by Kratos. 30mg nicotine content for a strong experience. Sweet peach flavor with a frosty finish.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-PF-30",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "STRONG",
+            "flavor": "Peach",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PeachFrost.jpg?v=1762335889"
+            ],
+            "isActive": true,
+            "isFeatured": false,
+            "isBestSeller": false,
+            "isWeeklySpecial": false
+        },
+        {
+            "name": "Strawberry Ice",
+            "description": "Strawberry Ice nicotine pouches by Kratos. 30mg nicotine content for a strong experience. Sweet strawberry flavor with a refreshing icy twist.",
+            "price": 3.69,
+            "compareAtPrice": null,
+            "sku": "KRATOS-SI-30",
+            "category": "Nicotine Pouches",
+            "brand": "Kratos",
+            "strength": "STRONG",
+            "flavor": "Strawberry",
+            "stock": 100,
+            "images": [
+                "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Strawberryice.jpg?v=1762335889"
+            ],
+            "isActive": true,
+            "isFeatured": false,
+            "isBestSeller": false,
+            "isWeeklySpecial": false
+        }
+    ]
+}

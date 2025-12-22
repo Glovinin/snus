@@ -5,19 +5,26 @@ import { useParams, useRouter } from "next/navigation";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Check, Minus, Plus, ShieldCheck, ShoppingBag, Star, Truck, Loader2, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, Check, Minus, Plus, ShieldCheck, ShoppingBag, Star, Truck, Loader2, ChevronLeft, ChevronRight, Home } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCartStore } from "@/store/cartStore";
+import { useTransitionStore } from "@/store/transitionStore";
 import { getProductById, Product } from "@/lib/firebase/products";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function ProductPage() {
     const params = useParams();
     const router = useRouter();
     const id = params?.id as string;
     const addItem = useCartStore((state) => state.addItem);
+    const transitionProduct = useTransitionStore((state) => state.transitionProduct);
+    const transitionSourceId = useTransitionStore((state) => state.transitionSourceId);
 
-    const [product, setProduct] = useState<Product | null>(null);
-    const [loading, setLoading] = useState(true);
+    // Initialize with transition product if IDs match
+    const initialProduct = transitionProduct?.id === id ? transitionProduct : null;
+    const [product, setProduct] = useState<Product | null>(initialProduct);
+    const [loading, setLoading] = useState(!initialProduct);
     const [quantity, setQuantity] = useState(1);
     const [selectedSize, setSelectedSize] = useState("1");
     const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -38,8 +45,8 @@ export default function ProductPage() {
         fetchProduct();
     }, [id]);
 
-    // Loading state
-    if (loading) {
+    // Loading state - Only show if we have NO product data at all
+    if (loading && !product) {
         return (
             <div className="flex flex-col min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground">
                 <Header />
@@ -104,22 +111,28 @@ export default function ProductPage() {
         <div className="min-h-screen bg-[#F5F5F7] dark:bg-black text-foreground selection:bg-black selection:text-white flex flex-col font-sans">
             <Header />
 
-            <main className="flex-1 pt-32 pb-20">
+            <main className="flex-1 pt-44 pb-20">
                 <div className="container px-4 mx-auto max-w-7xl">
-                    {/* Breadcrumb / Back */}
-                    <motion.div
-                        initial={{ opacity: 0, x: -10 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        className="mb-8"
-                    >
-                        <Button
-                            variant="ghost"
-                            className="hover:bg-transparent hover:text-black/60 dark:hover:text-white/60 transition-colors pl-0 text-muted-foreground"
-                            onClick={() => router.back()}
-                        >
-                            <ArrowLeft className="mr-2 h-4 w-4" /> Back to Products
-                        </Button>
-                    </motion.div>
+                    {/* Breadcrumbs */}
+                    <nav className="flex items-center gap-2 text-sm mb-8 text-muted-foreground" aria-label="Breadcrumb">
+                        <Link href="/" className="flex items-center gap-1.5 hover:text-foreground transition-colors">
+                            <Home className="w-4 h-4" />
+                            <span>Home</span>
+                        </Link>
+                        <ChevronRight className="w-4 h-4 opacity-50" />
+                        <Link href="/shop" className="flex items-center gap-1.5 hover:text-foreground transition-colors">
+                            <ShoppingBag className="w-4 h-4" />
+                            <span>Shop</span>
+                        </Link>
+                        <ChevronRight className="w-4 h-4 opacity-50" />
+                        <span className="flex items-center gap-1.5 text-foreground font-medium truncate max-w-[200px] sm:max-w-md">
+                            <div className="w-4 h-4 flex items-center justify-center">
+                                <Plus className="w-4 h-4 rotate-45" />
+                                {/* Using check/plus as generic product icon or just simple dot, but sticking to requested icons style. Package icon is not imported, using what is available or adding import */}
+                            </div>
+                            <span>{product.name}</span>
+                        </span>
+                    </nav>
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
 
@@ -127,23 +140,31 @@ export default function ProductPage() {
                         <div className="lg:col-span-7 lg:sticky lg:top-32 relative z-10">
                             {/* Main Image */}
                             <motion.div
-                                initial={{ opacity: 0, scale: 0.98, y: 10 }}
-                                animate={{ opacity: 1, scale: 1, y: 0 }}
-                                transition={{ duration: 0.4, ease: "easeOut" }}
+                                layoutId={transitionSourceId || `product-image-${product.id}`}
+                                transition={{ duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] }}
                                 className={`relative aspect-[4/3] rounded-[2.5rem] ${!hasImages ? bgColor : ""} shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] border border-white/50 dark:border-white/10 overflow-hidden group`}
                             >
                                 {hasImages ? (
                                     <AnimatePresence mode="wait">
-                                        <motion.img
+                                        <motion.div
                                             key={selectedImageIndex}
-                                            src={images[selectedImageIndex]}
-                                            alt={product.name}
                                             initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
                                             exit={{ opacity: 0 }}
                                             transition={{ duration: 0.2 }}
-                                            className="w-full h-full object-cover"
-                                        />
+                                            className="relative w-full h-full"
+                                        >
+                                            <Image
+                                                src={images[selectedImageIndex]}
+                                                alt={product.name}
+                                                fill
+                                                priority
+                                                className="object-cover"
+                                                sizes="(max-width: 1024px) 100vw, 50vw"
+                                                placeholder={product.imagesBlurData?.[selectedImageIndex] ? "blur" : "empty"}
+                                                blurDataURL={product.imagesBlurData?.[selectedImageIndex]}
+                                            />
+                                        </motion.div>
                                     </AnimatePresence>
                                 ) : (
                                     <>
@@ -212,11 +233,17 @@ export default function ProductPage() {
                                                 : "border-transparent opacity-60 hover:opacity-100"
                                                 }`}
                                         >
-                                            <img
-                                                src={img}
-                                                alt={`${product.name} ${i + 1}`}
-                                                className="w-full h-full object-cover"
-                                            />
+                                            <div className="relative w-full h-full">
+                                                <Image
+                                                    src={img}
+                                                    alt={`${product.name} ${i + 1}`}
+                                                    fill
+                                                    className="object-cover"
+                                                    sizes="(max-width: 768px) 25vw, 10vw"
+                                                    placeholder={product.imagesBlurData?.[i] ? "blur" : "empty"}
+                                                    blurDataURL={product.imagesBlurData?.[i]}
+                                                />
+                                            </div>
                                         </button>
                                     ))}
                                 </div>

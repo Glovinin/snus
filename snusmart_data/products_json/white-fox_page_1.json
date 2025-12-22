@@ -1,0 +1,299 @@
+{
+    "products": [
+        {
+            "id": 9025720058182,
+            "title": "WHITE FOX ALL WHITE 16MG",
+            "handle": "white-fox-all-white",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:11+02:00",
+            "created_at": "2024-06-11T14:57:28+02:00",
+            "updated_at": "2025-12-22T00:39:23+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT",
+                "WHITE FOX"
+            ],
+            "variants": [
+                {
+                    "id": 49853009953094,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7350049929798",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025720058182,
+                    "created_at": "2024-06-11T14:57:28+02:00",
+                    "updated_at": "2025-12-22T00:39:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 55862007955782,
+                    "created_at": "2024-06-11T14:57:33+02:00",
+                    "position": 1,
+                    "updated_at": "2024-06-11T14:57:35+02:00",
+                    "product_id": 9025720058182,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/whitefox_blue.png?v=1718110655",
+                    "width": 768,
+                    "height": 768
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9025741521222,
+            "title": "WHITE FOX DOUBLE MINT 16MG",
+            "handle": "white-fox-double-mint",
+            "body_html": "",
+            "published_at": "2024-06-13T15:36:10+02:00",
+            "created_at": "2024-06-11T15:03:27+02:00",
+            "updated_at": "2025-12-22T00:39:23+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT",
+                "WHITE FOX"
+            ],
+            "variants": [
+                {
+                    "id": 49853050945862,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7350049929828",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9025741521222,
+                    "created_at": "2024-06-11T15:03:28+02:00",
+                    "updated_at": "2025-12-22T00:39:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336649564486,
+                    "created_at": "2025-05-23T12:19:02+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:19:05+02:00",
+                    "product_id": 9025741521222,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/WHITEFOX_1.png?v=1747995545",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15062692299078,
+            "title": "WHITE FOX PEPPERED MINT AWP 16MG",
+            "handle": "white-fox-peppered-mint-awp",
+            "body_html": "",
+            "published_at": "2025-07-02T12:05:15+02:00",
+            "created_at": "2025-07-02T12:04:01+02:00",
+            "updated_at": "2025-12-22T00:39:23+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT",
+                "WHITE FOX"
+            ],
+            "variants": [
+                {
+                    "id": 54743723082054,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7350115291996",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15062692299078,
+                    "created_at": "2025-07-02T12:04:01+02:00",
+                    "updated_at": "2025-12-22T00:39:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78591796183366,
+                    "created_at": "2025-07-02T12:04:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-02T12:04:17+02:00",
+                    "product_id": 15062692299078,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/white-fox-peppered-mint-awp.webp?v=1751450657",
+                    "width": 900,
+                    "height": 900
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15062692954438,
+            "title": "WHITE FOX FULL CHARGE AWP 16.5MG",
+            "handle": "white-fox-full-charge-awp",
+            "body_html": "",
+            "published_at": "2025-07-02T12:05:39+02:00",
+            "created_at": "2025-07-02T12:05:39+02:00",
+            "updated_at": "2025-12-22T00:39:23+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT",
+                "WHITE FOX"
+            ],
+            "variants": [
+                {
+                    "id": 54743726129478,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7350049929880",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15062692954438,
+                    "created_at": "2025-07-02T12:05:39+02:00",
+                    "updated_at": "2025-12-22T00:39:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78591663407430,
+                    "created_at": "2025-07-02T11:59:10+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-02T11:59:13+02:00",
+                    "product_id": 15062692954438,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/whitefox_full_charge.webp?v=1751450353",
+                    "width": 900,
+                    "height": 908
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265043270,
+            "title": "WHITE FOX - BLACK EDITION (LOW DATE) 30MG",
+            "handle": "white-fox-black-edition",
+            "body_html": null,
+            "published_at": "2025-04-02T21:51:23+02:00",
+            "created_at": "2025-04-02T21:51:23+02:00",
+            "updated_at": "2025-12-22T00:39:23+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG",
+                "WHITE FOX"
+            ],
+            "variants": [
+                {
+                    "id": 54323139641670,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7350049928302",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.49",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265043270,
+                    "created_at": "2025-04-02T21:51:23+02:00",
+                    "updated_at": "2025-12-22T00:39:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336584487238,
+                    "created_at": "2025-05-23T12:16:44+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:16:46+02:00",
+                    "product_id": 14970265043270,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/WHITEFOX.png?v=1747995406",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

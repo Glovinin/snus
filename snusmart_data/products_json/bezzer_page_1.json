@@ -1,0 +1,1177 @@
+{
+    "products": [
+        {
+            "id": 15155667140934,
+            "title": "BEZZER WATERMELON 50MG",
+            "handle": "bezzer-watermelon-50mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:18+02:00",
+            "created_at": "2025-09-17T13:52:18+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 55102490378566,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958248",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155667140934,
+                    "created_at": "2025-09-17T13:52:19+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233193406790,
+                    "created_at": "2025-09-18T23:23:10+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:23:13+02:00",
+                    "product_id": 15155667140934,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_21.png?v=1758230593",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155667108166,
+            "title": "BEZZER WATERMELON 20MG",
+            "handle": "bezzer-watermelon-20mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:16+02:00",
+            "created_at": "2025-09-17T13:52:16+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 55102490313030,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958231",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155667108166,
+                    "created_at": "2025-09-17T13:52:17+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233191178566,
+                    "created_at": "2025-09-18T23:22:04+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:22:07+02:00",
+                    "product_id": 15155667108166,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_20.png?v=1758230527",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666256198,
+            "title": "BEZZER MIXED BERRIES 20MG",
+            "handle": "bezzer-mixed-berries-20mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:33+02:00",
+            "created_at": "2025-09-17T13:51:33+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102487986502,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958323",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666256198,
+                    "created_at": "2025-09-17T13:51:33+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233096380742,
+                    "created_at": "2025-09-18T22:50:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T22:50:23+02:00",
+                    "product_id": 15155666256198,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_2_d6430754-8852-4668-9717-6fe755b93367.png?v=1758228623",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155667009862,
+            "title": "BEZZER STRAWBERRY 20MG",
+            "handle": "bezzer-strawberry-20mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:10+02:00",
+            "created_at": "2025-09-17T13:52:10+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "STRAWBERRY"
+            ],
+            "variants": [
+                {
+                    "id": 55102490116422,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958262",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155667009862,
+                    "created_at": "2025-09-17T13:52:10+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233184100678,
+                    "created_at": "2025-09-18T23:18:04+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:18:06+02:00",
+                    "product_id": 15155667009862,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_17.png?v=1758230286",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666518342,
+            "title": "BEZZER COLA 20MG",
+            "handle": "bezzer-cola-20mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:50+02:00",
+            "created_at": "2025-09-17T13:51:50+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "COLA"
+            ],
+            "variants": [
+                {
+                    "id": 55102488412486,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958200",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666518342,
+                    "created_at": "2025-09-17T13:51:50+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233136816454,
+                    "created_at": "2025-09-18T23:02:55+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:02:58+02:00",
+                    "product_id": 15155666518342,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_8.png?v=1758229378",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666321734,
+            "title": "BEZZER MIXED BERRIES 50MG",
+            "handle": "bezzer-mixed-berries-50mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:35+02:00",
+            "created_at": "2025-09-17T13:51:35+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102488084806,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958330",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666321734,
+                    "created_at": "2025-09-17T13:51:35+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233109782854,
+                    "created_at": "2025-09-18T22:52:46+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T22:52:49+02:00",
+                    "product_id": 15155666321734,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_3.png?v=1758228769",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155667042630,
+            "title": "BEZZER STRAWBERRY 50MG",
+            "handle": "bezzer-strawberry-50mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:12+02:00",
+            "created_at": "2025-09-17T13:52:12+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "STRAWBERRY"
+            ],
+            "variants": [
+                {
+                    "id": 55102490181958,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958279",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155667042630,
+                    "created_at": "2025-09-17T13:52:12+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233186001222,
+                    "created_at": "2025-09-18T23:18:58+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:19:01+02:00",
+                    "product_id": 15155667042630,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_18.png?v=1758230341",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666846022,
+            "title": "BEZZER SPEARMINT 20MG",
+            "handle": "bezzer-spearmint-20mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:03+02:00",
+            "created_at": "2025-09-17T13:52:03+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102489592134,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958149",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666846022,
+                    "created_at": "2025-09-17T13:52:04+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233168666950,
+                    "created_at": "2025-09-18T23:10:57+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:11:00+02:00",
+                    "product_id": 15155666846022,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_14.png?v=1758229860",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666387270,
+            "title": "BEZZER BLUEBERRY 20MG",
+            "handle": "bezzer-blueberry-20mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:41+02:00",
+            "created_at": "2025-09-17T13:51:41+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102488215878,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958293",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666387270,
+                    "created_at": "2025-09-17T13:51:41+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233125970246,
+                    "created_at": "2025-09-18T22:58:34+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T22:58:36+02:00",
+                    "product_id": 15155666387270,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_5.png?v=1758229116",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666649414,
+            "title": "BEZZER MINT 20MG",
+            "handle": "bezzer-mint-20mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:57+02:00",
+            "created_at": "2025-09-17T13:51:57+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102489231686,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958170",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666649414,
+                    "created_at": "2025-09-17T13:51:57+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233149989190,
+                    "created_at": "2025-09-18T23:07:40+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:07:43+02:00",
+                    "product_id": 15155666649414,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_11_9a8214b1-7257-4bc0-80a5-5362a5bcd4d8.png?v=1758229663",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155667075398,
+            "title": "BEZZER WATERMELON 10MG",
+            "handle": "bezzer-watermelon-10mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:14+02:00",
+            "created_at": "2025-09-17T13:52:14+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 55102490247494,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958224",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155667075398,
+                    "created_at": "2025-09-17T13:52:14+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233189114182,
+                    "created_at": "2025-09-18T23:20:45+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:20:48+02:00",
+                    "product_id": 15155667075398,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_19.png?v=1758230448",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666911558,
+            "title": "BEZZER SPEARMINT 50MG",
+            "handle": "bezzer-spearmint-50mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:05+02:00",
+            "created_at": "2025-09-17T13:52:05+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102489755974,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958156",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666911558,
+                    "created_at": "2025-09-17T13:52:06+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233172238662,
+                    "created_at": "2025-09-18T23:12:26+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:12:29+02:00",
+                    "product_id": 15155666911558,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_15.png?v=1758229949",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666583878,
+            "title": "BEZZER COLA 50MG",
+            "handle": "bezzer-cola-50mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:52+02:00",
+            "created_at": "2025-09-17T13:51:52+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "COLA"
+            ],
+            "variants": [
+                {
+                    "id": 55102489100614,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958217",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666583878,
+                    "created_at": "2025-09-17T13:51:53+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233143271750,
+                    "created_at": "2025-09-18T23:05:04+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:05:07+02:00",
+                    "product_id": 15155666583878,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_9.png?v=1758229507",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666354502,
+            "title": "BEZZER BLUEBERRY 10MG",
+            "handle": "bezzer-blueberry-10mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:37+02:00",
+            "created_at": "2025-09-17T13:51:37+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102488150342,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958286",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666354502,
+                    "created_at": "2025-09-17T13:51:38+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233122038086,
+                    "created_at": "2025-09-18T22:56:34+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T22:56:39+02:00",
+                    "product_id": 15155666354502,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_4.png?v=1758228999",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666223430,
+            "title": "BEZZER MIXED BERRIES 10MG",
+            "handle": "bezzer-mixed-berries-10mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:31+02:00",
+            "created_at": "2025-09-17T13:51:31+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102487888198,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958316",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666223430,
+                    "created_at": "2025-09-17T13:51:31+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233089958214,
+                    "created_at": "2025-09-18T22:49:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T22:49:16+02:00",
+                    "product_id": 15155666223430,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer.png?v=1758228556",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666780486,
+            "title": "BEZZER MINT 50MG",
+            "handle": "bezzer-mint-50mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:59+02:00",
+            "created_at": "2025-09-17T13:51:59+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102489362758,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958187",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666780486,
+                    "created_at": "2025-09-17T13:51:59+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233150972230,
+                    "created_at": "2025-09-18T23:08:23+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:08:27+02:00",
+                    "product_id": 15155666780486,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_12.png?v=1758229707",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666420038,
+            "title": "BEZZER BLUEBERRY 50MG",
+            "handle": "bezzer-blueberry-50mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:45+02:00",
+            "created_at": "2025-09-17T13:51:45+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102488281414,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958309",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666420038,
+                    "created_at": "2025-09-17T13:51:45+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233128329542,
+                    "created_at": "2025-09-18T23:00:01+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:00:04+02:00",
+                    "product_id": 15155666420038,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_6.png?v=1758229204",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666977094,
+            "title": "BEZZER STRAWBERRY 10MG",
+            "handle": "bezzer-strawberry-10mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:08+02:00",
+            "created_at": "2025-09-17T13:52:08+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "STRAWBERRY"
+            ],
+            "variants": [
+                {
+                    "id": 55102490050886,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958255",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666977094,
+                    "created_at": "2025-09-17T13:52:08+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233177055558,
+                    "created_at": "2025-09-18T23:14:18+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:14:21+02:00",
+                    "product_id": 15155666977094,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_16.png?v=1758230061",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666485574,
+            "title": "BEZZER COLA 10MG",
+            "handle": "bezzer-cola-10mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:48+02:00",
+            "created_at": "2025-09-17T13:51:48+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [
+                "COLA"
+            ],
+            "variants": [
+                {
+                    "id": 55102488346950,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958194",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666485574,
+                    "created_at": "2025-09-17T13:51:48+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233132163398,
+                    "created_at": "2025-09-18T23:01:06+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:01:10+02:00",
+                    "product_id": 15155666485574,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_7.png?v=1758229270",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666616646,
+            "title": "BEZZER MINT 10MG",
+            "handle": "bezzer-mint-10mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:51:55+02:00",
+            "created_at": "2025-09-17T13:51:55+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102489166150,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958163",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666616646,
+                    "created_at": "2025-09-17T13:51:55+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233147728198,
+                    "created_at": "2025-09-18T23:07:18+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:07:21+02:00",
+                    "product_id": 15155666616646,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_10_9c583562-a5eb-4b5d-859d-c75726ab4a36.png?v=1758229641",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15155666813254,
+            "title": "BEZZER SPEARMINT 10MG",
+            "handle": "bezzer-spearmint-10mg",
+            "body_html": null,
+            "published_at": "2025-09-17T13:52:01+02:00",
+            "created_at": "2025-09-17T13:52:01+02:00",
+            "updated_at": "2025-12-22T00:34:48+01:00",
+            "vendor": "BEZZER",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55102489428294,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5900178958132",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15155666813254,
+                    "created_at": "2025-09-17T13:52:01+02:00",
+                    "updated_at": "2025-12-22T00:34:48+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80233153724742,
+                    "created_at": "2025-09-18T23:09:50+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-18T23:09:53+02:00",
+                    "product_id": 15155666813254,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Bezzer_13.png?v=1758229793",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

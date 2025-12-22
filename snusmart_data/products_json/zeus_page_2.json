@@ -1,0 +1,559 @@
+{
+    "products": [
+        {
+            "id": 15205225955654,
+            "title": "ZEUS FROZEN CITRUS STRONG 20MG",
+            "handle": "zeus-frozen-citrus-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:38+02:00",
+            "created_at": "2025-10-09T11:33:38+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046760262,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000032",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225955654,
+                    "created_at": "2025-10-09T11:33:38+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599551148358,
+                    "created_at": "2025-10-09T11:33:38+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:44+02:00",
+                    "product_id": 15205225955654,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_14de412f-7d9f-477e-bfa9-f98f71004d22.png?v=1760002424",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225922886,
+            "title": "ZEUS ARCTIC FREEZE STRONG 20MG",
+            "handle": "zeus-arctic-freeze-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:36+02:00",
+            "created_at": "2025-10-09T11:33:36+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046563654,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000087",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225922886,
+                    "created_at": "2025-10-09T11:33:36+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550918982,
+                    "created_at": "2025-10-09T11:33:36+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:41+02:00",
+                    "product_id": 15205225922886,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_64a22374-6209-45e3-ae95-fd51ca5ec5a9.png?v=1760002421",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225857350,
+            "title": "ZEUS EPIC BERRY LIGHT 8MG",
+            "handle": "zeus-epic-berry-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:34+02:00",
+            "created_at": "2025-10-09T11:33:34+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046498118,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000933",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225857350,
+                    "created_at": "2025-10-09T11:33:34+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550820678,
+                    "created_at": "2025-10-09T11:33:34+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:39+02:00",
+                    "product_id": 15205225857350,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_00644beb-259e-4c59-95a4-c8866377a24d.png?v=1760002419",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225791814,
+            "title": "ZEUS BUBBLEGUM LIGHT 8MG",
+            "handle": "zeus-bubblegum-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:32+02:00",
+            "created_at": "2025-10-09T11:33:32+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 55232046432582,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752518",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225791814,
+                    "created_at": "2025-10-09T11:33:32+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550755142,
+                    "created_at": "2025-10-09T11:33:32+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:38+02:00",
+                    "product_id": 15205225791814,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_d7e4ffe6-7a11-4dd6-8de9-06d730489066.png?v=1760002418",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225726278,
+            "title": "ZEUS TRUE NORTH LIGHT 8MG",
+            "handle": "zeus-true-north-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:30+02:00",
+            "created_at": "2025-10-09T11:33:30+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046367046,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000506",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225726278,
+                    "created_at": "2025-10-09T11:33:30+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550558534,
+                    "created_at": "2025-10-09T11:33:30+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:35+02:00",
+                    "product_id": 15205225726278,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_238812a4-1150-4501-9263-567ccca8673d.png?v=1760002415",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225660742,
+            "title": "ZEUS TROPIC BURST LIGHT 8MG",
+            "handle": "zeus-tropic-burst-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:27+02:00",
+            "created_at": "2025-10-09T11:33:27+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046301510,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000483",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225660742,
+                    "created_at": "2025-10-09T11:33:28+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550460230,
+                    "created_at": "2025-10-09T11:33:28+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:33+02:00",
+                    "product_id": 15205225660742,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_b963f7e1-01ca-47b0-b0fb-6edd709e7f7d.png?v=1760002413",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225627974,
+            "title": "ZEUS CHERRY BLOSSOM LIGHT 8MG",
+            "handle": "zeus-cherry-blossom-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:25+02:00",
+            "created_at": "2025-10-09T11:33:25+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "cherry"
+            ],
+            "variants": [
+                {
+                    "id": 55232046268742,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000490",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225627974,
+                    "created_at": "2025-10-09T11:33:26+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550296390,
+                    "created_at": "2025-10-09T11:33:26+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:31+02:00",
+                    "product_id": 15205225627974,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_e89fe776-a00b-4b3c-91bb-21162bd286bd.png?v=1760002411",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225562438,
+            "title": "ZEUS MINT RAGE LIGHT 8MG",
+            "handle": "zeus-mint-rage-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:23+02:00",
+            "created_at": "2025-10-09T11:33:23+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046203206,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000452",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225562438,
+                    "created_at": "2025-10-09T11:33:23+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550198086,
+                    "created_at": "2025-10-09T11:33:23+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:29+02:00",
+                    "product_id": 15205225562438,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_2d738bac-91af-4dd9-9d6c-55d448eba049.png?v=1760002409",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225496902,
+            "title": "ZEUS FROZEN CITRUS LIGHT 8MG",
+            "handle": "zeus-frozen-citrus-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:21+02:00",
+            "created_at": "2025-10-09T11:33:21+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046137670,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000476",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225496902,
+                    "created_at": "2025-10-09T11:33:21+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550099782,
+                    "created_at": "2025-10-09T11:33:21+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:27+02:00",
+                    "product_id": 15205225496902,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_c88da42c-6ba6-4113-be0a-7cade1e10edc.png?v=1760002407",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205225398598,
+            "title": "ZEUS ARCTIC FREEZE LIGHT 8MG",
+            "handle": "zeus-arctic-freeze-light-8mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:19+02:00",
+            "created_at": "2025-10-09T11:33:19+02:00",
+            "updated_at": "2025-12-22T00:40:24+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046006598,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000469",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205225398598,
+                    "created_at": "2025-10-09T11:33:19+02:00",
+                    "updated_at": "2025-12-22T00:40:24+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599550001478,
+                    "created_at": "2025-10-09T11:33:19+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:24+02:00",
+                    "product_id": 15205225398598,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_34708ef1-eb13-4662-a8bc-4561ad74132d.png?v=1760002404",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

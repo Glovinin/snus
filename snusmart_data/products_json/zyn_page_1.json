@@ -1,0 +1,1518 @@
+{
+    "products": [
+        {
+            "id": 14941407805766,
+            "title": "ZYN Red Fruits Slim Strong 12.8MG",
+            "handle": "zyn-red-fruits-slim-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:22+01:00",
+            "created_at": "2025-03-11T15:14:22+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "FRUITS",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231891345734,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250045547",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941407805766,
+                    "created_at": "2025-03-11T15:14:22+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335434101062,
+                    "created_at": "2025-05-23T11:36:33+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:36:35+02:00",
+                    "product_id": 14941407805766,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_6.png?v=1747992995",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941393715526,
+            "title": "Zyn Apple Mint Mini 15MG",
+            "handle": "zyn-apple-mint-mini-6mg",
+            "body_html": null,
+            "published_at": "2025-03-11T15:12:54+01:00",
+            "created_at": "2025-03-11T15:12:54+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "APPLE",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231874896198,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250007071",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941393715526,
+                    "created_at": "2025-03-11T15:12:55+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336441127238,
+                    "created_at": "2025-05-23T12:10:37+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:10:40+02:00",
+                    "product_id": 14941393715526,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_10.png?v=1747995040",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941398237510,
+            "title": "ZYN Spearmint 3.75MG Mini",
+            "handle": "zyn-spearmint-mini",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:22+01:00",
+            "created_at": "2025-03-11T15:13:22+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54231879287110,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250079092",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941398237510,
+                    "created_at": "2025-03-11T15:13:22+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336099881286,
+                    "created_at": "2025-05-23T11:59:22+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:59:25+02:00",
+                    "product_id": 14941398237510,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_3.png?v=1747994365",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941400105286,
+            "title": "ZYN Apple Mint Slim Extra Strong 15.7MG",
+            "handle": "zyn-apple-mint-slim-extra-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:33+01:00",
+            "created_at": "2025-03-11T15:13:33+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "APPLE",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231880859974,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420044099",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941400105286,
+                    "created_at": "2025-03-11T15:13:33+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 74276312809798,
+                    "created_at": "2025-03-11T15:13:33+01:00",
+                    "position": 1,
+                    "updated_at": "2025-03-11T15:13:33+01:00",
+                    "product_id": 14941400105286,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/zyn-slim-apple-mint-extra-strong_png.webp?v=1741702413",
+                    "width": 555,
+                    "height": 555
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941410066758,
+            "title": "ZYN Spearmint Slim Strong 12.8MG",
+            "handle": "zyn-spearmint-slim-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:29+01:00",
+            "created_at": "2025-03-11T15:14:29+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231893770566,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420047229",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941410066758,
+                    "created_at": "2025-03-11T15:14:29+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335340843334,
+                    "created_at": "2025-05-23T11:33:37+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:33:39+02:00",
+                    "product_id": 14941410066758,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_4.png?v=1747992819",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941407248710,
+            "title": "ZYN Red Fruits Slim 9.2MG",
+            "handle": "zyn-red-fruits-slim",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:18+01:00",
+            "created_at": "2025-03-11T15:14:18+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "FRUITS",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231890723142,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250045530",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941407248710,
+                    "created_at": "2025-03-11T15:14:18+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335473226054,
+                    "created_at": "2025-05-23T11:37:39+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:37:41+02:00",
+                    "product_id": 14941407248710,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_7.png?v=1747993061",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941402136902,
+            "title": "ZYN Citrus Slim Strong 12.8MG",
+            "handle": "zyn-citrus-slim-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:44+01:00",
+            "created_at": "2025-03-11T15:13:44+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "LIME",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231884136774,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250030970",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941402136902,
+                    "created_at": "2025-03-11T15:13:44+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335844913478,
+                    "created_at": "2025-05-23T11:49:15+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:49:17+02:00",
+                    "product_id": 14941402136902,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_12.png?v=1747993757",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941394469190,
+            "title": "Zyn apple mint mini 7.5MG",
+            "handle": "zyn-apple-mint-mini-3mg",
+            "body_html": null,
+            "published_at": "2025-03-11T15:12:58+01:00",
+            "created_at": "2025-03-11T15:12:58+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "APPLE",
+                "MINT",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54231875649862,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250007064",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941394469190,
+                    "created_at": "2025-03-11T15:12:59+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336417206598,
+                    "created_at": "2025-05-23T12:09:35+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:09:38+02:00",
+                    "product_id": 14941394469190,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_9.png?v=1747994978",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941396959558,
+            "title": "ZYN Citrus 7.5MG Mini",
+            "handle": "zyn-citrus-3mg-mini",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:14+01:00",
+            "created_at": "2025-03-11T15:13:14+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "LIME",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54231878140230,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250030604",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941396959558,
+                    "created_at": "2025-03-11T15:13:14+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336160174406,
+                    "created_at": "2025-05-23T12:01:46+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:01:48+02:00",
+                    "product_id": 14941396959558,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_5.png?v=1747994508",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941400793414,
+            "title": "ZYN Apple Mint Slim Strong 12.5MG",
+            "handle": "zyn-apple-mint-slim-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:37+01:00",
+            "created_at": "2025-03-11T15:13:37+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "APPLE",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231881384262,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250030925",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941400793414,
+                    "created_at": "2025-03-11T15:13:37+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335883350342,
+                    "created_at": "2025-05-23T11:50:27+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:50:30+02:00",
+                    "product_id": 14941400793414,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_13.png?v=1747993830",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941397516614,
+            "title": "ZYN Cool Mint 7.5MG Mini",
+            "handle": "zyn-cool-mint-3mg-mini",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:18+01:00",
+            "created_at": "2025-03-11T15:13:18+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54231878664518,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250030635",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941397516614,
+                    "created_at": "2025-03-11T15:13:18+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336122982726,
+                    "created_at": "2025-05-23T12:00:35+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:00:37+02:00",
+                    "product_id": 14941397516614,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_4.png?v=1747994437",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941406331206,
+            "title": "ZYN Gentle Mint Slim 9.2MG",
+            "handle": "zyn-gentle-mint-slim",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:10+01:00",
+            "created_at": "2025-03-11T15:14:10+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231889641798,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250045554",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941406331206,
+                    "created_at": "2025-03-11T15:14:10+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335562617158,
+                    "created_at": "2025-05-23T11:39:48+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:39:50+02:00",
+                    "product_id": 14941406331206,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_9.png?v=1747993190",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941398860102,
+            "title": "ZYN Espressino Mini Dry 7.5MG",
+            "handle": "zyn-espressino-mini-dry-3mg",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:26+01:00",
+            "created_at": "2025-03-11T15:13:26+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "COFFEE",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54231879942470,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250079108",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941398860102,
+                    "created_at": "2025-03-11T15:13:26+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335970349382,
+                    "created_at": "2025-05-23T11:53:26+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:53:28+02:00",
+                    "product_id": 14941398860102,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/AdobeExpress-file_9.png?v=1747994008",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941412655430,
+            "title": "ZYN Cool Mint Slim Strong 12.8MG",
+            "handle": "zyn-cool-mint-slim-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:47+01:00",
+            "created_at": "2025-03-11T15:14:47+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231896490310,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420044174",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941412655430,
+                    "created_at": "2025-03-11T15:14:47+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335192895814,
+                    "created_at": "2025-05-23T11:27:24+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:27:27+02:00",
+                    "product_id": 14941412655430,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_e63a01fe-1916-4a4d-95a2-56beb9855f30.png?v=1747992447",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941404037446,
+            "title": "Zyn cucumber lime Slim 9.2MG",
+            "handle": "zyn-cucumber-lime-slim",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:56+01:00",
+            "created_at": "2025-03-11T15:13:56+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "LIME",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231887216966,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420007681",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941404037446,
+                    "created_at": "2025-03-11T15:13:56+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335798579526,
+                    "created_at": "2025-05-23T11:47:25+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:47:27+02:00",
+                    "product_id": 14941404037446,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_11.png?v=1747993647",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941395059014,
+            "title": "ZYN Bellini 7.5MG Mini",
+            "handle": "zyn-bellini-3mg-mini",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:02+01:00",
+            "created_at": "2025-03-11T15:13:02+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "FRUITS",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54231876239686,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250076732",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941395059014,
+                    "created_at": "2025-03-11T15:13:03+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336385913158,
+                    "created_at": "2025-05-23T12:08:29+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:08:33+02:00",
+                    "product_id": 14941395059014,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_8.png?v=1747994913",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941411017030,
+            "title": "ZYN Violet Licorice Slim Strong 12.8MG",
+            "handle": "zyn-violet-licorice-slim-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:36+01:00",
+            "created_at": "2025-03-11T15:14:36+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "LIQUORICE",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231894688070,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250045561",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941411017030,
+                    "created_at": "2025-03-11T15:14:36+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335279108422,
+                    "created_at": "2025-05-23T11:31:24+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:31:26+02:00",
+                    "product_id": 14941411017030,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_2.png?v=1747992686",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941410591046,
+            "title": "ZYN Violet Licorice Slim 9.2MG",
+            "handle": "zyn-violet-licorice-slim",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:33+01:00",
+            "created_at": "2025-03-11T15:14:33+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "LIQUORICE",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231894229318,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420007773",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941410591046,
+                    "created_at": "2025-03-11T15:14:33+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335300702534,
+                    "created_at": "2025-05-23T11:32:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:32:16+02:00",
+                    "product_id": 14941410591046,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_3.png?v=1747992736",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941396402502,
+            "title": "Zyn Black cherry Mini 15MG",
+            "handle": "zyn-black-cherry-mini-6mg",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:10+01:00",
+            "created_at": "2025-03-11T15:13:10+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "cherry",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231877550406,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250007033",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941396402502,
+                    "created_at": "2025-03-11T15:13:10+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336297308486,
+                    "created_at": "2025-05-23T12:05:52+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:05:54+02:00",
+                    "product_id": 14941396402502,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_6.png?v=1747994754",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941399253318,
+            "title": "ZYN Espressino Mini Dry 15MG",
+            "handle": "zyn-espressino-mini-dry-6mg",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:30+01:00",
+            "created_at": "2025-03-11T15:13:30+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "COFFEE",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231880270150,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250078309",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941399253318,
+                    "created_at": "2025-03-11T15:13:30+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335914742086,
+                    "created_at": "2025-05-23T11:51:46+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:51:48+02:00",
+                    "product_id": 14941399253318,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_1.png?v=1747993908",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941406822726,
+            "title": "ZYN Lemon Spritz Slim 9.2MG",
+            "handle": "zyn-lemon-spritz-slim",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:14+01:00",
+            "created_at": "2025-03-11T15:14:14+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "LIME",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231890297158,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420007711",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941406822726,
+                    "created_at": "2025-03-11T15:14:14+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335512711494,
+                    "created_at": "2025-05-23T11:38:29+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:38:31+02:00",
+                    "product_id": 14941406822726,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_8.png?v=1747993111",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941401481542,
+            "title": "ZYN Citrus Slim Extra Strong 15.7MG",
+            "handle": "zyn-citrus-slim-extra-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:41+01:00",
+            "created_at": "2025-03-11T15:13:41+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "LIME",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54231883252038,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420044105",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941401481542,
+                    "created_at": "2025-03-11T15:13:41+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 74276330471750,
+                    "created_at": "2025-03-11T15:13:41+01:00",
+                    "position": 1,
+                    "updated_at": "2025-03-11T15:13:41+01:00",
+                    "product_id": 14941401481542,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/zyn-slim-citrus-extra-strong.webp?v=1741702421",
+                    "width": 555,
+                    "height": 555
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941412000070,
+            "title": "ZYN Cool Mint Slim Extra Strong 15.7MG",
+            "handle": "zyn-cool-mint-slim-extra-strong",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:44+01:00",
+            "created_at": "2025-03-11T15:14:44+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231895769414,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420007698",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941412000070,
+                    "created_at": "2025-03-11T15:14:44+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335214784838,
+                    "created_at": "2025-05-23T11:28:35+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:28:37+02:00",
+                    "product_id": 14941412000070,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_1.png?v=1747992517",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941395714374,
+            "title": "zyn black cherry mini 7.5MG",
+            "handle": "zyn-black-cherry-mini-3mg",
+            "body_html": null,
+            "published_at": "2025-03-11T15:13:06+01:00",
+            "created_at": "2025-03-11T15:13:06+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "cherry",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54231876632902,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250030574",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941395714374,
+                    "created_at": "2025-03-11T15:13:06+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77336341020998,
+                    "created_at": "2025-05-23T12:07:22+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T12:07:24+02:00",
+                    "product_id": 14941395714374,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI_7.png?v=1747994844",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941411541318,
+            "title": "ZYN Cool mint 15MG Mini",
+            "handle": "zyn-cool-mint-6mg-mini",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:40+01:00",
+            "created_at": "2025-03-11T15:14:40+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231895212358,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7311250079078",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941411541318,
+                    "created_at": "2025-03-11T15:14:40+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335239590214,
+                    "created_at": "2025-05-23T11:29:26+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:29:28+02:00",
+                    "product_id": 14941411541318,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYNMINI.png?v=1747992568",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14941408330054,
+            "title": "ZYN Spearmint Slim 9.2MG",
+            "handle": "zyn-spearmint-slim",
+            "body_html": null,
+            "published_at": "2025-03-11T15:14:25+01:00",
+            "created_at": "2025-03-11T15:14:25+01:00",
+            "updated_at": "2025-12-22T00:39:37+01:00",
+            "vendor": "NORDIC EXPRESS AB",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54231891902790,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5704420044181",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14941408330054,
+                    "created_at": "2025-03-11T15:14:25+01:00",
+                    "updated_at": "2025-12-22T00:39:37+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77335392289094,
+                    "created_at": "2025-05-23T11:35:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T11:35:22+02:00",
+                    "product_id": 14941408330054,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ZYN_5.png?v=1747992922",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -13,8 +13,9 @@ import {
     serverTimestamp,
     Timestamp,
 } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL, deleteObject, listAll } from "firebase/storage";
+import { ref, uploadBytes, getDownloadURL, deleteObject } from "firebase/storage";
 import { db, storage } from "./config";
+import { deleteFileFromUrl } from "./storage";
 
 // ============================================
 // TYPES
@@ -24,7 +25,7 @@ export interface ProductInput {
     name: string;
     description?: string;
     price: number;
-    compareAtPrice?: number;
+    compareAtPrice?: number | null;
     sku: string;
     category: string;
     brand: string;
@@ -32,6 +33,7 @@ export interface ProductInput {
     flavor: string;
     stock: number;
     images: string[]; // URLs after upload
+    imagesBlurData?: string[]; // Base64 blur strings corresponding to images
     isActive: boolean;
     isFeatured: boolean;
     isBestSeller: boolean;
@@ -70,14 +72,39 @@ function generateSlug(name: string): string {
 // IMAGE UPLOAD
 // ============================================
 
+/**
+ * Generate a slug from a string (for folder names)
+ */
+function generateStorageSlug(name: string): string {
+    return name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "")
+        .substring(0, 50); // Limit length for storage paths
+}
+
+export interface ImageUploadOptions {
+    brand: string;
+    productName: string;
+}
+
 export async function uploadProductImage(
-    productId: string,
     file: File,
-    index: number
+    index: number,
+    options: ImageUploadOptions
 ): Promise<string> {
+    const { brand, productName } = options;
+
+    // Generate slugs for folder structure
+    const brandSlug = generateStorageSlug(brand);
+    const productSlug = generateStorageSlug(productName);
+
     const ext = file.name.split(".").pop() || "jpg";
     const filename = index === 0 ? `cover.${ext}` : `gallery_${index}.${ext}`;
-    const path = `products/${productId}/${filename}`;
+
+    // Path structure: products/{brand}/{product}/{filename}
+    // Example: products/rebel/energy-watermelon-ice/cover.jpg
+    const path = `products/${brandSlug}/${productSlug}/${filename}`;
 
     const storageRef = ref(storage, path);
     await uploadBytes(storageRef, file);
@@ -85,24 +112,13 @@ export async function uploadProductImage(
 }
 
 export async function uploadProductImages(
-    productId: string,
-    files: File[]
+    files: File[],
+    options: ImageUploadOptions
 ): Promise<string[]> {
     const uploadPromises = files.map((file, index) =>
-        uploadProductImage(productId, file, index)
+        uploadProductImage(file, index, options)
     );
     return Promise.all(uploadPromises);
-}
-
-export async function deleteProductImages(productId: string): Promise<void> {
-    const folderRef = ref(storage, `products/${productId}`);
-    try {
-        const result = await listAll(folderRef);
-        const deletePromises = result.items.map((itemRef) => deleteObject(itemRef));
-        await Promise.all(deletePromises);
-    } catch (error) {
-        console.error("Error deleting product images:", error);
-    }
 }
 
 // ============================================
@@ -156,8 +172,14 @@ export async function updateProduct(
 
 export async function deleteProduct(id: string): Promise<void> {
     try {
-        // Delete images first
-        await deleteProductImages(id);
+        // Fetch product first to get image URLs
+        const product = await getProductById(id);
+
+        if (product && product.images && product.images.length > 0) {
+            // Delete all associated images
+            const deletePromises = product.images.map(url => deleteFileFromUrl(url));
+            await Promise.all(deletePromises);
+        }
 
         // Then delete document
         const productRef = doc(db, "products", id);

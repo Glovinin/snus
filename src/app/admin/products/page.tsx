@@ -5,10 +5,11 @@ import { PageHeader } from "@/components/admin/PageHeader";
 import { AdminTable, AdminTableRow, AdminTableCell } from "@/components/admin/AdminTable";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Edit, Trash2, Search, PackageOpen, Star, Flame, Sparkles, Loader2, Tag } from "lucide-react";
+import { Edit, Trash2, Search, PackageOpen, Star, Flame, Sparkles, Loader2, Tag, Download, ImageIcon } from "lucide-react";
 import { ProductSheet } from "@/components/admin/products/ProductSheet";
 import { BrandManager } from "@/components/admin/products/BrandManager";
 import { getAdminProducts, deleteProduct, Product } from "@/lib/firebase/products";
+import { seedRebelProducts } from "@/lib/firebase/seed-rebel";
 import toast from "react-hot-toast";
 
 // ============================================
@@ -71,6 +72,7 @@ export default function ProductsPage() {
     const [brandManagerOpen, setBrandManagerOpen] = useState(false);
     const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
     const [deletingId, setDeletingId] = useState<string | null>(null);
+    const [seeding, setSeeding] = useState(false);
 
     // Fetch products from Firestore
     const fetchProducts = async () => {
@@ -88,6 +90,26 @@ export default function ProductsPage() {
     useEffect(() => {
         fetchProducts();
     }, []);
+
+    // Seed Rebel products
+    const handleSeedRebel = async () => {
+        setSeeding(true);
+        try {
+            const result = await seedRebelProducts();
+            if (result.success) {
+                toast.success(result.message);
+                if (result.count > 0) {
+                    fetchProducts(); // Refresh list
+                }
+            } else {
+                toast.error(result.message);
+            }
+        } catch (error: any) {
+            toast.error(error.message || "Failed to seed products");
+        } finally {
+            setSeeding(false);
+        }
+    };
 
     // Filter products by search query
     const filteredProducts = products.filter((p) =>
@@ -158,6 +180,19 @@ export default function ProductsPage() {
                         >
                             <Tag className="w-4 h-4" />
                             Manage Brands
+                        </Button>
+                        <Button
+                            variant="outline"
+                            onClick={handleSeedRebel}
+                            disabled={seeding}
+                            className="h-10 px-4 bg-red-500/10 border-red-500/20 hover:bg-red-500/20 hover:border-red-500/30 text-red-400 rounded-xl gap-2"
+                        >
+                            {seeding ? (
+                                <Loader2 className="w-4 h-4 animate-spin" />
+                            ) : (
+                                <Download className="w-4 h-4" />
+                            )}
+                            {seeding ? "Importing..." : "Import Rebel"}
                         </Button>
                     </div>
                     <div className="text-sm text-zinc-500">

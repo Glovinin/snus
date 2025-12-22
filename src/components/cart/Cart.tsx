@@ -127,8 +127,13 @@ export function Cart({ isOpen, onClose }: CartProps) {
                                         className="group relative flex gap-5 p-4 rounded-3xl bg-foreground/[0.02] hover:bg-foreground/[0.04] border border-foreground/5 transition-colors"
                                     >
                                         {/* Product Image */}
-                                        <div className={`w-24 h-28 rounded-2xl ${item.bgClass} flex items-center justify-center overflow-hidden shrink-0`}>
-                                            <div className="w-full h-full opacity-60 mix-blend-multiply dark:mix-blend-overlay" />
+                                        <div className={`w-24 h-28 rounded-2xl ${item.bgClass} flex items-center justify-center overflow-hidden shrink-0 relative`}>
+                                            <Image
+                                                src={item.image}
+                                                alt={item.name}
+                                                fill
+                                                className="object-contain mix-blend-multiply dark:mix-blend-normal p-2"
+                                            />
                                         </div>
 
                                         {/* Product Info */}

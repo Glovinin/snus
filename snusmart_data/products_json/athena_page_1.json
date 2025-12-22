@@ -1,0 +1,279 @@
+{
+    "products": [
+        {
+            "id": 15212130140486,
+            "title": "ATHENA WATERMELON ICE 10.4MG",
+            "handle": "athena-watermelon-ice-10-4mg",
+            "body_html": null,
+            "published_at": "2025-10-14T17:55:51+02:00",
+            "created_at": "2025-10-14T17:55:51+02:00",
+            "updated_at": "2025-12-22T00:34:46+01:00",
+            "vendor": "NOVA AND CO",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55258008453446,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6295156220264",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212130140486,
+                    "created_at": "2025-10-14T17:55:51+02:00",
+                    "updated_at": "2025-12-22T00:34:46+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80667043692870,
+                    "created_at": "2025-10-14T17:55:51+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-14T17:55:54+02:00",
+                    "product_id": 15212130140486,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/WhatsApp_Image_2025-10-14_at_16.15.59_1_c2932938-b6d6-44b5-8a29-ca951ef2e904.jpg?v=1760457354",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212130042182,
+            "title": "ATHENA ARTIC MINT 10.4MG",
+            "handle": "athena-artic-mint-10-4mg",
+            "body_html": null,
+            "published_at": "2025-10-14T17:55:49+02:00",
+            "created_at": "2025-10-14T17:55:49+02:00",
+            "updated_at": "2025-12-22T00:34:46+01:00",
+            "vendor": "NOVA AND CO",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55258008355142,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6295156220288",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212130042182,
+                    "created_at": "2025-10-14T17:55:49+02:00",
+                    "updated_at": "2025-12-22T00:34:46+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80667043365190,
+                    "created_at": "2025-10-14T17:55:49+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-14T17:55:52+02:00",
+                    "product_id": 15212130042182,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/WhatsApp_Image_2025-10-14_at_16.15.57_4ec4f403-42ff-4241-98df-2ef5750f3a68.jpg?v=1760457352",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212129976646,
+            "title": "ATHENA ARTIC MINT 17MG",
+            "handle": "athena-artic-mint-17mg",
+            "body_html": null,
+            "published_at": "2025-10-14T17:55:47+02:00",
+            "created_at": "2025-10-14T17:55:47+02:00",
+            "updated_at": "2025-12-22T00:34:46+01:00",
+            "vendor": "NOVA AND CO",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55258008191302,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6295156220271",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212129976646,
+                    "created_at": "2025-10-14T17:55:47+02:00",
+                    "updated_at": "2025-12-22T00:34:46+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80667043168582,
+                    "created_at": "2025-10-14T17:55:47+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-14T17:55:50+02:00",
+                    "product_id": 15212129976646,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/WhatsApp_Image_2025-10-14_at_16.15.58_c7ab0b26-28fa-48df-a88e-c15c5e311905.jpg?v=1760457350",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212129943878,
+            "title": "ATHENA PEPPERMINT 10.4MG",
+            "handle": "athena-peppermint-10-4mg",
+            "body_html": null,
+            "published_at": "2025-10-14T17:55:45+02:00",
+            "created_at": "2025-10-14T17:55:45+02:00",
+            "updated_at": "2025-12-22T00:34:46+01:00",
+            "vendor": "NOVA AND CO",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55258008125766,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6295156220257",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212129943878,
+                    "created_at": "2025-10-14T17:55:46+02:00",
+                    "updated_at": "2025-12-22T00:34:46+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80667043004742,
+                    "created_at": "2025-10-14T17:55:46+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-14T17:55:48+02:00",
+                    "product_id": 15212129943878,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/WhatsApp_Image_2025-10-14_at_16.15.59_25c12727-f1ea-4fd7-b8c1-b7f1d27e6520.jpg?v=1760457348",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15212129911110,
+            "title": "ATHENA PEPPERMINT 17MG",
+            "handle": "athena-peppermint-17mg",
+            "body_html": null,
+            "published_at": "2025-10-14T17:55:43+02:00",
+            "created_at": "2025-10-14T17:55:43+02:00",
+            "updated_at": "2025-12-22T00:34:46+01:00",
+            "vendor": "NOVA AND CO",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55258008027462,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6298042567399",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 31,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15212129911110,
+                    "created_at": "2025-10-14T17:55:44+02:00",
+                    "updated_at": "2025-12-22T00:34:46+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80667042742598,
+                    "created_at": "2025-10-14T17:55:43+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-14T17:55:47+02:00",
+                    "product_id": 15212129911110,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/WhatsApp_Image_2025-10-14_at_16.15.58_1_952a695b-e940-403a-8b24-63abdfba2045.jpg?v=1760457347",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

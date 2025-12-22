@@ -1,0 +1,1752 @@
+{
+    "products": [
+        {
+            "id": 14918928564550,
+            "title": "CUBA BLACK COLA 66MG",
+            "handle": "cuba-black-cola",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:24+01:00",
+            "created_at": "2025-02-21T02:19:06+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "COLA",
+                "EXTREMELY STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154911678790,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759419",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918928564550,
+                    "created_at": "2025-02-21T02:19:06+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537338163526,
+                    "created_at": "2025-05-27T15:08:21+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:08:24+02:00",
+                    "product_id": 14918928564550,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_29.png?v=1748351304",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918928073030,
+            "title": "CUBA BLACK CHERRY 66MG",
+            "handle": "cuba-black-cherry",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:23+01:00",
+            "created_at": "2025-02-21T02:18:48+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "cherry",
+                "EXTREMELY STRONG",
+                "FRUITS"
+            ],
+            "variants": [
+                {
+                    "id": 54154910957894,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904316128197",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918928073030,
+                    "created_at": "2025-02-21T02:18:48+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537469563206,
+                    "created_at": "2025-05-27T15:12:09+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:12:11+02:00",
+                    "product_id": 14918928073030,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_33.png?v=1748351531",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929744198,
+            "title": "CUBA NINJA ENERGY 30MG",
+            "handle": "cuba-ninja-energy",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:30+01:00",
+            "created_at": "2025-02-21T02:20:49+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "ENERYDRINK",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154914627910,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759112",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929744198,
+                    "created_at": "2025-02-21T02:20:49+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536220021062,
+                    "created_at": "2025-05-27T14:27:35+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:27:37+02:00",
+                    "product_id": 14918929744198,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_7.png?v=1748348857",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918928892230,
+            "title": "CUBA BLACK APPLE JUICE 66MG",
+            "handle": "cuba-black-apple-juice",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:26+01:00",
+            "created_at": "2025-02-21T02:19:27+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "APPLE",
+                "EXTREMELY STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154912432454,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347448",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918928892230,
+                    "created_at": "2025-02-21T02:19:28+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537199882566,
+                    "created_at": "2025-05-27T15:02:06+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:02:08+02:00",
+                    "product_id": 14918928892230,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_25.png?v=1748350928",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14937005850950,
+            "title": "CUBA BLACK PEACH 66MG",
+            "handle": "cuba-black-peach",
+            "body_html": "",
+            "published_at": "2025-03-07T17:16:56+01:00",
+            "created_at": "2025-03-07T17:15:26+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "EXTREMELY STRONG",
+                "FRUITS"
+            ],
+            "variants": [
+                {
+                    "id": 54216401158470,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347240",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14937005850950,
+                    "created_at": "2025-03-07T17:15:26+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77535990579526,
+                    "created_at": "2025-05-27T14:21:32+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:21:34+02:00",
+                    "product_id": 14937005850950,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_1.png?v=1748348494",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918928728390,
+            "title": "CUBA BLACK FOREST BERRIES 66MG",
+            "handle": "cuba-black-forest-berries",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:26+01:00",
+            "created_at": "2025-02-21T02:19:15+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "EXTREMELY STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154912104774,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759457",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918928728390,
+                    "created_at": "2025-02-21T02:19:15+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537268105542,
+                    "created_at": "2025-05-27T15:06:06+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:06:10+02:00",
+                    "product_id": 14918928728390,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_27.png?v=1748351170",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918928990534,
+            "title": "CUBA BLACK GRAPE 66MG",
+            "handle": "cuba-black-grape",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:26+01:00",
+            "created_at": "2025-02-21T02:19:36+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "EXTREMELY STRONG",
+                "GRAPE"
+            ],
+            "variants": [
+                {
+                    "id": 54154912563526,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347493",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918928990534,
+                    "created_at": "2025-02-21T02:19:36+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537112228166,
+                    "created_at": "2025-05-27T14:58:13+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:58:15+02:00",
+                    "product_id": 14918928990534,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_23.png?v=1748350695",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918928400710,
+            "title": "CUBA BLACK PINEAPPLE 66MG",
+            "handle": "cuba-black-pineapple",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:24+01:00",
+            "created_at": "2025-02-21T02:18:57+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "EXTREMELY STRONG",
+                "PINEAPPLE"
+            ],
+            "variants": [
+                {
+                    "id": 54154911351110,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759006",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918928400710,
+                    "created_at": "2025-02-21T02:18:57+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537393475910,
+                    "created_at": "2025-05-27T15:09:38+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:09:40+02:00",
+                    "product_id": 14918928400710,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_31.png?v=1748351380",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929875270,
+            "title": "CUBA NINJA COCONUT 30MG",
+            "handle": "cuba-ninja-coconut",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:31+01:00",
+            "created_at": "2025-02-21T02:21:03+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "COCONUT",
+                "FRUITS",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154914890054,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759600",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929875270,
+                    "created_at": "2025-02-21T02:21:03+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536111755590,
+                    "created_at": "2025-05-27T14:24:22+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:24:24+02:00",
+                    "product_id": 14918929875270,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_4.png?v=1748348664",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929809734,
+            "title": "CUBA NINJA BUBBLE GUM 30MG",
+            "handle": "cuba-ninja-bubble-gum",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:31+01:00",
+            "created_at": "2025-02-21T02:20:54+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154914758982,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759099",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929809734,
+                    "created_at": "2025-02-21T02:20:54+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536161169734,
+                    "created_at": "2025-05-27T14:26:06+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:26:08+02:00",
+                    "product_id": 14918929809734,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_6.png?v=1748348768",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929056070,
+            "title": "CUBA WHITE PEACH 16MG",
+            "handle": "cuba-white-peach",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:27+01:00",
+            "created_at": "2025-02-21T02:19:44+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "FRUITS",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54154912661830,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347219",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929056070,
+                    "created_at": "2025-02-21T02:19:44+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537051312454,
+                    "created_at": "2025-05-27T14:54:47+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:54:49+02:00",
+                    "product_id": 14918929056070,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_21.png?v=1748350489",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929973574,
+            "title": "CUBA NINJA STRAWBERRY 30MG",
+            "handle": "cuba-ninja-strawberry",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:32+01:00",
+            "created_at": "2025-02-21T02:21:12+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "STRAWBERRY",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154915381574,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759631",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929973574,
+                    "created_at": "2025-02-21T02:21:12+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536079053126,
+                    "created_at": "2025-05-27T14:23:28+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:23:30+02:00",
+                    "product_id": 14918929973574,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_3.png?v=1748348610",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929449286,
+            "title": "CUBA WHITE FOREST BERRIES 16MG",
+            "handle": "cuba-white-forest-berries",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:29+01:00",
+            "created_at": "2025-02-21T02:20:24+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54154913907014,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759518",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929449286,
+                    "created_at": "2025-02-21T02:20:24+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536365871430,
+                    "created_at": "2025-05-27T14:32:05+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:32:07+02:00",
+                    "product_id": 14918929449286,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_12.png?v=1748349127",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929842502,
+            "title": "CUBA NINJA ORANGE 30MG",
+            "handle": "cuba-ninja-orange",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:31+01:00",
+            "created_at": "2025-02-21T02:20:58+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "orange",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154914824518,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759648",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929842502,
+                    "created_at": "2025-02-21T02:20:58+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536131383622,
+                    "created_at": "2025-05-27T14:25:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:25:16+02:00",
+                    "product_id": 14918929842502,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_5.png?v=1748348716",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929547590,
+            "title": "CUBA WHITE APPLE JUICE 16MG",
+            "handle": "cuba-white-apple-juice",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:29+01:00",
+            "created_at": "2025-02-21T02:20:32+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "APPLE",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54154914169158,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347455",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929547590,
+                    "created_at": "2025-02-21T02:20:32+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536333955398,
+                    "created_at": "2025-05-27T14:31:21+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:31:23+02:00",
+                    "product_id": 14918929547590,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_11.png?v=1748349083",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918928924998,
+            "title": "CUBA BLACK COLD DRY 66MG",
+            "handle": "cuba-black-cold-dry",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:26+01:00",
+            "created_at": "2025-02-21T02:19:32+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "EXTREMELY STRONG",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54154912497990,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347479",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918928924998,
+                    "created_at": "2025-02-21T02:19:32+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537130545478,
+                    "created_at": "2025-05-27T14:58:51+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:58:53+02:00",
+                    "product_id": 14918928924998,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_24.png?v=1748350733",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929219910,
+            "title": "CUBA WHITE PINEAPPLE 16MG",
+            "handle": "cuba-white-pineapple",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:28+01:00",
+            "created_at": "2025-02-21T02:20:06+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "PINEAPPLE"
+            ],
+            "variants": [
+                {
+                    "id": 54154912956742,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759037",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929219910,
+                    "created_at": "2025-02-21T02:20:06+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536536887622,
+                    "created_at": "2025-05-27T14:36:40+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:36:43+02:00",
+                    "product_id": 14918929219910,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_16.png?v=1748349403",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929318214,
+            "title": "CUBA WHITE COLA 16MG",
+            "handle": "cuba-white-cola",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:28+01:00",
+            "created_at": "2025-02-21T02:20:15+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "COLA",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54154913612102,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759471",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929318214,
+                    "created_at": "2025-02-21T02:20:15+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536490324294,
+                    "created_at": "2025-05-27T14:35:24+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:35:26+02:00",
+                    "product_id": 14918929318214,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_14.png?v=1748349326",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918930006342,
+            "title": "CUBA NINJA MINT FRESH 30MG",
+            "handle": "cuba-ninja-mint-fresh",
+            "body_html": "",
+            "published_at": "2025-02-21T03:00:03+01:00",
+            "created_at": "2025-02-21T02:21:17+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154915447110,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759624",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918930006342,
+                    "created_at": "2025-02-21T02:21:17+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536044712262,
+                    "created_at": "2025-05-27T14:22:34+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:22:36+02:00",
+                    "product_id": 14918930006342,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_2.png?v=1748348556",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929023302,
+            "title": "CUBA WHITE BANANA HIT 16MG",
+            "handle": "cuba-white-banana-hit",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:26+01:00",
+            "created_at": "2025-02-21T02:19:40+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BANANA",
+                "EXTREMELY STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54154912596294,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347226",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929023302,
+                    "created_at": "2025-02-21T02:19:40+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537098498374,
+                    "created_at": "2025-05-27T14:57:19+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:57:21+02:00",
+                    "product_id": 14918929023302,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_22.png?v=1748350641",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929285446,
+            "title": "CUBA WHITE WATERMELON 16MG",
+            "handle": "cuba-white-watermelon",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:28+01:00",
+            "created_at": "2025-02-21T02:20:10+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 54154913546566,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759501",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929285446,
+                    "created_at": "2025-02-21T02:20:10+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536510345542,
+                    "created_at": "2025-05-27T14:36:04+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:36:07+02:00",
+                    "product_id": 14918929285446,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_15.png?v=1748349367",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929645894,
+            "title": "CUBA WHITE GRAPE 16MG",
+            "handle": "cuba-white-grape",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:30+01:00",
+            "created_at": "2025-02-21T02:20:40+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54154914365766,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347486",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929645894,
+                    "created_at": "2025-02-21T02:20:41+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536271794502,
+                    "created_at": "2025-05-27T14:29:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:29:22+02:00",
+                    "product_id": 14918929645894,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_9.png?v=1748348962",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929678662,
+            "title": "CUBA NINJA ICE COOL 16MG",
+            "handle": "cuba-ninja-ice-cool",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:30+01:00",
+            "created_at": "2025-02-21T02:20:45+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54154914431302,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759129",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929678662,
+                    "created_at": "2025-02-21T02:20:45+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536255050054,
+                    "created_at": "2025-05-27T14:28:41+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:28:43+02:00",
+                    "product_id": 14918929678662,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_8.png?v=1748348923",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929187142,
+            "title": "CUBA WHITE BLUEBERRY 16MG",
+            "handle": "cuba-white-blueberry",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:28+01:00",
+            "created_at": "2025-02-21T02:20:01+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "BLUEBERRY",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54154912891206,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759013",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929187142,
+                    "created_at": "2025-02-21T02:20:01+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536554418502,
+                    "created_at": "2025-05-27T14:37:15+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:37:18+02:00",
+                    "product_id": 14918929187142,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_17.png?v=1748349438",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929416518,
+            "title": "CUBA WHITE ICE SPEARMINT 16MG",
+            "handle": "cuba-white-ice-spearmint",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:29+01:00",
+            "created_at": "2025-02-21T02:20:19+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54154913841478,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904717759488",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929416518,
+                    "created_at": "2025-02-21T02:20:19+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77536457720134,
+                    "created_at": "2025-05-27T14:34:22+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:34:24+02:00",
+                    "product_id": 14918929416518,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_13.png?v=1748349264",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15215343763782,
+            "title": "CUBA BLACK LOLLIPOP 66MG",
+            "handle": "cuba-black-lollipop-43mg",
+            "body_html": null,
+            "published_at": "2025-10-17T13:17:30+02:00",
+            "created_at": "2025-10-17T13:17:30+02:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "Nikotabako Sp. z o.o.",
+            "product_type": "",
+            "tags": [
+                "CANDY",
+                "cuba",
+                "EXTRA STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55276226314566,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347882",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15215343763782,
+                    "created_at": "2025-10-17T13:17:30+02:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80706147025222,
+                    "created_at": "2025-10-17T13:17:30+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-17T13:17:34+02:00",
+                    "product_id": 15215343763782,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/LOLLIPOP_NEW_cuba_black_071cce4e-b1fb-4922-bfb9-c8eb6e0a0910.png?v=1760699854",
+                    "width": 1129,
+                    "height": 1129
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929121606,
+            "title": "CUBA WHITE DOUBLE FRESH 16MG",
+            "handle": "cuba-white-double-fresh",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:27+01:00",
+            "created_at": "2025-02-21T02:19:53+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54154912792902,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5904316128135",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929121606,
+                    "created_at": "2025-02-21T02:19:53+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537009631558,
+                    "created_at": "2025-05-27T14:53:30+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:53:32+02:00",
+                    "product_id": 14918929121606,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_19.png?v=1748350412",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14918929088838,
+            "title": "CUBA WHITE BLACK CURRANT 16MG",
+            "handle": "cuba-white-black-currant",
+            "body_html": "",
+            "published_at": "2025-02-21T03:01:27+01:00",
+            "created_at": "2025-02-21T02:19:49+01:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54154912727366,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347202",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14918929088838,
+                    "created_at": "2025-02-21T02:19:49+01:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537022968134,
+                    "created_at": "2025-05-27T14:54:10+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T14:54:13+02:00",
+                    "product_id": 14918929088838,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CUBA_20.png?v=1748350453",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15215343632710,
+            "title": "CUBA BLACK TROPICAL FRUIT 66MG",
+            "handle": "cuba-black-tropical-fruit-43mg",
+            "body_html": null,
+            "published_at": "2025-10-17T13:17:24+02:00",
+            "created_at": "2025-10-17T13:17:24+02:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "Nikotabako Sp. z o.o.",
+            "product_type": "",
+            "tags": [
+                "cuba",
+                "EXTRA STRONG",
+                "TROPICAL FRUIT"
+            ],
+            "variants": [
+                {
+                    "id": 55276226019654,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347875",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15215343632710,
+                    "created_at": "2025-10-17T13:17:24+02:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80706146861382,
+                    "created_at": "2025-10-17T13:17:24+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-17T13:17:29+02:00",
+                    "product_id": 15215343632710,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/TR_FRUIT_NEW_cuba_black_f38530a8-b9f3-4100-a880-7d095a3ccfb5.png?v=1760699849",
+                    "width": 1129,
+                    "height": 1129
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15215343665478,
+            "title": "CUBA BLACK RASPBERRY 66MG",
+            "handle": "cuba-black-raspberry-43mg",
+            "body_html": null,
+            "published_at": "2025-10-17T13:17:26+02:00",
+            "created_at": "2025-10-17T13:17:26+02:00",
+            "updated_at": "2025-12-22T00:35:12+01:00",
+            "vendor": "Nikotabako Sp. z o.o.",
+            "product_type": "",
+            "tags": [
+                "cuba",
+                "EXTRA STRONG",
+                "RASPBERRY"
+            ],
+            "variants": [
+                {
+                    "id": 55276226117958,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905753347905",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 30,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15215343665478,
+                    "created_at": "2025-10-17T13:17:26+02:00",
+                    "updated_at": "2025-12-22T00:35:12+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80706146926918,
+                    "created_at": "2025-10-17T13:17:26+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-17T13:17:30+02:00",
+                    "product_id": 15215343665478,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/RASPBERRY_NEW_cuba_black_e138f313-7e4e-422b-a14c-9e97d45852df.png?v=1760699850",
+                    "width": 1129,
+                    "height": 1129
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

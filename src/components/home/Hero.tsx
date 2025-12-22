@@ -120,14 +120,24 @@ export function Hero() {
             </div>
 
             {/* Navigation Controls */}
-            <div className="absolute bottom-12 left-0 right-0 z-20 container mx-auto px-4 flex items-center justify-between">
+            <div className="absolute bottom-12 left-0 right-0 z-20 container mx-auto px-4 flex items-center justify-start gap-6">
+
+                {/* Prev Arrow */}
+                <button
+                    onClick={prevSlide}
+                    className="p-4 rounded-full border border-white/20 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black transition-all"
+                    aria-label="Previous slide"
+                >
+                    <ChevronLeft className="w-6 h-6" />
+                </button>
+
                 {/* Indicators */}
                 <div className="flex gap-3">
                     {slides.map((_, idx) => (
                         <button
                             key={idx}
                             onClick={() => setCurrent(idx)}
-                            className={`group relative h-1.5 rounded-full overflow-hidden transition-all duration-300 ${idx === current ? "w-24 bg-white/20" : "w-6 bg-white/40 hover:bg-white/60"
+                            className={`group relative h-2 rounded-full overflow-hidden transition-all duration-300 ${idx === current ? "w-20 bg-white/20" : "w-14 bg-white/40 hover:bg-white/60"
                                 }`}
                         >
                             {idx === current && (
@@ -143,23 +153,14 @@ export function Hero() {
                     ))}
                 </div>
 
-                {/* Arrows */}
-                <div className="flex gap-4">
-                    <button
-                        onClick={prevSlide}
-                        className="p-3 rounded-full border border-white/20 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black transition-all"
-                        aria-label="Previous slide"
-                    >
-                        <ChevronLeft className="w-6 h-6" />
-                    </button>
-                    <button
-                        onClick={nextSlide}
-                        className="p-3 rounded-full border border-white/20 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black transition-all"
-                        aria-label="Next slide"
-                    >
-                        <ChevronRight className="w-6 h-6" />
-                    </button>
-                </div>
+                {/* Next Arrow */}
+                <button
+                    onClick={nextSlide}
+                    className="p-4 rounded-full border border-white/20 bg-black/20 backdrop-blur-sm text-white hover:bg-white hover:text-black transition-all"
+                    aria-label="Next slide"
+                >
+                    <ChevronRight className="w-6 h-6" />
+                </button>
             </div>
         </section>
     );

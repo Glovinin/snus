@@ -1,0 +1,828 @@
+{
+    "products": [
+        {
+            "id": 14998368846150,
+            "title": "PABLO EXCLUSIVE TROPICAL PUNCH 50MG",
+            "handle": "pablo-exclusive-tropical-punch",
+            "body_html": null,
+            "published_at": "2025-04-30T14:15:12+02:00",
+            "created_at": "2025-04-30T14:15:12+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "BANANA",
+                "COCONUT",
+                "EXTRA STRONG",
+                "MANGO",
+                "PINEAPPLE"
+            ],
+            "variants": [
+                {
+                    "id": 54434329559366,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031400572",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14998368846150,
+                    "created_at": "2025-04-30T14:15:12+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77344486195526,
+                    "created_at": "2025-05-23T15:39:42+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T15:39:44+02:00",
+                    "product_id": 14998368846150,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PABLO_26.png?v=1748007584",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15024736502086,
+            "title": "PABLO GOLD EDITION BLUE RASPBERRY 24,29MG",
+            "handle": "pablo-gold-edition-blue-raspberry",
+            "body_html": null,
+            "published_at": "2025-05-23T10:40:30+02:00",
+            "created_at": "2025-05-23T10:39:45+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "RASPBERRY",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54538475012422,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031410274",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15024736502086,
+                    "created_at": "2025-05-23T10:39:46+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78337559855430,
+                    "created_at": "2025-06-22T01:53:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-22T01:53:16+02:00",
+                    "product_id": 15024736502086,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/BlueRasp_1.png?v=1750549996",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14998367404358,
+            "title": "PABLO EXCLUSIVE GRAPE ICE 50MG",
+            "handle": "pablo-exclusive-grape-ice",
+            "body_html": null,
+            "published_at": "2025-04-30T14:14:14+02:00",
+            "created_at": "2025-04-30T14:14:14+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "EXTRA STRONG",
+                "GRAPE"
+            ],
+            "variants": [
+                {
+                    "id": 54434327331142,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761626",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14998367404358,
+                    "created_at": "2025-04-30T14:14:14+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77343872483654,
+                    "created_at": "2025-05-23T15:14:35+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T15:14:37+02:00",
+                    "product_id": 14998367404358,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PABLO_9.png?v=1748006077",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14998367502662,
+            "title": "PABLO EXCLUSIVE MANGO ICE 50MG",
+            "handle": "pablo-exclusive-mango-ice",
+            "body_html": null,
+            "published_at": "2025-04-30T14:14:17+02:00",
+            "created_at": "2025-04-30T14:14:17+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "EXOTIC FRUITS",
+                "EXTRA STRONG",
+                "MANGO"
+            ],
+            "variants": [
+                {
+                    "id": 54434327429446,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761633",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14998367502662,
+                    "created_at": "2025-04-30T14:14:17+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77343904989510,
+                    "created_at": "2025-05-23T15:16:11+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T15:16:14+02:00",
+                    "product_id": 14998367502662,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PABLO_10.png?v=1748006174",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15024731226438,
+            "title": "PABLO GOLD EDITION KIWI 24,29MG",
+            "handle": "pablo-gold-edition-kiwi",
+            "body_html": null,
+            "published_at": "2025-05-23T10:34:53+02:00",
+            "created_at": "2025-05-23T10:32:34+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "kiwi",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54538454335814,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031410151",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15024731226438,
+                    "created_at": "2025-05-23T10:32:34+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77473432961350,
+                    "created_at": "2025-05-26T11:56:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-26T11:56:16+02:00",
+                    "product_id": 15024731226438,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PABLO_46.png?v=1748253376",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15024735224134,
+            "title": "PABLO GOLD EDITION GRAPE ICE 24,29MG",
+            "handle": "pablo-gold-edition-grape-ice",
+            "body_html": null,
+            "published_at": "2025-05-23T10:37:46+02:00",
+            "created_at": "2025-05-23T10:37:46+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54538471440710,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031410120",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15024735224134,
+                    "created_at": "2025-05-23T10:37:46+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 78337658093894,
+                    "created_at": "2025-06-22T01:59:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-22T01:59:29+02:00",
+                    "product_id": 15024735224134,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PabloGOLDEdition_2_Grape_Ice.png?v=1750550369",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14998369337670,
+            "title": "PABLO EXCLUSIVE CHERRY COLA 50MG",
+            "handle": "pablo-exclusive-cherry-cola",
+            "body_html": null,
+            "published_at": "2025-04-30T14:15:37+02:00",
+            "created_at": "2025-04-30T14:15:37+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "cherry",
+                "COLA",
+                "EXTRA STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54434330509638,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031400756",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14998369337670,
+                    "created_at": "2025-04-30T14:15:37+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77344771604806,
+                    "created_at": "2025-05-23T15:54:13+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T15:54:16+02:00",
+                    "product_id": 14998369337670,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PABLO_37.png?v=1748008456",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14998367306054,
+            "title": "PABLO EXCLUSIVE FROSTED MINT 50MG",
+            "handle": "pablo-exclusive-frosted-mint",
+            "body_html": null,
+            "published_at": "2025-04-30T14:14:10+02:00",
+            "created_at": "2025-04-30T14:14:10+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "EXTRA STRONG",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54434327200070,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761671",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14998367306054,
+                    "created_at": "2025-04-30T14:14:10+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77343839027526,
+                    "created_at": "2025-05-23T15:13:26+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T15:13:28+02:00",
+                    "product_id": 14998367306054,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PABLO_8.png?v=1748006008",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15218549162310,
+            "title": "PABLO EXCLUSIVE STRAWBERRY KIWI 50MG",
+            "handle": "pablo-exclusive-strawberry-kiwi",
+            "body_html": null,
+            "published_at": "2025-10-20T16:37:22+02:00",
+            "created_at": "2025-10-20T16:33:29+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "EXTRA STRONG",
+                "kiwi",
+                "STRAWBERRY"
+            ],
+            "variants": [
+                {
+                    "id": 55293017456966,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031409612",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15218549162310,
+                    "created_at": "2025-10-20T16:33:29+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80745002565958,
+                    "created_at": "2025-10-20T16:37:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-20T16:37:24+02:00",
+                    "product_id": 15218549162310,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/pablo-exclusive-50mg-strawberry-kiwi.webp?v=1760971044",
+                    "width": 900,
+                    "height": 900
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15252635124038,
+            "title": "PABLO MINI RED 30MG",
+            "handle": "pablo-mini-x-ice-cold-30mg-kopi",
+            "body_html": "",
+            "published_at": "2025-11-13T17:59:06+01:00",
+            "created_at": "2025-11-13T17:58:15+01:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "PABLO",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55440428925254,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761534",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15252635124038,
+                    "created_at": "2025-11-13T17:58:15+01:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81248447889734,
+                    "created_at": "2025-11-13T17:58:42+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-13T17:58:44+01:00",
+                    "product_id": 15252635124038,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/pablo-mini-red-15g-6419b809dab40.webp?v=1763053124",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15252634173766,
+            "title": "PABLO MINI X-ICE COLD 30MG",
+            "handle": "pablo-mini-x-ice-cold-30mg",
+            "body_html": "",
+            "published_at": "2025-11-13T17:57:49+01:00",
+            "created_at": "2025-11-13T17:57:08+01:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "PABLO",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55440424501574,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761527",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15252634173766,
+                    "created_at": "2025-11-13T17:57:08+01:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81248440615238,
+                    "created_at": "2025-11-13T17:57:28+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-13T17:57:30+01:00",
+                    "product_id": 15252634173766,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/pablo-mini-x-ice-cold-15g-6419b8023eb3f.webp?v=1763053050",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15252631519558,
+            "title": "PABLO MINI ICE COLD 30MG",
+            "handle": "pablo-mini-ice-cold-30mg",
+            "body_html": "",
+            "published_at": "2025-11-13T17:56:46+01:00",
+            "created_at": "2025-11-13T17:53:40+01:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "NGP DISTRIBUTION APS",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "PABLO",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55440408084806,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5744000761510",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 20,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15252631519558,
+                    "created_at": "2025-11-13T17:53:40+01:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81248407650630,
+                    "created_at": "2025-11-13T17:54:07+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-13T17:54:10+01:00",
+                    "product_id": 15252631519558,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/pablo-mini-ice-cold-15g-6419b81214edd.webp?v=1763052850",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15218549784902,
+            "title": "PABLO EXCLUSIVE COLA 50MG",
+            "handle": "pablo-exclusive-cola",
+            "body_html": null,
+            "published_at": "2025-10-20T16:37:09+02:00",
+            "created_at": "2025-10-20T16:34:27+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "COLA",
+                "EXTRA STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55293029122374,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031416818",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15218549784902,
+                    "created_at": "2025-10-20T16:34:27+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80745000206662,
+                    "created_at": "2025-10-20T16:37:07+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-20T16:37:11+02:00",
+                    "product_id": 15218549784902,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/pablo-exclusive-50mg-cola.webp?v=1760971031",
+                    "width": 900,
+                    "height": 900
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15218545066310,
+            "title": "PABLO EXCLUSIVE PINK LEMONADE 50MG",
+            "handle": "pablo-exclusive-pink-lemonade",
+            "body_html": null,
+            "published_at": "2025-10-20T16:38:40+02:00",
+            "created_at": "2025-10-20T16:30:47+02:00",
+            "updated_at": "2025-12-22T00:36:53+01:00",
+            "vendor": "N.G.P",
+            "product_type": "",
+            "tags": [
+                "cherry",
+                "COCKTAIL",
+                "EXTRA STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55292939796806,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5749931409315",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 29,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15218545066310,
+                    "created_at": "2025-10-20T16:30:47+02:00",
+                    "updated_at": "2025-12-22T00:36:53+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80745013150022,
+                    "created_at": "2025-10-20T16:38:34+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-20T16:38:37+02:00",
+                    "product_id": 15218545066310,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/pablo-exclusive-50mg-pink-lemonade.webp?v=1760971117",
+                    "width": 900,
+                    "height": 900
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

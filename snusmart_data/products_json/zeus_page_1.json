@@ -1,0 +1,1670 @@
+{
+    "products": [
+        {
+            "id": 15205229396294,
+            "title": "ZEUS LEGEND SCOTCH WHISKEY MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-scotch-whiskey-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:38+02:00",
+            "created_at": "2025-10-09T11:34:38+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232075039046,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091751993",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229396294,
+                    "created_at": "2025-10-09T11:34:38+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599594533190,
+                    "created_at": "2025-10-09T11:34:38+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:43+02:00",
+                    "product_id": 15205229396294,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_659e7369-2368-463a-a2db-9180d0323c9b.png?v=1760002483",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229691206,
+            "title": "ZEUS LEGEND THUNDER STRIKE MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-thunder-strike-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:45+02:00",
+            "created_at": "2025-10-09T11:34:45+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232075333958,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752082",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229691206,
+                    "created_at": "2025-10-09T11:34:45+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599595319622,
+                    "created_at": "2025-10-09T11:34:45+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:51+02:00",
+                    "product_id": 15205229691206,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_b73f7551-caf3-4474-9f58-8b15d9f85724.png?v=1760002491",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205228806470,
+            "title": "ZEUS LEGEND SCOTCH WHISKEY 8MG",
+            "handle": "zeus-legend-scotch-whiskey-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:19+02:00",
+            "created_at": "2025-10-09T11:34:19+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074252614,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091751986",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205228806470,
+                    "created_at": "2025-10-09T11:34:19+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81095835484486,
+                    "created_at": "2025-11-07T15:23:03+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-07T15:23:07+01:00",
+                    "product_id": 15205228806470,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Scotch8mg.png?v=1762525387",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229560134,
+            "title": "ZEUS LEGEND CHERRY COLA MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-cherry-cola-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:42+02:00",
+            "created_at": "2025-10-09T11:34:43+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "cherry",
+                "COLA"
+            ],
+            "variants": [
+                {
+                    "id": 55232075235654,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752051",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229560134,
+                    "created_at": "2025-10-09T11:34:43+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599595057478,
+                    "created_at": "2025-10-09T11:34:43+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:48+02:00",
+                    "product_id": 15205229560134,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_db45fae7-60c3-4ae3-a7f3-7b38b99abff8.png?v=1760002488",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229297990,
+            "title": "ZEUS LEGEND CHAMPAGNE MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-champagne-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:35+02:00",
+            "created_at": "2025-10-09T11:34:35+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074940742,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091751962",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229297990,
+                    "created_at": "2025-10-09T11:34:36+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599594434886,
+                    "created_at": "2025-10-09T11:34:36+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:41+02:00",
+                    "product_id": 15205229297990,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_6ccb2cbb-3ad5-4ff5-8a5f-7427feb96fca.png?v=1760002481",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229003078,
+            "title": "ZEUS LEGEND CHERRY COLA 8MG",
+            "handle": "zeus-legend-cherry-cola-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:24+02:00",
+            "created_at": "2025-10-09T11:34:24+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "cherry",
+                "COLA"
+            ],
+            "variants": [
+                {
+                    "id": 55232074645830,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752044",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229003078,
+                    "created_at": "2025-10-09T11:34:24+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81095953908038,
+                    "created_at": "2025-11-07T15:27:59+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-07T15:28:03+01:00",
+                    "product_id": 15205229003078,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CherryCola8mg.png?v=1762525683",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205228708166,
+            "title": "ZEUS LEGEND CHAMPAGNE 8MG",
+            "handle": "zeus-legend-champagne-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:16+02:00",
+            "created_at": "2025-10-09T11:34:16+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074187078,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091751955",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205228708166,
+                    "created_at": "2025-10-09T11:34:17+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81095809859910,
+                    "created_at": "2025-11-07T15:21:53+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-07T15:21:57+01:00",
+                    "product_id": 15205228708166,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Champagne8mg.png?v=1762525317",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205228609862,
+            "title": "ZEUS LEGEND COSMOPOLITAN 8MG",
+            "handle": "zeus-legend-cosmopolitan-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:14+02:00",
+            "created_at": "2025-10-09T11:34:14+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232071369030,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091751924",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205228609862,
+                    "created_at": "2025-10-09T11:34:14+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81095787970886,
+                    "created_at": "2025-11-07T15:21:00+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-07T15:21:04+01:00",
+                    "product_id": 15205228609862,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Cosmopolitan8mg.png?v=1762525264",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229232454,
+            "title": "ZEUS LEGEND COSMOPOLITAN MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-cosmopolitan-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:33+02:00",
+            "created_at": "2025-10-09T11:34:33+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074907974,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091751931",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229232454,
+                    "created_at": "2025-10-09T11:34:33+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599594205510,
+                    "created_at": "2025-10-09T11:34:33+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:38+02:00",
+                    "product_id": 15205229232454,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_dde1a398-6acc-4caa-8e66-c47acfae1b94.png?v=1760002478",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229101382,
+            "title": "ZEUS LEGEND MIGHTY MINT 8MG",
+            "handle": "zeus-legend-mighty-mint-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:28+02:00",
+            "created_at": "2025-10-09T11:34:28+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074744134,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752105",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229101382,
+                    "created_at": "2025-10-09T11:34:28+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81096013250886,
+                    "created_at": "2025-11-07T15:29:40+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-07T15:29:44+01:00",
+                    "product_id": 15205229101382,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Mightymint.png?v=1762525784",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229756742,
+            "title": "ZEUS LEGEND MIGHTY MINT MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-mighty-mint-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:47+02:00",
+            "created_at": "2025-10-09T11:34:47+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232075432262,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752112",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229756742,
+                    "created_at": "2025-10-09T11:34:48+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599595581766,
+                    "created_at": "2025-10-09T11:34:48+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:53+02:00",
+                    "product_id": 15205229756742,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_c8007b2a-86ff-45ea-8566-92674d97afb5.png?v=1760002493",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229494598,
+            "title": "ZEUS LEGEND CRYSTAL COLD MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-crystal-cold-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:40+02:00",
+            "created_at": "2025-10-09T11:34:40+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232075170118,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752020",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229494598,
+                    "created_at": "2025-10-09T11:34:40+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599594664262,
+                    "created_at": "2025-10-09T11:34:40+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:45+02:00",
+                    "product_id": 15205229494598,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_7f36ffa9-411b-4347-b0cd-6eaabdbce3e4.png?v=1760002485",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229035846,
+            "title": "ZEUS LEGEND THUNDER STRIKE 8MG",
+            "handle": "zeus-legend-thunder-strike-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:26+02:00",
+            "created_at": "2025-10-09T11:34:26+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074678598,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752075",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229035846,
+                    "created_at": "2025-10-09T11:34:26+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81095985660230,
+                    "created_at": "2025-11-07T15:28:58+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-07T15:29:02+01:00",
+                    "product_id": 15205229035846,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Thunderstrike8mg.png?v=1762525742",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205228904774,
+            "title": "ZEUS LEGEND CRYSTAL COLD 8MG",
+            "handle": "zeus-legend-crystal-cold-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:21+02:00",
+            "created_at": "2025-10-09T11:34:21+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074318150,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752013",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205228904774,
+                    "created_at": "2025-10-09T11:34:21+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81166713258310,
+                    "created_at": "2025-11-10T13:27:43+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-10T13:27:48+01:00",
+                    "product_id": 15205228904774,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CrystalCold.png?v=1762777668",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229822278,
+            "title": "ZEUS LEGEND COLD LIGHTNING MIGHTY STRONG 50MG",
+            "handle": "zeus-legend-cold-lightning-mighty-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:50+02:00",
+            "created_at": "2025-10-09T11:34:50+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232075497798,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752143",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229822278,
+                    "created_at": "2025-10-09T11:34:50+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599595614534,
+                    "created_at": "2025-10-09T11:34:50+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:55+02:00",
+                    "product_id": 15205229822278,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_0f960071-16fd-4ee9-b797-53dcbc986802.png?v=1760002495",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205229166918,
+            "title": "ZEUS LEGEND COLD LIGHTNING 8MG",
+            "handle": "zeus-legend-cold-lightning-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:30+02:00",
+            "created_at": "2025-10-09T11:34:30+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232074809670,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752136",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205229166918,
+                    "created_at": "2025-10-09T11:34:31+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81096023474502,
+                    "created_at": "2025-11-07T15:30:14+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-07T15:30:17+01:00",
+                    "product_id": 15205229166918,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ColdLightning.png?v=1762525817",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205228380486,
+            "title": "ZEUS EPIC BERRY EXTRA STRONG 50MG",
+            "handle": "zeus-epic-berry-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:11+02:00",
+            "created_at": "2025-10-09T11:34:11+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232068452678,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000902",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205228380486,
+                    "created_at": "2025-10-09T11:34:12+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599582933318,
+                    "created_at": "2025-10-09T11:34:12+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:17+02:00",
+                    "product_id": 15205228380486,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_138594ea-239e-49f8-8409-0041dc345d98.png?v=1760002457",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205228216646,
+            "title": "ZEUS BUBBLEGUM EXTRA STRONG 50MG",
+            "handle": "zeus-bubblegum-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:09+02:00",
+            "created_at": "2025-10-09T11:34:09+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "EXTRA STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55232067043654,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752532",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205228216646,
+                    "created_at": "2025-10-09T11:34:10+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599580180806,
+                    "created_at": "2025-10-09T11:34:09+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:15+02:00",
+                    "product_id": 15205228216646,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_cf1565ae-64b0-4cbf-840b-a632316ea187.png?v=1760002455",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205228020038,
+            "title": "ZEUS TRUE NORTH EXTRA STRONG 50MG",
+            "handle": "zeus-true-north-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:07+02:00",
+            "created_at": "2025-10-09T11:34:07+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232066617670,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000391",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205228020038,
+                    "created_at": "2025-10-09T11:34:07+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599579001158,
+                    "created_at": "2025-10-09T11:34:07+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:13+02:00",
+                    "product_id": 15205228020038,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_df08f1af-867e-4900-a3d1-673335c84e0e.png?v=1760002453",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205227692358,
+            "title": "ZEUS TROPIC BURST EXTRA STRONG 50MG",
+            "handle": "zeus-tropic-burst-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:04+02:00",
+            "created_at": "2025-10-09T11:34:04+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232065995078,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000407",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205227692358,
+                    "created_at": "2025-10-09T11:34:04+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599576969542,
+                    "created_at": "2025-10-09T11:34:04+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:11+02:00",
+                    "product_id": 15205227692358,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_f2a8a68d-2f07-406e-8b22-69ec4e05d6b1.png?v=1760002451",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205227397446,
+            "title": "ZEUS CHERRY BLOSSOM EXTRA STRONG 50MG",
+            "handle": "zeus-cherry-blossom-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:34:00+02:00",
+            "created_at": "2025-10-09T11:34:00+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "cherry"
+            ],
+            "variants": [
+                {
+                    "id": 55232064880966,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000414",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205227397446,
+                    "created_at": "2025-10-09T11:34:00+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599573823814,
+                    "created_at": "2025-10-09T11:34:00+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:05+02:00",
+                    "product_id": 15205227397446,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_5110b63f-8bad-4c15-94f9-5015f4814acd.png?v=1760002445",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205227168070,
+            "title": "ZEUS MINT RAGE EXTRA STRONG 50MG",
+            "handle": "zeus-mint-rage-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:57+02:00",
+            "created_at": "2025-10-09T11:33:57+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232061964614,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000445",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205227168070,
+                    "created_at": "2025-10-09T11:33:57+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599568679238,
+                    "created_at": "2025-10-09T11:33:57+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:02+02:00",
+                    "product_id": 15205227168070,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_e6744aac-22ca-4dba-9754-3df6f1f9e60f.png?v=1760002442",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226971462,
+            "title": "ZEUS FROZEN CITRUS EXTRA STRONG 50MG",
+            "handle": "zeus-frozen-citrus-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:55+02:00",
+            "created_at": "2025-10-09T11:33:55+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232059703622,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000421",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226971462,
+                    "created_at": "2025-10-09T11:33:55+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599565566278,
+                    "created_at": "2025-10-09T11:33:55+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:34:01+02:00",
+                    "product_id": 15205226971462,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_1535bc4f-2f46-4b49-8041-e8a86d9da5a4.png?v=1760002441",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226774854,
+            "title": "ZEUS ARCTIC FREEZE EXTRA STRONG 50MG",
+            "handle": "zeus-arctic-freeze-extra-strong-50mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:53+02:00",
+            "created_at": "2025-10-09T11:33:53+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232056066374,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000438",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226774854,
+                    "created_at": "2025-10-09T11:33:53+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599562125638,
+                    "created_at": "2025-10-09T11:33:53+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:58+02:00",
+                    "product_id": 15205226774854,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_64ea09a2-e5d6-4c9d-a03a-8ba2543bcb16.png?v=1760002438",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226611014,
+            "title": "ZEUS EPIC BERRY STRONG 20MG",
+            "handle": "zeus-epic-berry-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:51+02:00",
+            "created_at": "2025-10-09T11:33:51+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232053608774,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000919",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226611014,
+                    "created_at": "2025-10-09T11:33:51+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599559766342,
+                    "created_at": "2025-10-09T11:33:51+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:57+02:00",
+                    "product_id": 15205226611014,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_33caaeeb-a70d-489a-be23-f01fffb34455.png?v=1760002437",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226479942,
+            "title": "ZEUS BUBBLEGUM STRONG 20MG",
+            "handle": "zeus-bubblegum-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:49+02:00",
+            "created_at": "2025-10-09T11:33:49+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55232052101446,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745091752525",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226479942,
+                    "created_at": "2025-10-09T11:33:49+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599554392390,
+                    "created_at": "2025-10-09T11:33:49+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:55+02:00",
+                    "product_id": 15205226479942,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_0755a30d-1aba-44bd-87b8-4e65b056f19b.png?v=1760002435",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226250566,
+            "title": "ZEUS TRUE NORTH STRONG 20MG",
+            "handle": "zeus-true-north-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:47+02:00",
+            "created_at": "2025-10-09T11:33:47+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232047120710,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000384",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226250566,
+                    "created_at": "2025-10-09T11:33:47+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599551803718,
+                    "created_at": "2025-10-09T11:33:47+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:52+02:00",
+                    "product_id": 15205226250566,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_8c1ad90d-3830-40ac-b99f-862fa2aba569.png?v=1760002432",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226152262,
+            "title": "ZEUS TROPIC BURST STRONG 20MG",
+            "handle": "zeus-tropic-burst-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:44+02:00",
+            "created_at": "2025-10-09T11:33:44+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046956870,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000322",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226152262,
+                    "created_at": "2025-10-09T11:33:45+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599551607110,
+                    "created_at": "2025-10-09T11:33:45+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:52+02:00",
+                    "product_id": 15205226152262,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_9576b000-3ded-4a2a-b707-599206bab825.png?v=1760002432",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226086726,
+            "title": "ZEUS CHERRY BLOSSOM STRONG 20MG",
+            "handle": "zeus-cherry-blossom-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:42+02:00",
+            "created_at": "2025-10-09T11:33:42+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [
+                "cherry"
+            ],
+            "variants": [
+                {
+                    "id": 55232046891334,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000377",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226086726,
+                    "created_at": "2025-10-09T11:33:42+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599551541574,
+                    "created_at": "2025-10-09T11:33:42+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:48+02:00",
+                    "product_id": 15205226086726,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_7e77973b-ebde-4ec0-9ebb-0f9b931b3aa4.png?v=1760002428",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15205226021190,
+            "title": "ZEUS MINT RAGE STRONG 20MG",
+            "handle": "zeus-mint-rage-strong-20mg",
+            "body_html": null,
+            "published_at": "2025-10-09T11:33:40+02:00",
+            "created_at": "2025-10-09T11:33:40+02:00",
+            "updated_at": "2025-12-22T00:40:23+01:00",
+            "vendor": "NICOTECH O�",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55232046825798,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4751044000018",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15205226021190,
+                    "created_at": "2025-10-09T11:33:40+02:00",
+                    "updated_at": "2025-12-22T00:40:23+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80599551246662,
+                    "created_at": "2025-10-09T11:33:40+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-09T11:33:47+02:00",
+                    "product_id": 15205226021190,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/p_d015f2f3-14f9-4ef2-bdd1-bfd379a537c9.png?v=1760002427",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

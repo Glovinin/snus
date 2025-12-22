@@ -1,0 +1,509 @@
+{
+    "products": [
+        {
+            "id": 15130640023878,
+            "title": "RUSH EXTREME CHERRY CHILL 30MG",
+            "handle": "rush-extreme-cherry-chill",
+            "body_html": null,
+            "published_at": "2025-08-31T22:57:00+02:00",
+            "created_at": "2025-08-31T22:57:00+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [
+                "cherry"
+            ],
+            "variants": [
+                {
+                    "id": 55011792781638,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001182351",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130640023878,
+                    "created_at": "2025-08-31T22:57:00+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981916225862,
+                    "created_at": "2025-08-31T22:57:00+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:57:05+02:00",
+                    "product_id": 15130640023878,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Cherry_Chill_410b2de8-d578-4292-af14-687937b48d2f.png?v=1756673825",
+                    "width": 942,
+                    "height": 942
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130639761734,
+            "title": "RUSH PRO MANGO FREEZE 16MG",
+            "handle": "rush-pro-mango-freeze",
+            "body_html": null,
+            "published_at": "2025-08-31T22:56:45+02:00",
+            "created_at": "2025-08-31T22:56:45+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [
+                "MANGO"
+            ],
+            "variants": [
+                {
+                    "id": 55011792421190,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001181477",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130639761734,
+                    "created_at": "2025-08-31T22:56:45+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981914816838,
+                    "created_at": "2025-08-31T22:56:45+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:56:50+02:00",
+                    "product_id": 15130639761734,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Mango_Freeze_2_d06c61d9-0901-45a3-b38b-f6bdc987bbd5.png?v=1756673810",
+                    "width": 943,
+                    "height": 943
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130639958342,
+            "title": "RUSH PRO ICY GRAPE 16MG",
+            "handle": "rush-pro-icy-grape",
+            "body_html": null,
+            "published_at": "2025-08-31T22:56:55+02:00",
+            "created_at": "2025-08-31T22:56:55+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55011792683334,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001181224",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130639958342,
+                    "created_at": "2025-08-31T22:56:56+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80744856256838,
+                    "created_at": "2025-10-20T16:28:55+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-20T16:28:58+02:00",
+                    "product_id": 15130639958342,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/7067e9e3-1c0a-4bb0-b10a-0f97f0f6f635.jpg?v=1760970538",
+                    "width": 360,
+                    "height": 360
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130640089414,
+            "title": "RUSH EXTREME GRAPE ICE 30MG",
+            "handle": "rush-extreme-grape-ice",
+            "body_html": null,
+            "published_at": "2025-08-31T22:57:02+02:00",
+            "created_at": "2025-08-31T22:57:02+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55011792879942,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001184751",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130640089414,
+                    "created_at": "2025-08-31T22:57:02+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981916619078,
+                    "created_at": "2025-08-31T22:57:02+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:57:07+02:00",
+                    "product_id": 15130640089414,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Grape_Ice_ce59239c-7d06-438a-a5de-f660c470612f.png?v=1756673827",
+                    "width": 942,
+                    "height": 942
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130639991110,
+            "title": "RUSH EXTREME BOOST MINT 30MG",
+            "handle": "rush-extreme-boost-mint",
+            "body_html": null,
+            "published_at": "2025-08-31T22:56:58+02:00",
+            "created_at": "2025-08-31T22:56:58+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55011792716102,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001180951",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130639991110,
+                    "created_at": "2025-08-31T22:56:58+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981915930950,
+                    "created_at": "2025-08-31T22:56:58+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:57:02+02:00",
+                    "product_id": 15130639991110,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Boost_Mint_1_85494c2f-15d6-4f40-8869-1a8deb10a037.png?v=1756673822",
+                    "width": 942,
+                    "height": 942
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130639827270,
+            "title": "RUSH PRO GREEN MINT 16MG",
+            "handle": "rush-pro-green-mint",
+            "body_html": null,
+            "published_at": "2025-08-31T22:56:49+02:00",
+            "created_at": "2025-08-31T22:56:49+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55011792519494,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001182573",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130639827270,
+                    "created_at": "2025-08-31T22:56:49+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981915078982,
+                    "created_at": "2025-08-31T22:56:49+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:56:55+02:00",
+                    "product_id": 15130639827270,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Green_Mint_1_8892d596-8f1f-437a-915c-a3006cf52fd4.png?v=1756673815",
+                    "width": 943,
+                    "height": 943
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130639794502,
+            "title": "RUSH PRO BERRY ICE 16MG",
+            "handle": "rush-pro-berry-ice",
+            "body_html": null,
+            "published_at": "2025-08-31T22:56:47+02:00",
+            "created_at": "2025-08-31T22:56:47+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55011792453958,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001182580",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130639794502,
+                    "created_at": "2025-08-31T22:56:47+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981915013446,
+                    "created_at": "2025-08-31T22:56:47+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:56:53+02:00",
+                    "product_id": 15130639794502,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Berry_Ice_2_fb100957-4482-425d-b3ea-f13ed1cd41d2.png?v=1756673813",
+                    "width": 943,
+                    "height": 943
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130639860038,
+            "title": "RUSH PRO ICE COOL 16MG",
+            "handle": "rush-pro-ice-cool",
+            "body_html": null,
+            "published_at": "2025-08-31T22:56:51+02:00",
+            "created_at": "2025-08-31T22:56:51+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55011792617798,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001182542",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130639860038,
+                    "created_at": "2025-08-31T22:56:51+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981915373894,
+                    "created_at": "2025-08-31T22:56:51+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:56:57+02:00",
+                    "product_id": 15130639860038,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Ice_Cool_2_6df4df92-28ca-4030-85a9-c7812fe4b51d.png?v=1756673817",
+                    "width": 943,
+                    "height": 943
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15130639892806,
+            "title": "RUSH PRO NORDIC FROST 16MG",
+            "handle": "rush-pro-nordic-frost",
+            "body_html": null,
+            "published_at": "2025-08-31T22:56:53+02:00",
+            "created_at": "2025-08-31T22:56:53+02:00",
+            "updated_at": "2025-12-22T00:38:40+01:00",
+            "vendor": "Dholakia Tobacco Pvt Lmd",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55011792650566,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906001181521",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "2.79",
+                    "grams": 14,
+                    "compare_at_price": "3.69",
+                    "position": 1,
+                    "product_id": 15130639892806,
+                    "created_at": "2025-08-31T22:56:53+02:00",
+                    "updated_at": "2025-12-22T00:38:40+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79981915472198,
+                    "created_at": "2025-08-31T22:56:53+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-31T22:56:58+02:00",
+                    "product_id": 15130639892806,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Nordic_Frost_1_07e2782b-2b19-4ea1-9ebd-be0f5d4ea5cb.png?v=1756673818",
+                    "width": 943,
+                    "height": 943
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

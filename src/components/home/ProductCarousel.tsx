@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useCartStore } from "@/store/cartStore";
 import { getBestSellers, Product } from "@/lib/firebase/products";
+import Image from "next/image";
+import { useTransitionStore } from "@/store/transitionStore";
 
 // ============================================
 // PRODUCT CARD COMPONENT
@@ -16,6 +18,7 @@ function CarouselProductCard({ product }: { product: Product }) {
     const [selectedSize, setSelectedSize] = useState("1");
     const basePrice = product.price;
     const currentPrice = (basePrice * Number(selectedSize)).toFixed(2);
+    const setTransitionProduct = useTransitionStore((state) => state.setTransitionProduct);
 
     // Background color based on strength
     const strengthColors: Record<string, string> = {
@@ -41,92 +44,116 @@ function CarouselProductCard({ product }: { product: Product }) {
     const hasImage = product.images && product.images.length > 0;
 
     return (
-        <Link href={`/product/${product.id}`} className="block h-full">
+        <Link
+            href={`/product/${product.id}`}
+            className="block h-full"
+            onClick={() => setTransitionProduct(product, `carousel-product-${product.id}`)}
+        >
             <div
-                className={`relative shrink-0 w-[80vw] md:w-[350px] h-[450px] group rounded-[2rem] overflow-hidden select-none ${!hasImage ? bgColor : ""} border border-foreground/5 flex flex-col justify-between p-8 hover:shadow-xl hover:shadow-foreground/5 transition-all duration-500`}
-                style={hasImage ? { backgroundImage: `url(${product.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" } : undefined}
+                className={`relative shrink-0 w-[80vw] md:w-[350px] h-[450px] group rounded-[2rem] overflow-hidden select-none ${!hasImage ? bgColor : ""} border border-foreground/5 hover:shadow-xl transition-all duration-500 flex flex-col`}
             >
-                {/* Overlay for image background */}
+                {/* Product Image */}
                 {hasImage && (
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
+                    <motion.div
+                        className="absolute inset-0 z-0"
+                        layoutId={`carousel-product-${product.id}`}
+                        transition={{ duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] }}
+                    >
+                        <Image
+                            src={product.images[0]}
+                            alt={product.name}
+                            fill
+                            className="object-cover transition-transform duration-700 group-hover:scale-110"
+                            sizes="(max-width: 640px) 80vw, 350px"
+                            placeholder={product.imagesBlurData?.[0] ? "blur" : "empty"}
+                            blurDataURL={product.imagesBlurData?.[0]}
+                        />
+                    </motion.div>
+                )}
+                {/* Top Badges */}
+                <div className="absolute top-6 left-6 right-6 z-20 flex justify-between items-start">
+                    <span className={`text-[10px] font-bold uppercase tracking-widest py-1 px-2.5 rounded-full bg-white/40 backdrop-blur-md ${hasImage ? "text-white" : textColor}`}>
+                        {product.category}
+                    </span>
+                    {product.isBestSeller && (
+                        <span className="text-[10px] font-bold uppercase tracking-widest py-1 px-2.5 rounded-full bg-rose-500/80 text-white backdrop-blur-md">
+                            Best Seller
+                        </span>
+                    )}
+                </div>
+
+                {/* Bottom Gradient */}
+                {hasImage && (
+                    <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/95 via-black/70 to-transparent" />
                 )}
 
-                {/* Hover Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+                {/* Spacer */}
+                <div className="flex-1" />
 
-                {/* Content Overlay */}
-                <div className="relative z-10 flex flex-col h-full justify-between">
-                    <div className="flex justify-between items-start">
-                        <span className={`text-[10px] font-bold uppercase tracking-widest py-1 px-2.5 rounded-full bg-white/40 backdrop-blur-md ${hasImage ? "text-white" : textColor}`}>
-                            {product.category}
-                        </span>
-                        {product.isBestSeller && (
-                            <span className="text-[10px] font-bold uppercase tracking-widest py-1 px-2.5 rounded-full bg-rose-500/80 text-white backdrop-blur-md">
-                                Best Seller
-                            </span>
-                        )}
+                {/* Bottom Content */}
+                <div className="relative z-10 px-6 pb-6">
+                    {/* Product Info - Visible by default, Hidden on Hover */}
+                    <div className="transition-all duration-300 group-hover:opacity-0 group-hover:h-0 group-hover:mb-0 overflow-hidden mb-0">
+                        <h3 className={`text-2xl font-bold mb-1 ${hasImage ? "text-white" : textColor} tracking-tight leading-tight`}>
+                            {product.name}
+                        </h3>
+                        <p className={`text-sm ${hasImage ? "text-white/70" : textColor + " opacity-60"} mb-1`}>
+                            {product.brand} • {product.strength}
+                        </p>
+                        <p className={`text-xl font-semibold ${hasImage ? "text-white" : textColor}`}>
+                            €{currentPrice}
+                        </p>
                     </div>
 
-                    <div className="flex flex-col gap-4">
-                        <div className="transition-transform duration-500 group-hover:-translate-y-2">
-                            <h3 className={`text-3xl font-bold mb-1 ${hasImage ? "text-white" : textColor} tracking-tight`}>
-                                {product.name}
-                            </h3>
-                            <p className={`text-sm ${hasImage ? "text-white/70" : textColor + " opacity-60"} mb-2`}>
-                                {product.brand} • {product.strength}
-                            </p>
-                            <p className={`text-xl font-medium ${hasImage ? "text-white" : textColor} opacity-80`}>
-                                €{currentPrice} <span className="text-sm opacity-60 font-normal">/ {selectedSize} {Number(selectedSize) === 1 ? "pack" : "packs"}</span>
-                            </p>
+                    {/* Controls - Hidden by default, Visible on Hover */}
+                    <div className="transition-all duration-300 max-h-0 opacity-0 group-hover:max-h-[200px] group-hover:opacity-100 overflow-hidden">
+                        {/* Pack Size Selector */}
+                        <div
+                            className="flex items-center justify-between bg-white/20 backdrop-blur-md rounded-xl p-1 border border-white/20 mb-3"
+                            onClick={(e) => e.preventDefault()}
+                        >
+                            {["1", "5", "10", "20", "40"].map((size) => (
+                                <button
+                                    key={size}
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        setSelectedSize(size);
+                                    }}
+                                    className={`h-9 flex-1 rounded-lg text-xs font-bold transition-all ${selectedSize === size
+                                        ? "bg-white text-black"
+                                        : "text-white/70 hover:bg-white/20"
+                                        }`}
+                                >
+                                    {size}
+                                </button>
+                            ))}
                         </div>
 
-                        {/* Controls Container - Visible on Hover */}
-                        <div className="flex flex-col gap-3 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-                            {/* Pack Size Selector */}
-                            <div
-                                className="flex items-center justify-between bg-white/40 backdrop-blur-md rounded-xl p-1 shadow-sm border border-white/20"
-                                onClick={(e) => e.preventDefault()}
-                            >
-                                {["1", "5", "10", "20", "40"].map((size) => (
-                                    <button
-                                        key={size}
-                                        onClick={(e) => {
-                                            e.preventDefault();
-                                            e.stopPropagation();
-                                            setSelectedSize(size);
-                                        }}
-                                        className={`h-8 min-w-[2.5rem] flex-1 rounded-lg text-xs font-bold transition-all ${selectedSize === size
-                                            ? "bg-black text-white shadow-sm scale-105"
-                                            : "text-black/60 hover:bg-white/40"
-                                            }`}
-                                    >
-                                        {size}
-                                    </button>
-                                ))}
-                            </div>
+                        {/* Add to Cart Button */}
+                        <Button
+                            className="w-full h-12 rounded-xl text-base font-bold bg-white text-black hover:bg-white/90 border-0 mb-2"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                useCartStore.getState().addItem({
+                                    id: product.id,
+                                    name: product.name,
+                                    price: basePrice * Number(selectedSize),
+                                    image: product.images?.[0] || "/placeholder.jpg",
+                                    bgClass: bgColor,
+                                    variant: `${product.strength} • ${selectedSize} Pack`,
+                                    quantity: 1,
+                                });
+                                useCartStore.getState().openCart();
+                            }}
+                        >
+                            Add to Cart <ShoppingBag className="ml-2 w-4 h-4" />
+                        </Button>
 
-                            {/* Add to Cart Button */}
-                            <Button
-                                className="w-full h-12 rounded-xl text-base font-bold shadow-lg bg-black text-white hover:bg-black/90 border-0"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    const packPrice = basePrice * Number(selectedSize);
-
-                                    useCartStore.getState().addItem({
-                                        id: product.id,
-                                        name: product.name,
-                                        price: packPrice,
-                                        image: product.images?.[0] || "/placeholder.jpg",
-                                        bgClass: bgColor,
-                                        variant: `${product.strength} • ${selectedSize} Pack`,
-                                        quantity: 1,
-                                    });
-                                    useCartStore.getState().openCart();
-                                }}
-                            >
-                                <span>Add to Cart <ShoppingBag className="ml-2 w-4 h-4 inline-block" /></span>
-                            </Button>
-                        </div>
+                        {/* View Details */}
+                        <p className="text-center text-white/70 text-sm hover:text-white transition-colors">
+                            View Details <ArrowRight className="inline w-4 h-4 ml-1" />
+                        </p>
                     </div>
                 </div>
             </div>

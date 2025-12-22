@@ -1,0 +1,369 @@
+{
+    "products": [
+        {
+            "id": 15088358129990,
+            "title": "GREATEST ARCTIC EDITION 9.96MG",
+            "handle": "greatest-artic-edition",
+            "body_html": "",
+            "published_at": "2025-07-31T16:29:44+02:00",
+            "created_at": "2025-07-31T16:27:50+02:00",
+            "updated_at": "2025-12-22T00:35:47+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "greatest",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54876102689094,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6429811342095",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15088358129990,
+                    "created_at": "2025-07-31T16:27:51+02:00",
+                    "updated_at": "2025-12-22T00:35:47+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79320086774086,
+                    "created_at": "2025-07-31T16:28:19+02:00",
+                    "position": 1,
+                    "updated_at": "2025-07-31T16:28:25+02:00",
+                    "product_id": 15088358129990,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/GreatestArcticfront.png?v=1753972105",
+                    "width": 3000,
+                    "height": 3000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9307983774022,
+            "title": "GREATEST COLD DRY 16MG",
+            "handle": "greatest-cold-dry",
+            "body_html": "",
+            "published_at": "2024-10-23T11:34:26+02:00",
+            "created_at": "2024-10-23T10:12:21+02:00",
+            "updated_at": "2025-12-22T00:35:47+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "greatest",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 50644164247878,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "4745010374593",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9307983774022,
+                    "created_at": "2024-10-23T10:12:22+02:00",
+                    "updated_at": "2025-12-22T00:35:47+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77826304475462,
+                    "created_at": "2025-06-04T13:22:02+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-04T13:22:04+02:00",
+                    "product_id": 9307983774022,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/GreatestColdDry16MG.png?v=1749036124",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14914357821766,
+            "title": "GREATEST COLD DRY 8MG",
+            "handle": "greatest-cold-dry-8mg",
+            "body_html": "",
+            "published_at": "2025-02-21T01:43:05+01:00",
+            "created_at": "2025-02-17T14:46:06+01:00",
+            "updated_at": "2025-12-22T00:35:47+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "greatest",
+                "MINT",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54137250513222,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6429811342064",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14914357821766,
+                    "created_at": "2025-02-17T14:46:06+01:00",
+                    "updated_at": "2025-12-22T00:35:47+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 73742684553542,
+                    "created_at": "2025-02-17T14:59:22+01:00",
+                    "position": 1,
+                    "updated_at": "2025-02-17T14:59:33+01:00",
+                    "product_id": 14914357821766,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/greatest-8mg.png?v=1739800773",
+                    "width": 2000,
+                    "height": 2000
+                },
+                {
+                    "id": 73742672003398,
+                    "created_at": "2025-02-17T14:58:29+01:00",
+                    "position": 2,
+                    "updated_at": "2025-02-17T14:59:33+01:00",
+                    "product_id": 14914357821766,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/greatest-8-side.png?v=1739800773",
+                    "width": 1000,
+                    "height": 1000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14965755937094,
+            "title": "GREATEST COLD DRY XL 13.32MG",
+            "handle": "greatest-cold-dry-xl",
+            "body_html": null,
+            "published_at": "2025-03-29T14:03:16+01:00",
+            "created_at": "2025-03-29T14:03:16+01:00",
+            "updated_at": "2025-12-22T00:35:47+01:00",
+            "vendor": "PREMIUM POUCH FINLAND OY",
+            "product_type": "",
+            "tags": [
+                "greatest",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54307459531078,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6429811342392",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.89",
+                    "grams": 26,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14965755937094,
+                    "created_at": "2025-03-29T14:03:16+01:00",
+                    "updated_at": "2025-12-22T00:35:47+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77482967925062,
+                    "created_at": "2025-05-26T15:09:21+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-26T15:09:27+02:00",
+                    "product_id": 14965755937094,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/GREATEST_2.png?v=1748264967",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14950320636230,
+            "title": "GREATEST MEGA CAN 16MG",
+            "handle": "greatest-mega-can",
+            "body_html": "",
+            "published_at": "2025-03-16T16:39:31+01:00",
+            "created_at": "2025-03-16T16:39:31+01:00",
+            "updated_at": "2025-12-22T00:35:47+01:00",
+            "vendor": "PREMIUM POUCH FINLAND OY",
+            "product_type": "",
+            "tags": [
+                "greatest",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54257795170630,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6429811342385",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "29.90",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14950320636230,
+                    "created_at": "2025-03-16T16:39:31+01:00",
+                    "updated_at": "2025-12-22T00:35:47+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 74497149862214,
+                    "created_at": "2025-03-16T16:39:55+01:00",
+                    "position": 1,
+                    "updated_at": "2025-03-16T16:39:57+01:00",
+                    "product_id": 14950320636230,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/mega-can.webp?v=1742139597",
+                    "width": 621,
+                    "height": 621
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15141763416390,
+            "title": "GREATEST RAGE LEMONADE 10MG",
+            "handle": "greatest-rage-lemonade-10mg",
+            "body_html": "",
+            "published_at": "2025-09-08T11:36:11+02:00",
+            "created_at": "2025-09-08T11:33:41+02:00",
+            "updated_at": "2025-12-22T00:35:47+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "greatest",
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 55052247171398,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "6429811342804",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15141763416390,
+                    "created_at": "2025-09-08T11:33:41+02:00",
+                    "updated_at": "2025-12-22T00:35:47+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80094699848006,
+                    "created_at": "2025-09-08T11:34:15+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-08T11:34:20+02:00",
+                    "product_id": 15141763416390,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Greatest_-_Rage_lemonade-side.png?v=1757324060",
+                    "width": 3000,
+                    "height": 3000
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

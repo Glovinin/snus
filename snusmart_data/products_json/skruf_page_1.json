@@ -1,0 +1,353 @@
+{
+    "products": [
+        {
+            "id": 14970264944966,
+            "title": "SKRUF SUPERWHITE S2 8MG",
+            "handle": "skruf-fresh-mint-s2",
+            "body_html": "",
+            "published_at": "2025-04-02T21:51:09+02:00",
+            "created_at": "2025-04-02T21:51:09+02:00",
+            "updated_at": "2025-12-22T00:38:49+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "WEAK"
+            ],
+            "variants": [
+                {
+                    "id": 54323139543366,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "73151197",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 32,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970264944966,
+                    "created_at": "2025-04-02T21:51:09+02:00",
+                    "updated_at": "2025-12-22T00:38:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 79741365977414,
+                    "created_at": "2025-08-18T11:24:08+02:00",
+                    "position": 1,
+                    "updated_at": "2025-08-18T11:24:11+02:00",
+                    "product_id": 14970264944966,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/SIBERIASLIMPORTION_1.png?v=1755509051",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970264977734,
+            "title": "SKRUF FROZEN MINT SUPERLSIM S4 15.5MG",
+            "handle": "skruf-frozen-mint-superlsim-s4",
+            "body_html": null,
+            "published_at": "2025-04-02T21:51:14+02:00",
+            "created_at": "2025-04-02T21:51:14+02:00",
+            "updated_at": "2025-12-22T00:38:49+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323139576134,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7330196008461",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 32,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970264977734,
+                    "created_at": "2025-04-02T21:51:14+02:00",
+                    "updated_at": "2025-12-22T00:38:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77340845769030,
+                    "created_at": "2025-05-23T13:47:30+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T13:47:32+02:00",
+                    "product_id": 14970264977734,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/SKRUF_1.png?v=1748000852",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970264879430,
+            "title": "SKRUF FRESH MINT S3 12MG",
+            "handle": "skruf-fresh-mint-s3",
+            "body_html": null,
+            "published_at": "2025-04-02T21:51:05+02:00",
+            "created_at": "2025-04-02T21:51:05+02:00",
+            "updated_at": "2025-12-22T00:38:49+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323139477830,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "73151265",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 32,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970264879430,
+                    "created_at": "2025-04-02T21:51:05+02:00",
+                    "updated_at": "2025-12-22T00:38:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77340923232582,
+                    "created_at": "2025-05-23T13:49:23+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T13:49:26+02:00",
+                    "product_id": 14970264879430,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/SKRUF_3.png?v=1748000966",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9026489745734,
+            "title": "SKRUF POLAR EUCALYPTUS S3 17MG",
+            "handle": "skruf-polar-eucalyptus",
+            "body_html": "",
+            "published_at": "2024-06-13T15:35:43+02:00",
+            "created_at": "2024-06-11T17:25:04+02:00",
+            "updated_at": "2025-12-22T00:38:49+01:00",
+            "vendor": "SnusMart",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "SKRUF",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 49854558306630,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7330196004555",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 33,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 9026489745734,
+                    "created_at": "2024-06-11T17:25:04+02:00",
+                    "updated_at": "2025-12-22T00:38:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77341263921478,
+                    "created_at": "2025-05-23T13:56:43+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T13:56:45+02:00",
+                    "product_id": 9026489745734,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/SKRUF_5.png?v=1748001405",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265010502,
+            "title": "SKRUF CRYSTAL FRESH EXTRA STRONG 16.6MG",
+            "handle": "skruf-crystal-fresh-extra-strong",
+            "body_html": null,
+            "published_at": "2025-04-02T21:51:18+02:00",
+            "created_at": "2025-04-02T21:51:18+02:00",
+            "updated_at": "2025-12-22T00:38:49+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323139608902,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7340229800252",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 32,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265010502,
+                    "created_at": "2025-04-02T21:51:18+02:00",
+                    "updated_at": "2025-12-22T00:38:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77340784656710,
+                    "created_at": "2025-05-23T13:46:17+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T13:46:19+02:00",
+                    "product_id": 14970265010502,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/SKRUF.png?v=1748000779",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970264846662,
+            "title": "SKRUF FRESH MINT S4 15MG",
+            "handle": "skruf-fresh-mint-s4",
+            "body_html": null,
+            "published_at": "2025-04-02T21:50:59+02:00",
+            "created_at": "2025-04-02T21:50:59+02:00",
+            "updated_at": "2025-12-22T00:38:49+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323139445062,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "7330196002537",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "4.09",
+                    "grams": 32,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970264846662,
+                    "created_at": "2025-04-02T21:50:59+02:00",
+                    "updated_at": "2025-12-22T00:38:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77341126263110,
+                    "created_at": "2025-05-23T13:53:58+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-23T13:54:01+02:00",
+                    "product_id": 14970264846662,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/SKRUF_4.png?v=1748001241",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

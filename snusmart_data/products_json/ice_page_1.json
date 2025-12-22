@@ -1,0 +1,669 @@
+{
+    "products": [
+        {
+            "id": 15164682273094,
+            "title": "ICE FREEZE REAPER 4P - 16,5MG",
+            "handle": "ice-freeze-reaper-4p-16-5mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:04+02:00",
+            "created_at": "2025-09-23T17:47:04+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131319992646,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730353",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682273094,
+                    "created_at": "2025-09-23T17:47:05+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285409902918,
+                    "created_at": "2025-09-23T17:47:05+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:10+02:00",
+                    "product_id": 15164682273094,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewFreezeReaper_12mg.png?v=1758642430",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682568006,
+            "title": "ICE GRAPE X 6P - 38MG",
+            "handle": "ice-grape-x-6p-38mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:18+02:00",
+            "created_at": "2025-09-23T17:47:18+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55131320582470,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730414",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682568006,
+                    "created_at": "2025-09-23T17:47:18+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285410459974,
+                    "created_at": "2025-09-23T17:47:18+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:23+02:00",
+                    "product_id": 15164682568006,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_ViewGrapeX_27mg.png?v=1758642443",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682109254,
+            "title": "ICE COLA SLUSH 4P - 16,5MG",
+            "handle": "ice-cola-slush-4p-16-5mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:46:58+02:00",
+            "created_at": "2025-09-23T17:46:58+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [
+                "COLA"
+            ],
+            "variants": [
+                {
+                    "id": 55131319533894,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730322",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682109254,
+                    "created_at": "2025-09-23T17:46:58+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285409247558,
+                    "created_at": "2025-09-23T17:46:58+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:02+02:00",
+                    "product_id": 15164682109254,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewColaSlush_12mg.png?v=1758642422",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682502470,
+            "title": "ICE FREEZE X 6P - 38MG",
+            "handle": "ice-freeze-x-6p-38mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:15+02:00",
+            "created_at": "2025-09-23T17:47:15+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131320484166,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730407",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682502470,
+                    "created_at": "2025-09-23T17:47:16+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285410328902,
+                    "created_at": "2025-09-23T17:47:16+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:19+02:00",
+                    "product_id": 15164682502470,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewFreezeX_27mg.png?v=1758642439",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682305862,
+            "title": "ICE JALAPEÑO LIME 4P - 16,5MG",
+            "handle": "ice-jalapeno-lime-4p-16-5mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:07+02:00",
+            "created_at": "2025-09-23T17:47:07+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131320189254,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730360",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682305862,
+                    "created_at": "2025-09-23T17:47:07+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285410001222,
+                    "created_at": "2025-09-23T17:47:07+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:11+02:00",
+                    "product_id": 15164682305862,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewJalapenoLime_12mg.png?v=1758642431",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682207558,
+            "title": "ICE COOL MINT 4P - 16,5MG",
+            "handle": "ice-cool-mint-4p-16-5mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:00+02:00",
+            "created_at": "2025-09-23T17:47:00+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131319632198,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730339",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682207558,
+                    "created_at": "2025-09-23T17:47:00+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285409509702,
+                    "created_at": "2025-09-23T17:47:00+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:05+02:00",
+                    "product_id": 15164682207558,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewCoolMint_12mg.png?v=1758642425",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682436934,
+            "title": "ICE FROST 5P - 22MG",
+            "handle": "ice-frost-5p-22mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:13+02:00",
+            "created_at": "2025-09-23T17:47:13+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131320385862,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730391",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682436934,
+                    "created_at": "2025-09-23T17:47:14+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285410197830,
+                    "created_at": "2025-09-23T17:47:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:18+02:00",
+                    "product_id": 15164682436934,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewFrost_15mg.png?v=1758642438",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682076486,
+            "title": "ICE COOL MINT 2P - 12MG",
+            "handle": "ice-cool-mint-2p-12mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:46:55+02:00",
+            "created_at": "2025-09-23T17:46:55+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131319501126,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730315",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 10,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682076486,
+                    "created_at": "2025-09-23T17:46:56+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285409018182,
+                    "created_at": "2025-09-23T17:46:56+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:00+02:00",
+                    "product_id": 15164682076486,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewCoolMint_6mg.png?v=1758642420",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682338630,
+            "title": "ICE REAPER XL 5P - 16,5MG",
+            "handle": "ice-reaper-xl-5p-16-5mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:09+02:00",
+            "created_at": "2025-09-23T17:47:09+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131320254790,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730377",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 16,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682338630,
+                    "created_at": "2025-09-23T17:47:09+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285410066758,
+                    "created_at": "2025-09-23T17:47:09+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:13+02:00",
+                    "product_id": 15164682338630,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewReaperXL_17mg.png?v=1758642433",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682404166,
+            "title": "ICE FREEZE 5P - 22MG",
+            "handle": "ice-freeze-5p-22mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:11+02:00",
+            "created_at": "2025-09-23T17:47:11+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131320320326,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730384",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682404166,
+                    "created_at": "2025-09-23T17:47:12+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285410132294,
+                    "created_at": "2025-09-23T17:47:12+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:15+02:00",
+                    "product_id": 15164682404166,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_view2025Freeze_15mg.png?v=1758642435",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682240326,
+            "title": "ICE FREEZE 4P - 16,5MG",
+            "handle": "ice-freeze-4p-16-5mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:02+02:00",
+            "created_at": "2025-09-23T17:47:02+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131319697734,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730346",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682240326,
+                    "created_at": "2025-09-23T17:47:02+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285409640774,
+                    "created_at": "2025-09-23T17:47:02+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:07+02:00",
+                    "product_id": 15164682240326,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICECanTop_viewFreeze_12mg.png?v=1758642427",
+                    "width": 800,
+                    "height": 800
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15164682600774,
+            "title": "ICE LEMON BERRY X 6P - 38MG",
+            "handle": "ice-lemon-berry-x-6p-38mg",
+            "body_html": null,
+            "published_at": "2025-09-23T17:47:20+02:00",
+            "created_at": "2025-09-23T17:47:20+02:00",
+            "updated_at": "2025-12-22T00:35:52+01:00",
+            "vendor": "NICOPODS EHF",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55131320615238,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5694230730681",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.49",
+                    "grams": 14,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15164682600774,
+                    "created_at": "2025-09-23T17:47:20+02:00",
+                    "updated_at": "2025-12-22T00:35:52+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80285410591046,
+                    "created_at": "2025-09-23T17:47:20+02:00",
+                    "position": 1,
+                    "updated_at": "2025-09-23T17:47:24+02:00",
+                    "product_id": 15164682600774,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/ICE_Lemon_Berry_X_Can_Top-View_-_2025.png?v=1758642444",
+                    "width": 1659,
+                    "height": 1659
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

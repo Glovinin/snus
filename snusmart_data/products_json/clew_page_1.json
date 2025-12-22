@@ -1,0 +1,702 @@
+{
+    "products": [
+        {
+            "id": 14970265370950,
+            "title": "CLEW Blueberry 20mg",
+            "handle": "clew-blueberry-20mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:52:24+02:00",
+            "created_at": "2025-04-02T21:52:24+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "BLUEBERRY",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54323140297030,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780668",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265370950,
+                    "created_at": "2025-04-02T21:52:24+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537995358534,
+                    "created_at": "2025-05-27T15:32:46+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:32:48+02:00",
+                    "product_id": 14970265370950,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_7.png?v=1748352768",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265272646,
+            "title": "CLEW Watermelon 20mg",
+            "handle": "clew-watermelon-20mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:52:13+02:00",
+            "created_at": "2025-04-02T21:52:13+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "STRONG",
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 54323139969350,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780361",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265272646,
+                    "created_at": "2025-04-02T21:52:13+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77538013315398,
+                    "created_at": "2025-05-27T15:33:32+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:33:34+02:00",
+                    "product_id": 14970265272646,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_8.png?v=1748352814",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265108806,
+            "title": "CLEW Cool Mint 20mg",
+            "handle": "clew-cool-mint-20mg",
+            "body_html": "",
+            "published_at": "2025-04-02T21:51:36+02:00",
+            "created_at": "2025-04-02T21:51:36+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54323139707206,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780453",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265108806,
+                    "created_at": "2025-04-02T21:51:36+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77800548270406,
+                    "created_at": "2025-06-03T20:18:19+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-03T20:18:22+02:00",
+                    "product_id": 14970265108806,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_15.png?v=1748974702",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265731398,
+            "title": "CLEW Blueberry 10mg",
+            "handle": "clew-blueberry-10mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:53:32+02:00",
+            "created_at": "2025-04-02T21:53:32+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "BERRIES",
+                "BLUEBERRY",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54323140886854,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780644",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265731398,
+                    "created_at": "2025-04-02T21:53:32+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77800557084998,
+                    "created_at": "2025-06-03T20:19:59+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-03T20:20:01+02:00",
+                    "product_id": 14970265731398,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_16.png?v=1748974801",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265174342,
+            "title": "CLEW Menthol 20mg",
+            "handle": "clew-menthol-20mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:51:49+02:00",
+            "created_at": "2025-04-02T21:51:49+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54323139805510,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181782549",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265174342,
+                    "created_at": "2025-04-02T21:51:49+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77800533721414,
+                    "created_at": "2025-06-03T20:15:55+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-03T20:15:57+02:00",
+                    "product_id": 14970265174342,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_14.png?v=1748974557",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265436486,
+            "title": "CLEW Cool Mint 10mg",
+            "handle": "clew-cool-mint-10mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:52:47+02:00",
+            "created_at": "2025-04-02T21:52:47+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323140362566,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780439",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265436486,
+                    "created_at": "2025-04-02T21:52:47+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537934934342,
+                    "created_at": "2025-05-27T15:29:31+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:29:33+02:00",
+                    "product_id": 14970265436486,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_5.png?v=1748352573",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265764166,
+            "title": "CLEW Wintergreen 10mg",
+            "handle": "clew-wintergreen-10mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:53:43+02:00",
+            "created_at": "2025-04-02T21:53:43+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323140919622,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181782556",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265764166,
+                    "created_at": "2025-04-02T21:53:43+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77800516911430,
+                    "created_at": "2025-06-03T20:13:31+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-03T20:13:34+02:00",
+                    "product_id": 14970265764166,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_13.png?v=1748974414",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265502022,
+            "title": "CLEW Menthol 10mg",
+            "handle": "clew-menthol-10mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:52:59+02:00",
+            "created_at": "2025-04-02T21:52:59+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323140591942,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181782525",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265502022,
+                    "created_at": "2025-04-02T21:52:59+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537886568774,
+                    "created_at": "2025-05-27T15:28:15+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:28:17+02:00",
+                    "product_id": 14970265502022,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_4.png?v=1748352497",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265534790,
+            "title": "CLEW Spearmint 10mg",
+            "handle": "clew-spearmint-10mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:53:07+02:00",
+            "created_at": "2025-04-02T21:53:07+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 54323140624710,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780316",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265534790,
+                    "created_at": "2025-04-02T21:53:08+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537826898246,
+                    "created_at": "2025-05-27T15:25:22+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:25:24+02:00",
+                    "product_id": 14970265534790,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_3.png?v=1748352324",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265600326,
+            "title": "CLEW Watermelon 10mg",
+            "handle": "clew-watermelon-10mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:53:20+02:00",
+            "created_at": "2025-04-02T21:53:20+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 54323140690246,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780347",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265600326,
+                    "created_at": "2025-04-02T21:53:20+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537789247814,
+                    "created_at": "2025-05-27T15:23:51+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:23:53+02:00",
+                    "product_id": 14970265600326,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_2.png?v=1748352233",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265403718,
+            "title": "CLEW Wintergreen 20mg",
+            "handle": "clew-wintergreen-20mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:52:35+02:00",
+            "created_at": "2025-04-02T21:52:35+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54323140329798,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181782570",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265403718,
+                    "created_at": "2025-04-02T21:52:35+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77537944404294,
+                    "created_at": "2025-05-27T15:30:19+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-27T15:30:22+02:00",
+                    "product_id": 14970265403718,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_6.png?v=1748352622",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14970265239878,
+            "title": "CLEW Spearmint 20mg",
+            "handle": "clew-spearmint-20mg",
+            "body_html": null,
+            "published_at": "2025-04-02T21:52:00+02:00",
+            "created_at": "2025-04-02T21:52:00+02:00",
+            "updated_at": "2025-12-22T00:35:06+01:00",
+            "vendor": "NORDIC POUCH",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 54323139903814,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "8906181780330",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 34,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14970265239878,
+                    "created_at": "2025-04-02T21:52:00+02:00",
+                    "updated_at": "2025-12-22T00:35:06+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77800507736390,
+                    "created_at": "2025-06-03T20:11:14+02:00",
+                    "position": 1,
+                    "updated_at": "2025-06-03T20:11:17+02:00",
+                    "product_id": 14970265239878,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CLEW_10.png?v=1748974277",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

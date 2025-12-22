@@ -1,0 +1,121 @@
+{
+    "products": [
+        {
+            "id": 14979669229894,
+            "title": "77 Classic Tobacco 16MG",
+            "handle": "77-nicotine-pouches-classic-tobacco-medium",
+            "body_html": null,
+            "published_at": "2025-04-12T12:10:51+02:00",
+            "created_at": "2025-04-12T12:10:51+02:00",
+            "updated_at": "2025-12-22T00:39:49+01:00",
+            "vendor": "77 POUCHES",
+            "product_type": "",
+            "tags": [
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54361699090758,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905591986113",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 28,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14979669229894,
+                    "created_at": "2025-04-12T12:10:51+02:00",
+                    "updated_at": "2025-12-22T00:39:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 77300748976454,
+                    "created_at": "2025-05-22T16:49:58+02:00",
+                    "position": 1,
+                    "updated_at": "2025-05-22T16:50:01+02:00",
+                    "product_id": 14979669229894,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/77_17.png?v=1747925401",
+                    "width": 550,
+                    "height": 550
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15213106659654,
+            "title": "77 RASPBERRY VANILLA 16MG",
+            "handle": "77-raspberry-vanilla",
+            "body_html": "",
+            "published_at": "2025-10-15T15:03:18+02:00",
+            "created_at": "2025-10-15T15:03:18+02:00",
+            "updated_at": "2025-12-22T00:39:49+01:00",
+            "vendor": "Luna Corporate sp z o.o.",
+            "product_type": "",
+            "tags": [
+                "77",
+                "MEDIUM",
+                "RASPBERRY",
+                "VANILLA"
+            ],
+            "variants": [
+                {
+                    "id": 55263217549638,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5905591989138",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.79",
+                    "grams": 13,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15213106659654,
+                    "created_at": "2025-10-15T15:03:18+02:00",
+                    "updated_at": "2025-12-22T00:39:49+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80679033209158,
+                    "created_at": "2025-10-15T15:08:18+02:00",
+                    "position": 1,
+                    "updated_at": "2025-10-15T15:08:22+02:00",
+                    "product_id": 15213106659654,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/77_raspberry-vanilla_10_4mg_front_transparent-no-shadow.png?v=1760533702",
+                    "width": 3840,
+                    "height": 2160
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

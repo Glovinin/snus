@@ -1,0 +1,343 @@
+{
+    "products": [
+        {
+            "id": 14981247238470,
+            "title": "GLITCH FROZEN CHERRY COLA 16MG",
+            "handle": "glitch-frozen-cherry-cola",
+            "body_html": null,
+            "published_at": "2025-04-15T10:46:12+02:00",
+            "created_at": "2025-04-15T10:46:12+02:00",
+            "updated_at": "2025-12-22T00:35:36+01:00",
+            "vendor": "POUCHPOINT OÜ",
+            "product_type": "",
+            "tags": [
+                "cherry",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54369805926726,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "752794998987",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.89",
+                    "grams": 33,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14981247238470,
+                    "created_at": "2025-04-15T10:46:12+02:00",
+                    "updated_at": "2025-12-22T00:35:36+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 75525942509894,
+                    "created_at": "2025-04-15T10:46:12+02:00",
+                    "position": 1,
+                    "updated_at": "2025-04-15T10:46:12+02:00",
+                    "product_id": 14981247238470,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/FROZEN_CHERRY_a14abc95-a158-4d00-aca9-6dd73fe46aaa.jpg?v=1744706772",
+                    "width": 600,
+                    "height": 600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14981247271238,
+            "title": "GLITCH BLUEBERRY ICE 16MG",
+            "handle": "glitch-blueberry-ice",
+            "body_html": null,
+            "published_at": "2025-04-15T10:46:18+02:00",
+            "created_at": "2025-04-15T10:46:18+02:00",
+            "updated_at": "2025-12-22T00:35:36+01:00",
+            "vendor": "POUCHPOINT OÜ",
+            "product_type": "",
+            "tags": [
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54369805959494,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031402101",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.89",
+                    "grams": 33,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14981247271238,
+                    "created_at": "2025-04-15T10:46:18+02:00",
+                    "updated_at": "2025-12-22T00:35:36+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 75525949063494,
+                    "created_at": "2025-04-15T10:46:18+02:00",
+                    "position": 1,
+                    "updated_at": "2025-04-15T10:46:18+02:00",
+                    "product_id": 14981247271238,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/BLUEBERRY_ICE_a8fafb23-ebd4-4b56-b815-6240397c2f7f.jpg?v=1744706778",
+                    "width": 600,
+                    "height": 600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14981247336774,
+            "title": "GLITCH COOL ICE 16MG",
+            "handle": "glitch-cool-ice",
+            "body_html": null,
+            "published_at": "2025-04-15T10:46:23+02:00",
+            "created_at": "2025-04-15T10:46:23+02:00",
+            "updated_at": "2025-12-22T00:35:36+01:00",
+            "vendor": "POUCHPOINT OÜ",
+            "product_type": "",
+            "tags": [
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54369806254406,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031402132",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.89",
+                    "grams": 33,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14981247336774,
+                    "created_at": "2025-04-15T10:46:23+02:00",
+                    "updated_at": "2025-12-22T00:35:36+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 75525954371910,
+                    "created_at": "2025-04-15T10:46:23+02:00",
+                    "position": 1,
+                    "updated_at": "2025-04-15T10:46:23+02:00",
+                    "product_id": 14981247336774,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/COOL_ICE_e8726611-7d06-4f19-9b9d-f30e43c96f07.jpg?v=1744706783",
+                    "width": 600,
+                    "height": 600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14981247369542,
+            "title": "GLITCH FROSTED MINT 16MG",
+            "handle": "glitch-frosted-mint",
+            "body_html": null,
+            "published_at": "2025-04-15T10:46:28+02:00",
+            "created_at": "2025-04-15T10:46:28+02:00",
+            "updated_at": "2025-12-22T00:35:36+01:00",
+            "vendor": "POUCHPOINT OÜ",
+            "product_type": "",
+            "tags": [
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 54369806975302,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031402163",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.89",
+                    "grams": 33,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 14981247369542,
+                    "created_at": "2025-04-15T10:46:28+02:00",
+                    "updated_at": "2025-12-22T00:35:36+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 75525960433990,
+                    "created_at": "2025-04-15T10:46:28+02:00",
+                    "position": 1,
+                    "updated_at": "2025-04-15T10:46:28+02:00",
+                    "product_id": 14981247369542,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/FROSTED_MINT_b4bad4b4-3add-4570-b4d3-0dbcb80be3f3.jpg?v=1744706788",
+                    "width": 600,
+                    "height": 600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15282858164550,
+            "title": "GLITCH KIWI 16MG",
+            "handle": "glitch-kiwi-16mg",
+            "body_html": null,
+            "published_at": "2025-12-05T10:47:36+01:00",
+            "created_at": "2025-12-04T13:36:01+01:00",
+            "updated_at": "2025-12-22T00:35:36+01:00",
+            "vendor": "N.G.P TOBACCO APS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55562200973638,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031411516",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.89",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15282858164550,
+                    "created_at": "2025-12-04T13:36:01+01:00",
+                    "updated_at": "2025-12-22T00:35:36+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81798340444486,
+                    "created_at": "2025-12-04T13:36:01+01:00",
+                    "position": 1,
+                    "updated_at": "2025-12-04T13:36:01+01:00",
+                    "product_id": 15282858164550,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Glitch_Kiwi.png?v=1764851761",
+                    "width": 2902,
+                    "height": 2902
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15282858131782,
+            "title": "GLITCH MANGO 16MG",
+            "handle": "glitch-mango-16mg",
+            "body_html": null,
+            "published_at": "2025-12-05T10:47:19+01:00",
+            "created_at": "2025-12-04T13:35:50+01:00",
+            "updated_at": "2025-12-22T00:35:36+01:00",
+            "vendor": "N.G.P TOBACCO APS",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55562200711494,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5740031411479",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.89",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15282858131782,
+                    "created_at": "2025-12-04T13:35:50+01:00",
+                    "updated_at": "2025-12-22T00:35:36+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81798339658054,
+                    "created_at": "2025-12-04T13:35:50+01:00",
+                    "position": 1,
+                    "updated_at": "2025-12-04T13:35:50+01:00",
+                    "product_id": 15282858131782,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Glitch_Mango.png?v=1764851750",
+                    "width": 2902,
+                    "height": 2902
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

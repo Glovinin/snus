@@ -90,8 +90,8 @@ export default function TrackOrderPage() {
         <div className="min-h-screen bg-[#F5F5F7] dark:bg-black flex flex-col">
             <Header />
 
-            <main className="flex-1 pt-32 pb-20">
-                <div className="container px-4 mx-auto max-w-4xl">
+            <main className="flex-1 pt-44 pb-20">
+                <div className="container px-4 mx-auto max-w-7xl">
                     {/* Breadcrumbs */}
                     <nav className="flex items-center gap-2 text-sm mb-6" aria-label="Breadcrumb">
                         <Link href="/" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
@@ -99,7 +99,10 @@ export default function TrackOrderPage() {
                             <span>Home</span>
                         </Link>
                         <ChevronRight className="w-4 h-4 text-muted-foreground/50" />
-                        <span className="font-medium text-foreground">Track My Order</span>
+                        <span className="flex items-center gap-1.5 font-medium text-foreground">
+                            <Search className="w-4 h-4" />
+                            <span>Track My Order</span>
+                        </span>
                     </nav>
 
                     {/* Header */}
@@ -219,10 +222,10 @@ export default function TrackOrderPage() {
 
                                             {/* Icon */}
                                             <div className={`relative z-10 w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${step.completed
-                                                    ? step.current
-                                                        ? 'bg-blue-500 text-white animate-pulse'
-                                                        : 'bg-green-500 text-white'
-                                                    : 'bg-neutral-200 dark:bg-zinc-700 text-muted-foreground'
+                                                ? step.current
+                                                    ? 'bg-blue-500 text-white animate-pulse'
+                                                    : 'bg-green-500 text-white'
+                                                : 'bg-neutral-200 dark:bg-zinc-700 text-muted-foreground'
                                                 }`}>
                                                 {step.completed ? (
                                                     step.current ? <Truck className="w-4 h-4" /> : <CheckCircle2 className="w-4 h-4" />

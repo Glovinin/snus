@@ -43,13 +43,16 @@ export async function compressImage(
             maxWidthOrHeight: mergedOptions.maxWidthOrHeight,
             useWebWorker: mergedOptions.useWebWorker,
             initialQuality: mergedOptions.quality,
+            fileType: "image/webp"
         });
 
         console.log(
-            `Compressed ${file.name}: ${(file.size / 1024).toFixed(1)}KB → ${(compressedFile.size / 1024).toFixed(1)}KB`
+            `Compressed ${file.name}: ${(file.size / 1024).toFixed(1)}KB → ${(compressedFile.size / 1024).toFixed(1)}KB (WebP)`
         );
 
-        return compressedFile as File;
+        // Ensure the file has the correct extension for upload
+        const newFileName = file.name.replace(/\.[^/.]+$/, "") + ".webp";
+        return new File([compressedFile], newFileName, { type: "image/webp" });
     } catch (error) {
         console.error('Image compression failed:', error);
         return file; // Return original on error
@@ -97,4 +100,59 @@ export function createImagePreview(file: File): string {
  */
 export function revokeImagePreview(url: string): void {
     URL.revokeObjectURL(url);
+}
+
+/**
+ * Generate a tiny, blurred base64 string for an image (LQIP)
+ * Creates a 10px wide version of the image to use as a blur placeholder
+ */
+export async function generateBlurDataUrl(file: File): Promise<string> {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        const url = URL.createObjectURL(file);
+
+        img.onload = () => {
+            URL.revokeObjectURL(url);
+
+            // Calculate dimensions (max 10px width/height)
+            const maxDim = 10;
+            let width = img.width;
+            let height = img.height;
+
+            if (width > height) {
+                if (width > maxDim) {
+                    height = Math.round((height * maxDim) / width);
+                    width = maxDim;
+                }
+            } else {
+                if (height > maxDim) {
+                    width = Math.round((width * maxDim) / height);
+                    height = maxDim;
+                }
+            }
+
+            const canvas = document.createElement('canvas');
+            canvas.width = width;
+            canvas.height = height;
+
+            const ctx = canvas.getContext('2d');
+            if (!ctx) {
+                reject(new Error('Could not get canvas context'));
+                return;
+            }
+
+            // Draw tiny image
+            ctx.drawImage(img, 0, 0, width, height);
+
+            // Export as base64
+            resolve(canvas.toDataURL('image/jpeg', 0.5)); // Low quality is fine for blur
+        };
+
+        img.onerror = () => {
+            URL.revokeObjectURL(url);
+            reject(new Error('Failed to load image for blur generation'));
+        };
+
+        img.src = url;
+    });
 }

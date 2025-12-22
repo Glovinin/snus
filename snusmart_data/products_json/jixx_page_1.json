@@ -1,0 +1,410 @@
+{
+    "products": [
+        {
+            "id": 15234876113222,
+            "title": "JIXX FREEZE MAX",
+            "handle": "jixx-freeze-max",
+            "body_html": "",
+            "published_at": "2025-11-01T12:47:46+01:00",
+            "created_at": "2025-11-01T12:09:48+01:00",
+            "updated_at": "2025-12-22T00:36:19+01:00",
+            "vendor": "Pouch Deals",
+            "product_type": "",
+            "tags": [
+                "EXTRA STRONG",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 55364495704390,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15234876113222,
+                    "created_at": "2025-11-01T12:09:48+01:00",
+                    "updated_at": "2025-12-22T00:36:19+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80976230187334,
+                    "created_at": "2025-11-01T12:47:41+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-01T12:47:45+01:00",
+                    "product_id": 15234876113222,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/JIXX_FREEZE_MAX.png?v=1761997665",
+                    "width": 1445,
+                    "height": 1445
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15234875785542,
+            "title": "JIXX FREEZE STRONG",
+            "handle": "jixx-freeze-strong",
+            "body_html": "",
+            "published_at": "2025-11-01T12:47:21+01:00",
+            "created_at": "2025-11-01T12:08:35+01:00",
+            "updated_at": "2025-12-22T00:36:19+01:00",
+            "vendor": "Pouch Deals",
+            "product_type": "",
+            "tags": [
+                "MINT",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55364494524742,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15234875785542,
+                    "created_at": "2025-11-01T12:08:35+01:00",
+                    "updated_at": "2025-12-22T00:36:19+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80976227729734,
+                    "created_at": "2025-11-01T12:47:16+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-01T12:47:20+01:00",
+                    "product_id": 15234875785542,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/JIXX_FREEZE_STRONG.png?v=1761997640",
+                    "width": 1445,
+                    "height": 1445
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15234875556166,
+            "title": "JIXX ICE COLD",
+            "handle": "jixx-ice-cold",
+            "body_html": "",
+            "published_at": "2025-11-01T12:46:57+01:00",
+            "created_at": "2025-11-01T12:07:37+01:00",
+            "updated_at": "2025-12-22T00:36:19+01:00",
+            "vendor": "Pouch Deals",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "MINT"
+            ],
+            "variants": [
+                {
+                    "id": 55364492132678,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15234875556166,
+                    "created_at": "2025-11-01T12:07:37+01:00",
+                    "updated_at": "2025-12-22T00:36:19+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80976224059718,
+                    "created_at": "2025-11-01T12:46:46+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-01T12:46:50+01:00",
+                    "product_id": 15234875556166,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/JIXX_ICE_COLD.png?v=1761997610",
+                    "width": 1445,
+                    "height": 1445
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15234875359558,
+            "title": "JIXX WATERMELON",
+            "handle": "jixx-watermelon",
+            "body_html": "",
+            "published_at": "2025-11-01T12:46:29+01:00",
+            "created_at": "2025-11-01T12:06:45+01:00",
+            "updated_at": "2025-12-22T00:36:19+01:00",
+            "vendor": "Pouch Deals",
+            "product_type": "",
+            "tags": [
+                "MEDIUM",
+                "WATERMELON"
+            ],
+            "variants": [
+                {
+                    "id": 55364489937222,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15234875359558,
+                    "created_at": "2025-11-01T12:06:45+01:00",
+                    "updated_at": "2025-12-22T00:36:19+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80976222421318,
+                    "created_at": "2025-11-01T12:46:18+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-01T12:46:22+01:00",
+                    "product_id": 15234875359558,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/JIXX_WATERMELON.png?v=1761997582",
+                    "width": 1445,
+                    "height": 1445
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15234872049990,
+            "title": "JIXX GRAPE",
+            "handle": "jixx-grape",
+            "body_html": "",
+            "published_at": "2025-11-01T12:46:04+01:00",
+            "created_at": "2025-11-01T11:58:43+01:00",
+            "updated_at": "2025-12-22T00:36:19+01:00",
+            "vendor": "Pouch Deals",
+            "product_type": "",
+            "tags": [
+                "GRAPE",
+                "MEDIUM"
+            ],
+            "variants": [
+                {
+                    "id": 55364477092166,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15234872049990,
+                    "created_at": "2025-11-01T11:58:43+01:00",
+                    "updated_at": "2025-12-22T00:36:19+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80976218620230,
+                    "created_at": "2025-11-01T12:45:59+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-01T12:46:02+01:00",
+                    "product_id": 15234872049990,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/JIXX_GRAPE.png?v=1761997562",
+                    "width": 1445,
+                    "height": 1445
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15234871656774,
+            "title": "JIXX COLA",
+            "handle": "jixx-cola",
+            "body_html": "",
+            "published_at": "2025-11-01T12:45:36+01:00",
+            "created_at": "2025-11-01T11:57:29+01:00",
+            "updated_at": "2025-12-22T00:36:19+01:00",
+            "vendor": "Pouch Deals",
+            "product_type": "",
+            "tags": [
+                "COLA",
+                "STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55364476567878,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15234871656774,
+                    "created_at": "2025-11-01T11:57:30+01:00",
+                    "updated_at": "2025-12-22T00:36:19+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80976216949062,
+                    "created_at": "2025-11-01T12:45:27+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-01T12:45:30+01:00",
+                    "product_id": 15234871656774,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/JIXX_COLA.png?v=1761997530",
+                    "width": 1445,
+                    "height": 1445
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15234870214982,
+            "title": "JIXX BUBBLEGUM",
+            "handle": "jixx-bubblegum",
+            "body_html": "",
+            "published_at": "2025-11-01T12:45:13+01:00",
+            "created_at": "2025-11-01T11:52:54+01:00",
+            "updated_at": "2025-12-22T00:36:19+01:00",
+            "vendor": "Pouch Deals",
+            "product_type": "",
+            "tags": [
+                "BUBBLEGUM",
+                "EXTRA STRONG"
+            ],
+            "variants": [
+                {
+                    "id": 55364471226694,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": null,
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.99",
+                    "grams": 27,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15234870214982,
+                    "created_at": "2025-11-01T11:52:54+01:00",
+                    "updated_at": "2025-12-22T00:36:19+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 80976211509574,
+                    "created_at": "2025-11-01T12:44:49+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-01T12:44:53+01:00",
+                    "product_id": 15234870214982,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/JIXX_BUBBLEGUM.png?v=1761997493",
+                    "width": 1445,
+                    "height": 1445
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}

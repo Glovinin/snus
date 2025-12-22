@@ -1,0 +1,444 @@
+{
+    "products": [
+        {
+            "id": 15241506881862,
+            "title": "KRATOS NICOTINE BLACK CHERRY ICE 30MG",
+            "handle": "kratos-nicotine-black-cherry-ice",
+            "body_html": null,
+            "published_at": "2025-11-05T10:54:49+01:00",
+            "created_at": "2025-11-05T09:38:27+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385966346566,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087064",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241506881862,
+                    "created_at": "2025-11-05T09:38:27+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050344456518,
+                    "created_at": "2025-11-05T10:44:45+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:44:48+01:00",
+                    "product_id": 15241506881862,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Blackcherryice.jpg?v=1762335888",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15241506947398,
+            "title": "KRATOS NICOTINE CITRUS BURST 16MG",
+            "handle": "kratos-nicotine-citrus-burst",
+            "body_html": null,
+            "published_at": "2025-11-05T10:54:49+01:00",
+            "created_at": "2025-11-05T09:38:34+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385966477638,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087279",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241506947398,
+                    "created_at": "2025-11-05T09:38:34+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050344489286,
+                    "created_at": "2025-11-05T10:44:45+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:44:48+01:00",
+                    "product_id": 15241506947398,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/CitrusBrust.jpg?v=1762335888",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15241507045702,
+            "title": "KRATOS NICOTINE COOL MINT 50MG",
+            "handle": "kratos-nicotine-cool-mint",
+            "body_html": null,
+            "published_at": "2025-11-05T10:54:49+01:00",
+            "created_at": "2025-11-05T09:38:41+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385966543174,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087033",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241507045702,
+                    "created_at": "2025-11-05T09:38:41+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050344554822,
+                    "created_at": "2025-11-05T10:44:45+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:44:48+01:00",
+                    "product_id": 15241507045702,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/KratosCoolMint.jpg?v=1762335888",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15241507111238,
+            "title": "KRATOS NICOTINE DOUBLE MINT 50MG",
+            "handle": "kratos-nicotine-double-mint",
+            "body_html": null,
+            "published_at": "2025-11-05T10:54:49+01:00",
+            "created_at": "2025-11-05T09:38:48+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385966641478,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087026",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241507111238,
+                    "created_at": "2025-11-05T09:38:48+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050344522054,
+                    "created_at": "2025-11-05T10:44:45+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:44:48+01:00",
+                    "product_id": 15241507111238,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/DoubleMint.jpg?v=1762335888",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15241507176774,
+            "title": "KRATOS NICOTINE GRAPE ICE 16MG",
+            "handle": "kratos-nicotine-grape-ice",
+            "body_html": null,
+            "published_at": "2025-11-05T10:54:49+01:00",
+            "created_at": "2025-11-05T09:38:55+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385966772550,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087125",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241507176774,
+                    "created_at": "2025-11-05T09:38:55+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050382270790,
+                    "created_at": "2025-11-05T10:46:03+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:46:07+01:00",
+                    "product_id": 15241507176774,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/grape_ice.jpg?v=1762335967",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15241507307846,
+            "title": "KRATOS NICOTINE MANGO INFERNO 16MG",
+            "handle": "kratos-nicotine-mango-inferno",
+            "body_html": null,
+            "published_at": "2025-11-05T10:54:49+01:00",
+            "created_at": "2025-11-05T09:39:02+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385966903622,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087224",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241507307846,
+                    "created_at": "2025-11-05T09:39:02+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050344620358,
+                    "created_at": "2025-11-05T10:44:45+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:44:48+01:00",
+                    "product_id": 15241507307846,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/mangoinferno.jpg?v=1762335888",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15241507569990,
+            "title": "KRATOS NICOTINE PEACH FROST 30MG",
+            "handle": "kratos-nicotine-peach-frost",
+            "body_html": null,
+            "published_at": "2025-11-05T10:54:49+01:00",
+            "created_at": "2025-11-05T09:39:09+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385967198534,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087194",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241507569990,
+                    "created_at": "2025-11-05T09:39:09+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050344653126,
+                    "created_at": "2025-11-05T10:44:45+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:44:49+01:00",
+                    "product_id": 15241507569990,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/PeachFrost.jpg?v=1762335889",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15241507897670,
+            "title": "KRATOS NICOTINE STRAWBERRY ICE 30MG",
+            "handle": "kratos-nicotine-strawberry-ice",
+            "body_html": null,
+            "published_at": "2025-11-05T10:53:35+01:00",
+            "created_at": "2025-11-05T09:39:16+01:00",
+            "updated_at": "2025-12-22T00:36:44+01:00",
+            "vendor": "AMERICAN HOUSEHOLD",
+            "product_type": "",
+            "tags": [],
+            "variants": [
+                {
+                    "id": 55385967624518,
+                    "title": "Default Title",
+                    "option1": "Default Title",
+                    "option2": null,
+                    "option3": null,
+                    "sku": "5940805087101",
+                    "requires_shipping": true,
+                    "taxable": true,
+                    "featured_image": null,
+                    "available": false,
+                    "price": "3.69",
+                    "grams": 0,
+                    "compare_at_price": null,
+                    "position": 1,
+                    "product_id": 15241507897670,
+                    "created_at": "2025-11-05T09:39:16+01:00",
+                    "updated_at": "2025-12-22T00:36:44+01:00"
+                }
+            ],
+            "images": [
+                {
+                    "id": 81050344685894,
+                    "created_at": "2025-11-05T10:44:45+01:00",
+                    "position": 1,
+                    "updated_at": "2025-11-05T10:44:49+01:00",
+                    "product_id": 15241507897670,
+                    "variant_ids": [],
+                    "src": "https://cdn.shopify.com/s/files/1/0836/9559/9942/files/Strawberryice.jpg?v=1762335889",
+                    "width": 1600,
+                    "height": 1600
+                }
+            ],
+            "options": [
+                {
+                    "name": "Title",
+                    "position": 1,
+                    "values": [
+                        "Default Title"
+                    ]
+                }
+            ]
+        }
+    ]
+}
