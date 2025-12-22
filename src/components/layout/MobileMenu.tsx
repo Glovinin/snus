@@ -5,9 +5,10 @@ import { Link as ScrollLink } from "react-scroll"; // If needed, but mostly usin
 import Link from "next/link";
 import { X, ChevronRight, User, LogOut, ShoppingBag, Package, HelpCircle, Star, Search, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { getActiveBrands, Brand } from "@/lib/firebase/brands";
 
 interface MobileMenuProps {
     isOpen: boolean;
@@ -22,7 +23,6 @@ interface MobileMenuProps {
 
 const MENU_ITEMS = {
     flavors: ['Mint', 'Berry', 'Citrus', 'Coffee', 'Tropical'],
-    brands: ["VELO", "LYFT", "ZYN", "ON!", "WHITE FOX", "SKRUF", "GENERAL", "EPOP", "LOOP", "KILLA", "PABLO", "SIBERIA"],
     strengths: [
         { label: 'WEAK', range: '0-8 MG' },
         { label: 'MEDIUM', range: '9-16 MG' },
@@ -40,6 +40,16 @@ const MENU_ITEMS = {
 export function MobileMenu({ isOpen, onClose, user, userData, signOut, onOpenLogin, onOpenAccount, onOpenOrders }: MobileMenuProps) {
     const router = useRouter();
     const [expandedItem, setExpandedItem] = useState<string | null>(null);
+    const [brands, setBrands] = useState<Brand[]>([]);
+
+    // Fetch brands from Firebase
+    useEffect(() => {
+        const fetchBrands = async () => {
+            const data = await getActiveBrands();
+            setBrands(data);
+        };
+        fetchBrands();
+    }, []);
 
     const toggleExpand = (item: string) => {
         setExpandedItem(expandedItem === item ? null : item);
@@ -239,14 +249,14 @@ export function MobileMenu({ isOpen, onClose, user, userData, signOut, onOpenLog
                                             >
                                                 <div className="px-4 pb-4">
                                                     <div className="grid grid-cols-2 gap-2 mt-2">
-                                                        {MENU_ITEMS.brands.map(brand => (
+                                                        {brands.map(brand => (
                                                             <Link
-                                                                key={brand}
-                                                                href={`/shop?brand=${brand.toLowerCase()}`}
+                                                                key={brand.id}
+                                                                href={`/shop?brand=${encodeURIComponent(brand.name.toLowerCase())}`}
                                                                 onClick={onClose}
                                                                 className="text-sm p-2 rounded-lg hover:bg-white/5 text-white/70 hover:text-white transition-colors text-center border border-white/5"
                                                             >
-                                                                {brand}
+                                                                {brand.name}
                                                             </Link>
                                                         ))}
                                                     </div>

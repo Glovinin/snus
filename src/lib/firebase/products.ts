@@ -12,6 +12,7 @@ import {
     limit,
     serverTimestamp,
     Timestamp,
+    writeBatch,
 } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL, deleteObject } from "firebase/storage";
 import { db, storage } from "./config";
@@ -345,5 +346,42 @@ export async function getAdminProducts(): Promise<Product[]> {
     } catch (error) {
         console.error("Error getting admin products:", error);
         return [];
+    }
+}
+
+export async function clearBrandStatuses(brandName: string): Promise<number> {
+    try {
+        const q = query(
+            collection(db, "products"),
+            where("brand", "==", brandName)
+        );
+        const snapshot = await getDocs(q);
+
+        if (snapshot.empty) return 0;
+
+        const batch = writeBatch(db);
+        let count = 0;
+
+        snapshot.docs.forEach((doc) => {
+            const data = doc.data();
+            // Only update if at least one status is active
+            if (data.isFeatured || data.isBestSeller || data.isWeeklySpecial) {
+                batch.update(doc.ref, {
+                    isFeatured: false,
+                    isBestSeller: false,
+                    isWeeklySpecial: false,
+                    updatedAt: serverTimestamp()
+                });
+                count++;
+            }
+        });
+
+        if (count > 0) {
+            await batch.commit();
+        }
+
+        return count;
+    } catch (error: any) {
+        throw new Error(error.message || "Failed to clear brand statuses");
     }
 }

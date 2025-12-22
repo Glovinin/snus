@@ -81,6 +81,7 @@ interface ProductSheetProps {
     onOpenChange: (open: boolean) => void;
     product?: Product | null;
     onSuccess?: () => void;
+    initialBrand?: string;
 }
 
 // ============================================
@@ -100,7 +101,7 @@ const CATEGORY_OPTIONS = [
 // COMPONENT
 // ============================================
 
-export function ProductSheet({ open, onOpenChange, product, onSuccess }: ProductSheetProps) {
+export function ProductSheet({ open, onOpenChange, product, onSuccess, initialBrand }: ProductSheetProps) {
     const isEditing = !!product;
     const [images, setImages] = useState<ImageItem[]>([]);
     const [isUploading, setIsUploading] = useState(false);
@@ -109,23 +110,6 @@ export function ProductSheet({ open, onOpenChange, product, onSuccess }: Product
     const [brands, setBrands] = useState<Brand[]>([]);
     const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
     const [isZoomed, setIsZoomed] = useState(false);
-
-    const defaultValues: ProductFormValues = {
-        name: "",
-        price: "",
-        compareAtPrice: "",
-        sku: "",
-        category: "",
-        brand: "",
-        strength: "MEDIUM",
-        flavor: "",
-        stock: "0",
-        description: "",
-        status: "active",
-        isBestSeller: false,
-        isWeeklySpecial: false,
-        isFeatured: false,
-    };
 
     const {
         register,
@@ -136,44 +120,80 @@ export function ProductSheet({ open, onOpenChange, product, onSuccess }: Product
         formState: { errors, isSubmitting },
     } = useForm({
         resolver: zodResolver(productSchema),
-        defaultValues,
+        defaultValues: {
+            name: "",
+            price: "",
+            compareAtPrice: "",
+            sku: "",
+            category: "Nicotine Pouches",
+            brand: initialBrand || "",
+            strength: "MEDIUM",
+            flavor: "",
+            stock: "0",
+            description: "",
+            status: "active",
+            isBestSeller: false,
+            isWeeklySpecial: false,
+            isFeatured: false,
+        },
     });
 
-    // Reset form when product changes
+    // Reset form when product changes or when opening for new product with initialBrand
     useEffect(() => {
         if (open) {
             if (product) {
                 reset({
                     name: product.name,
-                    price: String(product.price),
-                    compareAtPrice: product.compareAtPrice ? String(product.compareAtPrice) : "",
+                    price: product.price.toString(),
+                    compareAtPrice: product.compareAtPrice?.toString() || "",
                     sku: product.sku,
                     category: product.category,
                     brand: product.brand,
                     strength: product.strength,
                     flavor: product.flavor,
-                    stock: String(product.stock),
+                    stock: product.stock.toString(),
                     description: product.description || "",
                     status: product.isActive ? "active" : "draft",
-                    isBestSeller: product.isBestSeller || false,
-                    isWeeklySpecial: product.isWeeklySpecial || false,
-                    isFeatured: product.isFeatured || false,
+                    isBestSeller: product.isBestSeller,
+                    isWeeklySpecial: product.isWeeklySpecial,
+                    isFeatured: product.isFeatured,
                 });
-                // Load existing images
-                setImages(
-                    (product.images || []).map((url, i) => ({
-                        id: `existing-${i}`,
-                        url,
-                        isNew: false,
-                        blurData: product.imagesBlurData?.[i],
-                    }))
-                );
+
+                // Set images matches existing logic...
+                if (product.images) {
+                    setImages(
+                        (product.images || []).map((url, i) => ({
+                            id: `existing-${i}`,
+                            url,
+                            isNew: false,
+                            blurData: product.imagesBlurData?.[i],
+                        }))
+                    );
+                } else {
+                    setImages([]);
+                }
             } else {
-                reset(defaultValues);
+                // Reset for new product
+                reset({
+                    name: "",
+                    price: "",
+                    compareAtPrice: "",
+                    sku: "",
+                    category: "Nicotine Pouches",
+                    brand: initialBrand || "",
+                    strength: "MEDIUM",
+                    flavor: "",
+                    stock: "0",
+                    description: "",
+                    status: "active",
+                    isBestSeller: false,
+                    isWeeklySpecial: false,
+                    isFeatured: false,
+                });
                 setImages([]);
             }
         }
-    }, [open, product, reset]);
+    }, [product, open, reset, initialBrand]);
 
     // Fetch brands
     useEffect(() => {

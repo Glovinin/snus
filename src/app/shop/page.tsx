@@ -393,9 +393,9 @@ function ShopPageContent() {
         return Array.from(new Set(products.map(p => p.flavor).filter(Boolean))).sort();
     }, [products]);
 
-    // Use brands from Firebase
+    // Use brands from Firebase (already sorted by order)
     const availableBrands = useMemo(() => {
-        return brands.map(b => b.name).sort();
+        return brands.map(b => b.name);
     }, [brands]);
 
     // Filter and sort products
