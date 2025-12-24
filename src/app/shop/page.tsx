@@ -311,6 +311,7 @@ function ShopPageContent() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
     const [brands, setBrands] = useState<Brand[]>([]);
+    const [viewMode, setViewMode] = useState<"default" | "flavors">("default");
 
     const searchParams = useSearchParams();
     // Infinite Scroll State
@@ -373,6 +374,7 @@ function ShopPageContent() {
         const brandParam = searchParams.get('brand');
         const flavorParam = searchParams.get('flavor');
         const sortParam = searchParams.get('sort');
+        const viewParam = searchParams.get('view');
 
         if (strengthParam) {
             setSelectedStrengths(strengthParam.split(',').map(s => s.toUpperCase()));
@@ -385,6 +387,11 @@ function ShopPageContent() {
         }
         if (sortParam) {
             setSortBy(sortParam as any);
+        }
+        if (viewParam === 'flavors') {
+            setViewMode('flavors');
+        } else {
+            setViewMode('default');
         }
     }, [searchParams]);
 
@@ -511,7 +518,7 @@ function ShopPageContent() {
             </FilterSection>
 
             {availableFlavors.length > 0 && (
-                <FilterSection title="Flavor">
+                <FilterSection title="Flavor" defaultOpen={viewMode === 'flavors'}>
                     <CheckboxFilter
                         items={availableFlavors}
                         selectedItems={selectedFlavors}
@@ -614,10 +621,12 @@ function ShopPageContent() {
                         <div className="flex flex-col xl:flex-row xl:items-end justify-between gap-8 mb-10">
                             <div>
                                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-3 text-black dark:text-white">
-                                    All Products
+                                    {viewMode === 'flavors' ? 'Explore Flavors' : 'All Products'}
                                 </h1>
                                 <p className="text-muted-foreground text-lg">
-                                    {loading ? "Loading..." : `${filteredProducts.length} items`}
+                                    {loading ? "Loading..." : viewMode === 'flavors'
+                                        ? `Discover ${availableFlavors.length} unique flavors across ${filteredProducts.length} products`
+                                        : `${filteredProducts.length} items`}
                                 </p>
                             </div>
 
@@ -688,6 +697,73 @@ function ShopPageContent() {
                                         <X className="w-3.5 h-3.5 text-muted-foreground group-hover:text-black dark:group-hover:text-white" />
                                     </button>
                                 ))}
+                            </div>
+                        )}
+
+                        {/* Flavors Showcase - Appears when viewMode is 'flavors' */}
+                        {viewMode === 'flavors' && !loading && availableFlavors.length > 0 && (
+                            <div className="mb-12">
+                                <div className="flex items-center justify-between mb-6">
+                                    <h2 className="text-xl font-bold text-black dark:text-white">Choose Your Flavor</h2>
+                                    <p className="text-sm text-muted-foreground">Click to filter products</p>
+                                </div>
+                                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                                    {availableFlavors.map((flavor, index) => {
+                                        const productCount = products.filter(p => p.flavor === flavor).length;
+                                        const isSelected = selectedFlavors.includes(flavor);
+
+                                        // Dynamic gradient colors based on flavor type
+                                        const flavorGradients: Record<string, string> = {
+                                            'Mint': 'from-emerald-400 to-green-500',
+                                            'Spearmint': 'from-green-400 to-teal-500',
+                                            'Ice Mint': 'from-cyan-400 to-blue-500',
+                                            'Peppermint': 'from-teal-400 to-emerald-500',
+                                            'Peppermint Menthol': 'from-sky-400 to-cyan-500',
+                                            'Berry': 'from-purple-400 to-pink-500',
+                                            'Citrus': 'from-orange-400 to-yellow-500',
+                                            'Coffee': 'from-amber-700 to-yellow-800',
+                                            'Tropical': 'from-yellow-400 to-orange-500',
+                                        };
+
+                                        const gradient = flavorGradients[flavor] || 'from-indigo-400 to-purple-500';
+
+                                        return (
+                                            <motion.button
+                                                key={flavor}
+                                                onClick={() => toggleFilter(flavor, selectedFlavors, setSelectedFlavors)}
+                                                className={`relative group overflow-hidden rounded-2xl p-5 text-left transition-all duration-300 ${isSelected
+                                                        ? 'ring-2 ring-black dark:ring-white ring-offset-2 ring-offset-background scale-[1.02]'
+                                                        : 'hover:scale-[1.02]'
+                                                    }`}
+                                                initial={{ opacity: 0, y: 20 }}
+                                                animate={{ opacity: 1, y: 0 }}
+                                                transition={{ delay: index * 0.05 }}
+                                            >
+                                                {/* Background Gradient */}
+                                                <div className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-80 group-hover:opacity-100 transition-opacity`} />
+
+                                                {/* Content */}
+                                                <div className="relative z-10">
+                                                    <div className="flex items-center justify-between mb-4">
+                                                        <span className="text-white/70 text-xs font-semibold uppercase tracking-wider">Flavor</span>
+                                                        {isSelected && (
+                                                            <div className="w-5 h-5 rounded-full bg-white flex items-center justify-center">
+                                                                <svg className="w-3 h-3 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                                                                </svg>
+                                                            </div>
+                                                        )}
+                                                    </div>
+                                                    <h3 className="text-lg font-bold text-white mb-1 group-hover:translate-x-1 transition-transform">{flavor}</h3>
+                                                    <p className="text-white/70 text-sm">{productCount} product{productCount !== 1 ? 's' : ''}</p>
+                                                </div>
+
+                                                {/* Hover Effect */}
+                                                <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                            </motion.button>
+                                        );
+                                    })}
+                                </div>
                             </div>
                         )}
 

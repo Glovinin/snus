@@ -297,14 +297,14 @@ export function Header() {
                                     >
                                         {/* Column 1: Flavors */}
                                         <div className="space-y-6">
-                                            <div className={`flex items-center gap-2 pb-2 border-b ${isLightTheme ? 'border-black/5' : 'border-white/10'}`}>
+                                            <div className={`flex items-center justify-between gap-2 pb-2 border-b ${isLightTheme ? 'border-black/5' : 'border-white/10'}`}>
                                                 <h4 className={`font-bold text-xs uppercase tracking-[0.2em] ${isLightTheme ? 'text-neutral-500' : 'text-neutral-400'}`}>Flavors</h4>
                                             </div>
                                             <ul className="space-y-3">
                                                 {['Spearmint', 'Ice Mint', 'Mint', 'Peppermint', 'Peppermint Menthol'].map((flavor) => (
                                                     <li key={flavor}>
                                                         <Link
-                                                            href={`/shop?flavor=${flavor}`} // Exact match, no lowercase conversion needed for params if we standardize (but check ShopPage logic)
+                                                            href={`/shop?flavor=${flavor}`}
                                                             className="flex items-center gap-2 group cursor-pointer"
                                                         >
                                                             <div className={`w-1.5 h-1.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity ${flavor.includes('Ice') || flavor.includes('Cool') ? 'bg-blue-400' : 'bg-green-500'
@@ -314,6 +314,27 @@ export function Header() {
                                                     </li>
                                                 ))}
                                             </ul>
+                                            {/* View All Flavors Button */}
+                                            <Link
+                                                href="/shop?view=flavors"
+                                                className={`group flex items-center justify-between w-full mt-4 px-4 py-3 rounded-xl transition-all duration-300 ${isLightTheme
+                                                    ? 'bg-gradient-to-r from-green-50 to-emerald-50 hover:from-green-100 hover:to-emerald-100 border border-green-200/50'
+                                                    : 'bg-gradient-to-r from-green-500/10 to-emerald-500/10 hover:from-green-500/20 hover:to-emerald-500/20 border border-green-500/20'
+                                                    }`}
+                                            >
+                                                <span className={`text-sm font-semibold ${isLightTheme ? 'text-green-700' : 'text-green-400'}`}>
+                                                    View All Flavors
+                                                </span>
+                                                <svg
+                                                    className={`w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 ${isLightTheme ? 'text-green-600' : 'text-green-400'}`}
+                                                    fill="none"
+                                                    viewBox="0 0 24 24"
+                                                    stroke="currentColor"
+                                                    strokeWidth={2}
+                                                >
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                                </svg>
+                                            </Link>
                                         </div>
 
                                         {/* Column 2: Latest */}
@@ -384,13 +405,62 @@ export function Header() {
                                             <h4 className={`font-bold text-xs uppercase tracking-[0.2em] ${isLightTheme ? 'text-neutral-500' : 'text-neutral-400'}`}>Brands</h4>
                                         </div>
                                         {brands.length > 0 ? (
-                                            <div className="grid grid-cols-3 gap-y-4 gap-x-8">
-                                                {brands.map((brand) => (
-                                                    <Link href={`/shop?brand=${encodeURIComponent(brand.name.toLowerCase())}`} key={brand.id} className="flex items-center gap-2 group cursor-pointer">
-                                                        <div className="w-1.5 h-1.5 rounded-full bg-orange-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                                        <span className={`text-base font-medium transition-all group-hover:translate-x-1 ${isLightTheme ? 'text-neutral-700 group-hover:text-black' : 'text-neutral-300 group-hover:text-white'}`}>{brand.name}</span>
-                                                    </Link>
-                                                ))}
+                                            <div className="space-y-6">
+                                                {/* Featured Brands - First 2 */}
+                                                <div>
+                                                    <div className={`flex items-center gap-2 mb-4`}>
+                                                        <svg className={`w-4 h-4 ${isLightTheme ? 'text-amber-500' : 'text-amber-400'}`} fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                                        </svg>
+                                                        <span className={`text-xs font-bold uppercase tracking-wider ${isLightTheme ? 'text-amber-600' : 'text-amber-400'}`}>Featured</span>
+                                                    </div>
+                                                    <div className="grid grid-cols-2 gap-3">
+                                                        {brands.slice(0, 2).map((brand) => (
+                                                            <Link
+                                                                href={`/shop?brand=${encodeURIComponent(brand.name.toLowerCase())}`}
+                                                                key={brand.id}
+                                                                className={`group relative overflow-hidden rounded-xl p-4 transition-all duration-300 ${isLightTheme
+                                                                        ? 'bg-gradient-to-br from-amber-50 to-orange-50 hover:from-amber-100 hover:to-orange-100 border border-amber-200/50'
+                                                                        : 'bg-gradient-to-br from-amber-500/10 to-orange-500/10 hover:from-amber-500/20 hover:to-orange-500/20 border border-amber-500/20'
+                                                                    }`}
+                                                            >
+                                                                <div className="flex items-center justify-between">
+                                                                    <span className={`text-lg font-bold transition-transform group-hover:translate-x-1 ${isLightTheme ? 'text-amber-900' : 'text-amber-100'}`}>
+                                                                        {brand.name}
+                                                                    </span>
+                                                                    <svg
+                                                                        className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isLightTheme ? 'text-amber-600' : 'text-amber-400'}`}
+                                                                        fill="none"
+                                                                        viewBox="0 0 24 24"
+                                                                        stroke="currentColor"
+                                                                        strokeWidth={2}
+                                                                    >
+                                                                        <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                                                    </svg>
+                                                                </div>
+                                                                {/* Shine effect on hover */}
+                                                                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+                                                            </Link>
+                                                        ))}
+                                                    </div>
+                                                </div>
+
+                                                {/* All Brands - Rest of the list */}
+                                                {brands.length > 2 && (
+                                                    <div>
+                                                        <div className={`flex items-center gap-2 pb-2 mb-4 border-b ${isLightTheme ? 'border-black/5' : 'border-white/10'}`}>
+                                                            <span className={`text-xs font-bold uppercase tracking-wider ${isLightTheme ? 'text-neutral-400' : 'text-neutral-500'}`}>All Brands</span>
+                                                        </div>
+                                                        <div className="grid grid-cols-3 gap-y-3 gap-x-6">
+                                                            {brands.slice(2).map((brand) => (
+                                                                <Link href={`/shop?brand=${encodeURIComponent(brand.name.toLowerCase())}`} key={brand.id} className="flex items-center gap-2 group cursor-pointer">
+                                                                    <div className="w-1.5 h-1.5 rounded-full bg-orange-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+                                                                    <span className={`text-sm font-medium transition-all group-hover:translate-x-1 ${isLightTheme ? 'text-neutral-600 group-hover:text-black' : 'text-neutral-400 group-hover:text-white'}`}>{brand.name}</span>
+                                                                </Link>
+                                                            ))}
+                                                        </div>
+                                                    </div>
+                                                )}
                                             </div>
                                         ) : (
                                             <p className={`text-sm ${isLightTheme ? 'text-neutral-500' : 'text-neutral-400'}`}>No brands available yet.</p>

@@ -45,7 +45,7 @@ export function Cart({ isOpen, onClose }: CartProps) {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                        className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[60]"
+                        className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[100]"
                         onClick={onClose}
                     />
 
@@ -55,7 +55,7 @@ export function Cart({ isOpen, onClose }: CartProps) {
                         animate={isMobile ? { y: 0 } : { x: 0, opacity: 1 }}
                         exit={isMobile ? { y: "100%" } : { x: "110%", opacity: 0 }}
                         transition={{ type: "spring", damping: 30, stiffness: 300, mass: 0.8 }}
-                        className={`fixed z-[70] flex flex-col bg-background/90 backdrop-blur-3xl border border-white/10 shadow-2xl overflow-hidden
+                        className={`fixed z-[110] flex flex-col bg-background/90 backdrop-blur-3xl border border-white/10 shadow-2xl overflow-hidden
                             ${isMobile
                                 ? "bottom-0 left-0 right-0 h-[90vh] rounded-t-[32px]"
                                 : "top-4 right-4 bottom-4 w-[480px] rounded-[32px]"
@@ -127,12 +127,13 @@ export function Cart({ isOpen, onClose }: CartProps) {
                                         className="group relative flex gap-5 p-4 rounded-3xl bg-foreground/[0.02] hover:bg-foreground/[0.04] border border-foreground/5 transition-colors"
                                     >
                                         {/* Product Image */}
-                                        <div className={`w-24 h-28 rounded-2xl ${item.bgClass} flex items-center justify-center overflow-hidden shrink-0 relative`}>
+                                        <div className="w-24 h-28 rounded-2xl bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center overflow-hidden shrink-0 relative">
                                             <Image
                                                 src={item.image}
                                                 alt={item.name}
                                                 fill
-                                                className="object-contain mix-blend-multiply dark:mix-blend-normal p-2"
+                                                sizes="96px"
+                                                className="object-cover"
                                             />
                                         </div>
 

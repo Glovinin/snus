@@ -206,6 +206,25 @@ export function MobileMenu({ isOpen, onClose, user, userData, signOut, onOpenLog
                                                                 </Link>
                                                             ))}
                                                         </div>
+                                                        {/* View All Flavors Button */}
+                                                        <Link
+                                                            href="/shop?view=flavors"
+                                                            onClick={onClose}
+                                                            className="group flex items-center justify-between w-full mt-4 px-4 py-3 rounded-xl transition-all duration-300 bg-gradient-to-r from-green-500/10 to-emerald-500/10 hover:from-green-500/20 hover:to-emerald-500/20 border border-green-500/20"
+                                                        >
+                                                            <span className="text-sm font-semibold text-green-400">
+                                                                View All Flavors
+                                                            </span>
+                                                            <svg
+                                                                className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 text-green-400"
+                                                                fill="none"
+                                                                viewBox="0 0 24 24"
+                                                                stroke="currentColor"
+                                                                strokeWidth={2}
+                                                            >
+                                                                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                                            </svg>
+                                                        </Link>
                                                     </div>
                                                     {/* Strengths */}
                                                     <div>

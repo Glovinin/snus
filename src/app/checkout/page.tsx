@@ -48,8 +48,14 @@ export default function CheckoutPage() {
                 {/* LEFT COLUMN - MAIN CONTENT */}
                 <div className="lg:col-span-7 px-4 py-8 lg:px-12 lg:py-12 xl:px-20 order-2 lg:order-1 border-r border-gray-100">
                     <div className="max-w-xl mx-auto lg:mx-0 lg:ml-auto w-full">
-                        {/* Header/Logo */}
-                        <div className="mb-8">
+                        {/* Header/Logo with Back Button */}
+                        <div className="mb-8 flex items-center gap-4">
+                            <Link
+                                href="/"
+                                className="group flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-300 hover:scale-105"
+                            >
+                                <ArrowLeft className="w-5 h-5 text-gray-600 group-hover:text-black transition-colors group-hover:-translate-x-0.5" />
+                            </Link>
                             <Link href="/" className="inline-block relative w-32 h-10">
                                 <Image
                                     src="/snusidealogo.svg"
@@ -301,30 +307,50 @@ export default function CheckoutPage() {
                 </div>
 
                 {/* RIGHT COLUMN - ORDER SUMMARY (Sticky Sidebar) */}
-                <div className="hidden lg:block lg:col-span-5 bg-gray-50 order-1 lg:order-2 border-l border-gray-200 h-full min-h-screen">
+                <div className="hidden lg:block lg:col-span-5 bg-gradient-to-br from-gray-50 to-gray-100/50 order-1 lg:order-2 border-l border-gray-200 h-full min-h-screen">
                     <div className="sticky top-0 p-12 pr-20 max-w-lg">
+                        {/* Order Summary Header */}
+                        <div className="flex items-center gap-3 mb-8">
+                            <div className="w-10 h-10 rounded-full bg-black flex items-center justify-center">
+                                <ShoppingBag className="w-5 h-5 text-white" />
+                            </div>
+                            <h2 className="text-xl font-bold tracking-tight">Order Summary</h2>
+                        </div>
+
                         <div className="space-y-4 mb-6">
                             {items.map((item, i) => (
-                                <div key={`${item.id}-${item.variant}`} className="flex items-center justify-between gap-4">
-                                    <div className="relative">
-                                        <div className={`w-16 h-16 rounded-xl border border-gray-200 bg-white flex items-center justify-center overflow-hidden relative`}>
+                                <motion.div
+                                    key={`${item.id}-${item.variant}`}
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: i * 0.1 }}
+                                    className="group flex items-center gap-4 p-3 rounded-2xl hover:bg-white/80 transition-all duration-300"
+                                >
+                                    {/* Product Image - Cover Style like Cart */}
+                                    <div className="relative shrink-0">
+                                        <div className="w-20 h-24 rounded-xl overflow-hidden shadow-lg ring-1 ring-black/5">
                                             <Image
                                                 src={item.image}
                                                 alt={item.name}
                                                 fill
-                                                className="object-contain p-2"
+                                                className="object-cover transition-transform duration-500 group-hover:scale-110"
                                             />
-                                            <span className="absolute -top-2 -right-2 bg-gray-500 text-white text-xs font-semibold w-5 h-5 flex items-center justify-center rounded-full z-10">
-                                                {item.quantity}
-                                            </span>
                                         </div>
+                                        {/* Quantity Badge */}
+                                        <span className="absolute -top-2 -right-2 bg-black text-white text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full shadow-lg z-10 ring-2 ring-white">
+                                            {item.quantity}
+                                        </span>
                                     </div>
-                                    <div className="flex-1">
-                                        <h3 className="text-sm font-semibold">{item.name}</h3>
-                                        <p className="text-xs text-gray-500">{item.variant}</p>
+
+                                    {/* Product Info */}
+                                    <div className="flex-1 min-w-0">
+                                        <h3 className="font-bold text-sm text-gray-900 truncate">{item.name}</h3>
+                                        <p className="text-xs text-gray-500 font-medium mt-0.5">{item.variant}</p>
                                     </div>
-                                    <span className="text-sm font-medium">€{(item.price * item.quantity).toFixed(2)}</span>
-                                </div>
+
+                                    {/* Price */}
+                                    <span className="font-bold text-sm text-gray-900 tabular-nums">€{(item.price * item.quantity).toFixed(2)}</span>
+                                </motion.div>
                             ))}
                         </div>
 

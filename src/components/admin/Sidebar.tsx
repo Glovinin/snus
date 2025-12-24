@@ -10,7 +10,8 @@ import {
     BarChart3,
     Package,
     LogOut,
-    Store
+    Store,
+    ImageIcon
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -33,6 +34,11 @@ const sidebarItems = [
         title: "Products",
         href: "/admin/products",
         icon: Package
+    },
+    {
+        title: "Banners",
+        href: "/admin/banners",
+        icon: ImageIcon
     },
     {
         title: "Customers",
