@@ -6,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { ChatBot } from "@/components/support/ChatBot";
 import { AgeVerification } from "@/components/ui/AgeVerification";
 import { SiteHeader } from "@/components/layout/SiteHeader";
-import { DevelopmentGate } from "@/components/ui/DevelopmentGate";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,13 +27,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} antialiased bg-background text-foreground`} suppressHydrationWarning>
         <AuthProvider>
-          <DevelopmentGate>
-            <SiteHeader />
-            {children}
-            <Toaster position="top-right" />
-            <ChatBot />
-            <AgeVerification />
-          </DevelopmentGate>
+          <SiteHeader />
+          {children}
+          <Toaster position="top-right" />
+          <ChatBot />
+          <AgeVerification />
         </AuthProvider>
       </body>
     </html>
