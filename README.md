@@ -1,6 +1,6 @@
 # SnusIdea - Marketplace Platform
 
-![SnusIdea Showcase](public/images/Showcase/README_HERO.png)
+![SnusIdea Showcase](public/images/Showcase/showcase_art.png)
 
 **Current Status:** High-Fidelity Frontend Prototype & Admin System (Ready for Payment Integration)  
 **Last Updated:** February 2026
