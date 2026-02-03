@@ -1,13 +1,13 @@
-# 🚀 SnusIdea - Marketplace Platform
+# SnusIdea - Marketplace Platform
 
 **Current Status:** High-Fidelity Frontend Prototype & Admin System (Ready for Payment Integration)  
 **Last Updated:** February 2026
 
-SnusIdea is a modern, scalable B2C marketplace platform designed for selling snus and nicotine products. It functions similarly to Amazon, allowing multiple sellers (brands) to list products while providing consumers with a unified, premium shopping experience.
+SnusIdea is a modern, scalable B2C marketplace platform designed for selling nicotine products. It functions similarly to major e-commerce platforms, allowing multiple sellers to list products while providing consumers with a unified, premium shopping experience.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js 16 (App Router)
 - **Language:** TypeScript
@@ -20,7 +20,7 @@ SnusIdea is a modern, scalable B2C marketplace platform designed for selling snu
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 src/
@@ -45,7 +45,7 @@ src/
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 - Node.js 18+
@@ -87,11 +87,11 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
-## 🧩 Key Features Status (Handover Notes)
+## Key Features Status (Handover Notes)
 
 This section details what is built and what needs to be completed by the next developer.
 
-### ✅ Completed (Stable)
+### Completed (Stable)
 1.  **Storefront UI**: Fully responsive, premium design with animations.
     -   Hero, Category Grid, Product Carousel, Brands.
 2.  **Product Browsing**:
@@ -108,7 +108,7 @@ This section details what is built and what needs to be completed by the next de
     -   Product management interfaces.
     -   Image uploads to Firebase Storage.
 
-### ⚠️ In Progress / To Do (Critical)
+### In Progress / To Do (Critical)
 1.  **Checkout Flow (`/checkout`)**:
     -   **Current State**: The UI for Information, Shipping, and Payment steps is complete and beautiful.
     -   **Missing**: The "Pay Now" button is not connected to a real payment gateway.
@@ -121,7 +121,7 @@ This section details what is built and what needs to be completed by the next de
 
 ---
 
-## 📝 Database Schema (Firestore)
+## Database Schema (Firestore)
 
 Recommended reference schema for the next steps:
 
@@ -141,5 +141,4 @@ Recommended reference schema for the next steps:
 
 ---
 
-## 🤝 Handover Contact
-For questions regarding the design system or current codebase architecture, please refer to the `PROJECT_STATUS.md` file for a historical log of decisions.
+Made by Glovinin
